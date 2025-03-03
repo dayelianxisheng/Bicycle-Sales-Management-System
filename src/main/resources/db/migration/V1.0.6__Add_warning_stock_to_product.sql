@@ -1,2 +1,0 @@
-ALTER TABLE product
-ADD COLUMN warning_stock INT NOT NULL DEFAULT 10 COMMENT '预警库存'; 
