@@ -1,0 +1,2166 @@
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced SL 0-DA',
+                    'Giant',
+                    'TCR',
+                    1,
+                    80800.0,
+                    80800.0,
+                    0,
+                    10,
+                    '28年磨一剑，更高的效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世。 使用高模量碳纤材质，保持经典的压缩车架几何设计，重新定义现代公路自行车。TCR车型自问世以来赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，是Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, 12x142mm thru-axle, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Dura Ace Di2", "前变速器": "Shimano Dura Ace Di2", "后变速器": "Shimano Dura Ace Di2", "飞轮": "Shimano Dura Ace, 11X34", "齿盘": "Shimano Dura Ace, 36/52\nwith FC-9200P Power Meter", "链条": "Shimano CN- M9100, 12-speed", "中轴": "Shimano PressFit, BB92"}, "刹车系统": {"刹车": "Shimano Dura Ace\n(hydraulic road disc)", "刹车把手": "Shimano Dura Ace\n(hydraulic road disc)"}, "组件": {"座垫": "Cadex Amp", "座杆": "Advanced SL-Grade Composite, Integrated Design\nOffset -5/+15mm", "把横": "New Giant Contact SLR", "把立": "Giant Contact SLR Aerolight"}, "轮组": {"轮组": "New Cadex 40 Max Disc Wheel System", "轮胎": "Cadex Road Race GC Tubeless\n700x28mm"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406101/1719804240550_8ddb726c.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804243367_cf2114ac.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804252432_d57e2721.jpg", "https://giant-images.giant.com.cn/product/images/20250107/1736226960855_3b413bbf.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730792928099_586de647.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730792933219_56d35e8c.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730792942427_c6a75861.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced SL 0-Red',
+                    'Giant',
+                    'TCR',
+                    1,
+                    80800.0,
+                    80800.0,
+                    0,
+                    10,
+                    '28年磨一剑，更高的效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世。 使用高模量碳纤材质，保持经典的压缩车架几何设计，重新定义现代公路自行车。TCR车型自问世以来赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，是Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Red  AXS HRD, ED-RED-E1", "前变速器": "Sram Red AXS, FD-RED-E-E1", "后变速器": "Sram Red AXS, FD-RED-E-E1", "飞轮": "Sram Red XG-1290, 12-speed, 10-33", "齿盘": "Sram FC RED PM E1,DUB , 35/48with Power Meter", "链条": "Sram CN-RED-E1, 12-speed", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "Sram Red  AXS HRD, ED-RED-E1", "刹车把手": "Sram Red  AXS HRD, ED-RED-E1"}, "组件": {"座垫": "Cadex Amp", "座杆": "Advanced SL-grade composite, integratedw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SLR Aero"}, "轮组": {"轮组": "Cadex 50 Ultra Wheel System\nwith DBL / Hookless / Ratchet 40t / Ceramic Bearing", "轮胎": "Cadex Aero Tubeless,700x25c (26.5mm effecitve),170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721890907426_10e79fa5.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890910089_08e9c8a6.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890913085_99e69409.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890926756_7550b33a.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890927506_bc262f21.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890928277_edebdcad.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721890936299_71bcbf3c.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced SL 0-Team',
+                    'Giant',
+                    'TCR',
+                    1,
+                    84800.0,
+                    84800.0,
+                    0,
+                    10,
+                    'Team Jayco AlUla 2024赛季版本涂装。
+28年磨一剑，更高的效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世。 使用高模量碳纤材质，保持经典的压缩车架几何设计，重新定义现代公路自行车。TCR车型自问世以来赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，是Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer"}, "变速传动系统": {"变速把手": "Shimano Dura Ace Di2", "前变速器": "Shimano Dura Ace", "后变速器": "Shimano Dura Ace", "飞轮": "Shimano Dura Ace, 11X34", "齿盘": "Shimano Dura Ace, 36/52\nwith FC-9200P Power Meter", "链条": "Shimano CN- M9100, 12-speed", "中轴": "Shimano PressFit, BB92"}, "刹车系统": {"刹车": "Shimano Dura Ace Di2", "刹车把手": "Shimano Dura Ace Di2"}, "组件": {"座垫": "Cadex Amp", "把横": "Giant Contact SLR", "把立": "Giant Contact SLR Aerolight"}, "轮组": {"轮组": "Cadex 40 Max Disc Wheel System", "轮胎": "Cadex Road Race GC Tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406101/1719804179512_9f330568.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804184897_615f4945.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804191936_7eb4c4c0.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804204504_9048125b.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804641810_554b0e1d.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804643807_120db6b7.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804645329_6233a9a2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced SL 1',
+                    'Giant',
+                    'TCR',
+                    1,
+                    53800.0,
+                    53800.0,
+                    0,
+                    10,
+                    '28年磨一剑，更高的效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世。 使用高模量碳纤材质，保持经典的压缩车架几何设计，重新定义现代公路自行车。TCR车型自问世以来赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，是Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, 12x142mm thru-axle, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Ultegra Di2 HRD", "前变速器": "Shimano Ultegra Di2 HRD", "后变速器": "Shimano Ultegra Di2 HRD", "飞轮": "Shimano CS-R8100, 11X34", "齿盘": "Shimano Ultegra, 36/52 with Giant Power Pro power meter", "链条": "Shimano CN-M8100, 12-speed", "中轴": "Shimano, PressFit 71"}, "刹车系统": {"刹车": "Shimano Ultegra Di2 HRD", "刹车把手": "Shimano Ultegra Di2 HRD"}, "组件": {"座垫": "\"Giant Fleet SLR\n9mm Carbon Rail\nWith Giant ParticleFlow technology\"", "座杆": "\"Advanced SL-Grade Composite, Integrated Design\nOffset -5/+15mm\"", "把横": "New Giant Contact SLR", "把立": "Giant Contact SLR Aerolight"}, "轮组": {"轮组": "\"New Giant SLR 0 40 Carbon Disc \nWheel System \nwith GIANT patented DBL (Dynamic Balanced Lacing) technology\"", "轮胎": "\"Cadex Road Race GC Tubeless\n700x28mm effecitve\n240 TPI, Folding\""}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712629011074_a16ceb4d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629021364_61c34af6.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721902387499_91db2c6c.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721905135929_4facd8c8.jfif", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711691586799.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced SL-GC',
+                    'Giant',
+                    'TCR',
+                    1,
+                    44800.0,
+                    44800.0,
+                    0,
+                    10,
+                    '28年磨一剑，更高的效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世。 使用高模量碳纤材质，保持经典的压缩车架几何设计，重新定义现代公路自行车。TCR车型自问世以来赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，是Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, 12x142mm thru-axle, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano 105 Di2", "前变速器": "Shimano 105 Di2", "后变速器": "Shimano 105 Di2", "飞轮": "Shimano 105 Di2, 11x34, 12-speed", "齿盘": "Shimano 105 Di2, \nFC-R7100", "链条": "KMC X12L-1", "中轴": "Shimano, PressFit"}, "刹车系统": {"刹车": "Shimano 105 Di2 HRD", "刹车把手": "Shimano 105 Di2 HRD"}, "组件": {"座垫": "Giant Fleet SL", "座杆": "Advanced SL-Grade Composite, Integrated Design\nOffset -5/+15mm", "把横": "New Giant Contact SL", "把立": "Giant Contact SL Aerolight"}, "轮组": {"轮组": "Cadex 40Ultra Disc Wheel System", "轮胎": "Giant Gavia Course 0 25c"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401030/1730256938873_1dfae5c3.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256956475_3dcf0dda.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256959219_4e3ea22c.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256963193_88336cf0.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256968221_06daeaec.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256969811_f8a6c2e5.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730256982404_7cf17606.jpg", "https://giant-images.giant.com.cn/product/images/202401031/1730337399176_73f044d3.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced Pro 0-Di2',
+                    'Giant',
+                    'TCR',
+                    1,
+                    38800.0,
+                    38800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced SL-Grade Composite, full-composite OverDrive  Aero steerer, 12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact SLR", "把立": "Giant Contact AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "Shimano Ultegra Di2", "前变速器": "Shimano Ultegra Di2 FD-R8150", "后变速器": "Shimano Ultegra Di2 FD-R8150", "飞轮": "Shimano Ultegra, 12-speed, 11x34", "链条": "Shimano CN-M8100", "中轴": "Shimano, press fit", "齿盘": "Shimano Ultegra, 36/52 with Giant Power Pro power meter"}, "刹车系统": {"刹车": "Shimano Ultegra Di2 hydraulic, Shimano RT-CL800 rotors  [F]160mm, [R]140mm"}, "轮组": {"辐条": "Giant Aero Carbon Spoke", "轮胎": "CADEX Race GC, tubeless, 700x28c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712629903396_ffb3124c.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629908930_0f57d7f9.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629915112_2b87e1c2.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629936088_035aeddf.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629988558_4355e618.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721712291946_007c05cd.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721905506594_5c2585b3.jpg", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711688812844.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced Pro 0-AXS',
+                    'Giant',
+                    'TCR',
+                    1,
+                    41800.0,
+                    41800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "组件": {"把横": "Giant Contact SLR", "把立": "Giant Contact SL Aerolight", "座杆": "Giant Variant, CompositeOffset -5/+15mm", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "Sram Force AXS, ED-FRC-D2", "前变速器": "Sram Force AXS, ED-FRC-D2", "后变速器": "Sram Force AXS, ED-FRC-D2", "飞轮": "Sram Force, 12-speed, 10-36,\nCS-XG-1270-D1", "链条": "Sram Force D1, 12-speed", "中轴": "SRAM DUB, Press Fit", "齿盘": "Force AXS Power Meter Crankset\nFC-FRC-P-D2,35/48"}, "刹车系统": {"刹车": "SRAM Force eTap AXS HRD (hydraulic road disc)", "刹车把手": "SRAM Force eTap AXS HRD (hydraulic road disc)"}, "轮组": {"轮胎": "Cadex Road Race GC Tubeless 700x28mm effecitve240 TPI, Folding", "轮组": "Giant SLR 0 40 Carbon Disc \nWheel System"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712629586771_aacca0cf.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629596184_091fcc8a.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629604954_c845144d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629608775_395fbc9f.jpg", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711688054982.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced Pro 1-Di2',
+                    'Giant',
+                    'TCR',
+                    1,
+                    30800.0,
+                    30800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced SL-Grade Composite, full-composite OverDrive  Aero steerer, 12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact SL", "把立": "Giant Contact SL AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "Shimano 105 Di2", "前变速器": "Shimano 105 Di2 FD-R8150", "后变速器": "Shimano 105 Di2 FD-R8150", "飞轮": "Shimano 105, 12-speed, 11x34", "链条": "KMC X12L-1", "中轴": "Shimano, press fit", "齿盘": "Shimano 105, 36/52 with Giant Power Pro power meter"}, "刹车系统": {"刹车": "Shimano 105 Di2 hydraulic, Shimano SM-RT70 rotors   [F]160mm, [R]140mm"}, "轮组": {"辐条": "Sapim CX-Ray", "轮胎": "Giant Gavia Course 0, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721905885620_58b511b7.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721905893963_659af9e0.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721905962404_3e096ccc.jfif", "https://giant-images.giant.com.cn/product/images/202406104/1721905964044_6f303fc1.jfif", "https://giant-images.giant.com.cn/product/images/202406104/1721905965130_7f83c6e6.jfif", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711690220396.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced Pro 1-AXS',
+                    'Giant',
+                    'TCR',
+                    1,
+                    33800.0,
+                    33800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced SL-Grade Composite, full-composite OverDrive  Aero steerer, 12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact SL", "把立": "Giant Contact SL AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "SRAM Rival AXS", "前变速器": "SRAM Rival AXS", "后变速器": "SRAM Rival AXS", "飞轮": "SRAM Rival, 12-speed, 10x36", "链条": "SRAM Rival D1", "中轴": "SRAM DUB, press fit", "齿盘": "SRAM Rival, 35/48 with Giant Power Halo power meter"}, "刹车系统": {"刹车": "SRAM Rival eTap hydraulic, SRAM PaceLine rotors   [F]160mm, [R]140mm"}, "轮组": {"辐条": "Sapim CX-Ray", "轮胎": "Giant Gavia Course 0, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712631238468_b68064a4.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721906195519_d056c608.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721906203901_2806e143.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721906232906_27ac6a4e.jfif", "https://giant-images.giant.com.cn/product/images/202406104/1721906233731_585fc518.jfif", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711689784232.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced Pro 2',
+                    'Giant',
+                    'TCR',
+                    1,
+                    24800.0,
+                    24800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced SL-Grade Composite, full-composite OverDrive Aero steerer, 12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact SL XS:37/40cm, S:37/40cm, M:37/42cm, M/L:37/42cm, L:41/44cm, XL:41/44cm", "把立": "Giant Contact SL AeroLight XS:80mm, S:90mm, M:100mm, M/L:110mm, L:110mm, XL:120mm", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "Shimano 105", "前变速器": "Shimano 105", "后变速器": "Shimano 105", "飞轮": "Shimano 105, 12-speed, 11x34", "链条": "KMC X12L-1", "中轴": "Shimano, press fit", "齿盘": "Shimano 105, 36/52 with Giant Power Pro power meter XS:170mm,"}, "刹车系统": {"刹车": "Shimano 105 hydraulic, Shimano SM-RT70 rotors [F]160mm, [R]140mm"}, "轮组": {"轮圈": "Giant SLR 1 40 WheelSystem, [F]40mm, [R]40mm", "辐条": "Sapim CX-Ray", "轮胎": "Giant Gavia Course 0, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406105/1721952657798_f029e4d0.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1721952663530_b9aed67a.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1721952669734_ffd21e98.jfif", "https://giant-images.giant.com.cn/product/images/202406105/1721952678353_495be5b9.jfif", "https://giant-images.giant.com.cn/product/images/202406105/1721952682632_b8a09975.jfif", "https://giant-images.giant.com.cn/product/qrcode/20240329Images/1711676446538.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 0-AXS',
+                    'Giant',
+                    'TCR',
+                    1,
+                    24800.0,
+                    24800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced-Grade Composite, full-composite OverDrive steerer,  12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact", "把立": "Giant Contact AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "Giant Approach"}, "变速传动系统": {"变速把手": "SRAM eTap Rival AXS", "前变速器": "SRAM eTap Rival AXS", "后变速器": "SRAM eTap Rival AXS", "飞轮": "SRAM Rival, 12-speed, 10x36", "链条": "SRAM Rival D1", "中轴": "SRAM DUB, press fit", "齿盘": "SRAM Rival, 33/46"}, "刹车系统": {"刹车": "SRAM Rival eTap hydraulic, SRAM PaceLine rotors  [F]160mm, [R]140mm"}, "轮组": {"轮胎": "Giant Gavia Course 1, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712628393609_c12d0bcc.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628403954_63b448dc.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907310907_e16ba6f5.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907320602_70876104.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907334990_0585d577.jfif", "https://giant-images.giant.com.cn/product/images/202406104/1721907364739_9a0ecda2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 1-KOM',
+                    'Giant',
+                    'TCR',
+                    1,
+                    18800.0,
+                    18800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced-Grade Composite, full-composite OverDrive steerer,  12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact", "把立": "Giant Contact AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "GIANT Approach"}, "变速传动系统": {"变速把手": "Shimano 105 Di2", "前变速器": "Shimano 105 Di2", "后变速器": "Shimano 105 Di2", "飞轮": "Shimano 105, 12-speed, 11x36", "链条": "KMC X12L-1", "中轴": "Shimano, press fit", "齿盘": "Shimano 105, 34/50"}, "刹车系统": {"刹车": "Shimano 105 Di2 hydraulic, Giant MPH rotors  [F]160mm, [R]140mm"}, "轮组": {"轮圈": "Giant P-R2, [F]36mm, [R]36mm", "花鼓": "Giant alloy, 12mm thru-axle", "辐条": "stainless", "轮胎": "Giant Gavia Course 1, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712628536197_0e54f85b.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628539265_d0a0bfa5.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628545084_c4e9e1b2.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628550416_7bc6de3d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628559161_a05d23a0.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628562956_02dd59f8.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712628571569_d443c54b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 2+',
+                    'Giant',
+                    'TCR',
+                    1,
+                    16800.0,
+                    16800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced-Grade Composite, Hybrid OverDrive 1 Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano 105", "前变速器": "Shimano 105", "后变速器": "Shimano 105", "飞轮": "Shimano 105, 11-34", "齿盘": "Shimano 105", "链条": "KMC X12L-1", "中轴": "Shimano, PressFit RS500"}, "刹车系统": {"刹车": "Shimano 105 HRD", "刹车把手": "Shimano 105 HRD"}, "组件": {"座垫": "Giant Approach", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact", "把立": "Giant Contact Aerolight"}, "轮组": {"轮组": "Giant SLR 2 40 wheel system", "轮胎": "Giant Gavia COURSE 1 Tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406101/1719803966452_6c6dc828.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804084325_65aec07d.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804086345_6ed18af4.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804088672_6451535a.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804094861_9ec2a091.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804110610_4652c25c.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804113181_aa8eaca3.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719804116977_dae1cc74.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1720059629070_3b6fecc9.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1720059648105_9c1868e3.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 2-KOM',
+                    'Giant',
+                    'TCR',
+                    1,
+                    14800.0,
+                    14800.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, disc", "前叉": "Advanced-Grade Composite, full-composite OverDrive steerer,  12x100mm thru-axle, disc"}, "组件": {"把横": "Giant Contact", "把立": "Giant Contact AeroLight", "座杆": "Giant Variant, composite, -5/+15mm offset", "座垫": "GIANT Approach"}, "变速传动系统": {"变速把手": "Shimano 105", "前变速器": "Shimano 105", "后变速器": "Shimano 105", "飞轮": "Shimano 105, 12-speed, 11x36", "链条": "KMC X12L-1", "中轴": "Shimano, press fit", "齿盘": "Shimano 105, 34/50"}, "刹车系统": {"刹车": "Shimano 105 hydraulic, Giant MPH rotors  [F]160mm, [R]140mm"}, "轮组": {"轮圈": "Giant P-R2, [F]36mm, [R]36mm", "花鼓": "12mm thru-axle", "辐条": "stainless", "轮胎": "Giant Gavia Course 1, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712629124107_edba22b1.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629163548_da1a453a.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712629171531_d9822ccc.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907662297_ecc9fe29.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907670222_52c0e1e1.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721907685079_566bbfff.jfif", "https://giant-images.giant.com.cn/product/images/202406104/1721907686897_2275a5d6.jfif"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 3',
+                    'Giant',
+                    'TCR',
+                    1,
+                    10980.0,
+                    10980.0,
+                    0,
+                    10,
+                    '全能战驹，巅峰“十代”。更高的踩踏效率、更好的空气动力学、更优秀的整合设计，第十代TCR破空出世，重新定义现代公路自行车。经典的压缩车架几何设计帮助职业车手赢得多个环法赛段冠军，两届环意总冠军，数十次主流古典赛，单日赛和国家锦标赛冠军，Team Jayco-AlUla车手的首选。',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "GIANT 碳纤维碟刹车架  筒轴 OLD 142", "前叉": "碳纤维碟刹前叉，全碳 OverDrive steerer"}, "变速传动系统": {"变速把手": "SHIMANO Tiagra", "前变速器": "SHIMANO 105", "后变速器": "SHIMANO Tiagra", "飞轮": "Shimano HG500-10 11-34T", "齿盘": "SHIMANO Tiagra  50/34T", "链条": "KMC X10", "中轴": "SHIMANO  PRESS BB"}, "刹车系统": {"刹车": "SHIMANO Tiagra  油碟"}, "组件": {"座垫": "GIANT APPROACH", "座杆": "Giant Variant, composite, -5/+15mm offset", "把横": "Giant Contact  31.8", "把立": "Giant Contact AeroLight -10D 31.8"}, "轮组": {"轮圈": "Giant P-R2", "花鼓": "\" 12mm thru-axle \"花鼓", "辐条": "stainless", "轮胎": "Giant Gavia Course 1, tubeless, 700x25c (28mm), folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712627627146_e290484f.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627644471_2250c1fa.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627676288_59a3ba5d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627684039_8a0382ae.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627697516_534a41ff.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627717421_d8a243c5.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627728665_675cf72e.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627774382_1874c4f4.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712627800926_5f5f0915.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR Advanced 3-GC',
+                    'Giant',
+                    'TCR',
+                    1,
+                    7998.0,
+                    7998.0,
+                    0,
+                    10,
+                    '轻量战驹，竞赛利器！',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "GIANT 碳纤维车架", "前叉": "碳纤维前叉，全碳 OverDrive steerer"}, "变速传动系统": {"变速把手": "SHIMANO Tiagra", "前变速器": "SHIMANO Tiagra", "后变速器": "SHIMANO Tiagra", "飞轮": "SHIMANO  HG500-10 12-28T", "齿盘": "SHIMANO  Tiagra   50/34T", "链条": "KMC X10", "中轴": "SHIMANO  PRESS BB"}, "刹车系统": {"刹车": "SHIMANO  Tiagra  公路夹器", "刹车把手": "SHIMANO Tiagra"}, "组件": {"座杆": "GIANT 碳纤维", "把横": "GIANT  CONTACT 铝合金31.8", "把立": "GIANT CONTACT -8D  31.8", "座垫": "GIANT Approach"}, "轮组": {"轮圈": "铝合金圈", "花鼓": "铝合金花鼓", "辐条": "14G HTSS", "轮胎": "GAINT  S-R4 700X25C 30TPI  F/V"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719304336058_391fe264.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304463302_049c8943.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304485144_615c28db.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304504123_782ddac0.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304512535_4416d823.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304530726_176a9952.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304539819_59d32406.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719304549997_780f43b1.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'TCR SLR',
+                    'Giant',
+                    'TCR',
+                    1,
+                    7998.0,
+                    7998.0,
+                    0,
+                    10,
+                    '全新的TCR SLR车型一脉相承Giant TCR公路车家族基因，经过市场验证的OverDrive内走方案，搭配上精雕细琢，简洁精炼的外观造型，精准的操控和高效的性能使TCR SLR难以被超越，让你随时准备出击！',
+                    '{"series": "TCR", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "GIANT  ALUXX SLR轻量碟刹车架  筒轴 OLD 142", "前叉": "碳纤维碟刹前叉，全碳 OverDrive steerer"}, "变速传动系统": {"变速把手": "SHIMANO Tiagra", "前变速器": "SHIMANO 105", "后变速器": "SHIMANO Tiagra", "飞轮": "Shimano HG500-10 11-34T", "齿盘": "铝合金 50/34T", "链条": "KMC X10", "中轴": "PRESS BB"}, "刹车系统": {"刹车": "SHIMANO Tiagra  油碟"}, "组件": {"座垫": "SR 轻量公路车座垫", "座杆": "Giant Variant, composite, -5/+15mm offset", "把横": "Giant Contact  31.8", "把立": "Giant Contact AeroLight -10D 31.8"}, "轮组": {"轮圈": "铝合金碟刹圈", "花鼓": "\" 12mm thru-axle \"花鼓", "辐条": "14G HTSS", "轮胎": "700X25C 防刺 60TPI  F/V"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1718852513770_93cce032.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852529022_003a76f6.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852539995_7d642965.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852549744_7294c5f3.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852585029_47212709.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852585163_b846866b.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852585248_dff2812a.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852616359_2c6914a3.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718852644115_c50db385.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced SL 0-DA',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    73800.0,
+                    73800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术旨在让像Team Jayco AlUla车队的Micheal Matthews和Dylan Groenewegen这样的职业选手和专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Dura Ace Di2", "前变速器": "Shimano Dura Ace Di2", "后变速器": "Shimano Dura Ace Di2", "飞轮": "Shimano Dura Ace, 11X30", "齿盘": "Shimano Dura Ace, 36/52", "链条": "Shimano CN-M9100, 12-speed", "中轴": "Shimano PressFit, BB92"}, "刹车系统": {"刹车": "Shimano Dura Ace Di2\n(hydraulic road disc)", "刹车把手": "Shimano Dura Ace Di2\n(hydraulic road disc)"}, "组件": {"座垫": "Cadex Amp", "座杆": "Advanced SL-grade composite, integrated\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SLR Aero"}, "轮组": {"轮组": "Cadex 50 Ultra Wheel System \nwith DBL / Hookless / Ratchet 40t / Ceramic Bearing", "轮胎": "Cadex Aero Tubeless,\n700x25c (26.5mm effecitve),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721877015143_1451f116.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877022251_fb8dcda3.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877028124_b2b7c2a4.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877028624_a1c117d2.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877029050_439b58ba.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877034678_cfcfa41b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced SL 0-Red',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    73800.0,
+                    73800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术旨在让像Team Jayco AlUla车队的Micheal Matthews和Dylan Groenewegen这样的职业选手和专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Red  AXS HRD, ED-RED-E1", "前变速器": "Sram Red AXS, FD-RED-E-E1", "后变速器": "Sram Red AXS, FD-RED-E-E1", "飞轮": "Sram Red XG-1290, 12-speed, 10-33", "齿盘": "Sram FC RED PM E1,\nDUB , 35/48\nwith Power Meter", "链条": "Sram CN-RED-E1, 12-speed", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "Sram Red  AXS HRD, ED-RED-E1", "刹车把手": "Sram Red  AXS HRD, ED-RED-E1"}, "组件": {"座垫": "Cadex Amp", "座杆": "Advanced SL-grade composite, integrated\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SLR Aero"}, "轮组": {"轮组": "Cadex 50 Ultra Wheel System \nwith DBL / Hookless / Ratchet 40t / Ceramic Bearing", "轮胎": "Cadex Aero Tubeless,\n700x25c (26.5mm effecitve),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721877577012_35e5009a.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877579689_c128c629.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877582789_779eca26.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877591046_a6a1d448.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877591678_0f08e064.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877592245_ac1b7fe5.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721877598648_894074d2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced SL 0-Team',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    77800.0,
+                    77800.0,
+                    0,
+                    10,
+                    'Team Jayco AlUla 2024赛季版本涂装。Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术旨在让像Team Jayco AlUla车队的Micheal Matthews和Dylan Groenewegen这样的职业选手和专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Dura Ace Di2", "前变速器": "Shimano Dura Ace Di2", "后变速器": "Shimano Dura Ace Di2", "飞轮": "Shimano Dura Ace, 11X30", "齿盘": "Shimano Dura Ace, 36/52", "链条": "Shimano CN-M9100, 12-speed", "中轴": "Shimano PressFit, BB92"}, "刹车系统": {"刹车": "Shimano Dura Ace\n(hydraulic road disc)", "刹车把手": "Shimano Dura Ace\n(hydraulic road disc)"}, "组件": {"座垫": "Cadex Amp", "座杆": "Advanced SL-grade composite, integrated\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SLR Aero"}, "轮组": {"轮组": "Cadex 50 Ultra Wheel System", "轮胎": "Cadex Aero Tubeless,\n700x25c"}}, "images": ["https://giant-images.giant.com.cn/product/images/2067/1735616453161_58f73cae.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616460315_83a1f370.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616479662_57a8dd37.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616490854_2691ea64.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616518016_cdf3c7bf.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616531342_0e066e5e.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616541425_82c60292.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616574934_9514ddbf.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced SL 1',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    53800.0,
+                    53800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术旨在让像Team Jayco AlUla车队的Micheal Matthews和Dylan Groenewegen这样的职业选手和专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, 12x142mm thru-axle, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Ultegra Di2", "前变速器": "Shimano Ultegra Di2", "后变速器": "Shimano Ultegra Di2", "飞轮": "Shimano CS-R8100, 11X30", "齿盘": "Shimano Ultegra, 36/52 with Giant Power Pro power meter", "链条": "Shimano CN-M8100, 12-speed", "中轴": "Shimano, PressFit 71"}, "刹车系统": {"刹车": "Shimano Ultegra Di2 HRD", "刹车把手": "Shimano Ultegra Di2 HRD"}, "组件": {"座垫": "Giant Fleet SLR\n9mm Carbon Rail\nWith Giant ParticleFlow technology", "座杆": "Advanced SL-grade composite, integrated w/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SLR Aero"}, "轮组": {"轮组": "Cadex 50 Wheel System  \nwith DBL / Hookless /  Ratchet 30t / Steel Bearing", "轮胎": "Cadex Aero Tubeless,\n700x25c (26.5mm effecitve),170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/2063/1735277752057_c543e323.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735615990525_094540a6.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616020581_62f26bd3.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616032126_6cb5f676.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616061411_6513c6e4.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616076871_dde14453.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616081265_28b7cc65.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616102530_941a339b.jpg", "https://giant-images.giant.com.cn/product/images/2067/1735616119153_a77747b7.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced Pro 0-Di2',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    39800.0,
+                    39800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Ultegra Di2 HRD", "前变速器": "Shimano Ultegra Di2", "后变速器": "Shimano Ultegra Di2", "飞轮": "Shimano CS-R8100, 11X30", "齿盘": "Shimano Ultegra, 36/52 with Giant Power Pro power meter", "链条": "Shimano CN-M8100, 12-speed", "中轴": "Shimano, PressFit 71"}, "刹车系统": {"刹车": "Shimano Ultegra Di2 HRD", "刹车把手": "Shimano Ultegra Di2 HRD"}, "组件": {"座垫": "Giant Fleet SL\n7mm SST Rail\nWith Giant ParticleFlow technology", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant SLR 1 50  Wheel system", "轮胎": "Cadex Road Race Tubeless,\n700x25c (26.5mm effecitve),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721881856678_f19253f3.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721881874951_78033618.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721881875239_8ac9d2e8.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721881875790_69b09df1.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721881929567_2a860e5e.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721882583505_ec254449.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced Pro 0-AXS',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    42800.0,
+                    42800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Force AXS", "前变速器": "Sram Force AXS", "后变速器": "Sram Force AXS", "飞轮": "Sram Force XG-1270, 12-speed, 10-33", "齿盘": "Sram Force D2 DUB,35/48\nwith power meter", "链条": "Sram Force D1, 12-speed", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "SRAM Force AXS HRD (hydraulic road disc)", "刹车把手": "SRAM Force AXS HRD (hydraulic road disc)"}, "组件": {"座垫": "Giant Fleet SL\n7mm SST Rail\nWith Giant ParticleFlow technology", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant SLR 1 50  Wheel system\nwith DBL / Hookless / Ratchet 30t", "轮胎": "Cadex Road Race Tubeless,\n700x25c (26.5mm effecitve),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401022/1729561999740_99811e6f.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729562009961_e68a39ba.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729562013019_209f4f2b.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729562027456_a0e2e5a6.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729562029272_55169d1f.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729562032704_226bc5a7.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced Pro 0-1X',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    41800.0,
+                    41800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Force AXS", "前变速器": "Sram Force AXS", "后变速器": "Sram Force AXS", "飞轮": "Sram Force XG-1270, 12-speed, 10-36", "齿盘": "Sram Force D2 DUB, 48T Aero\nwith power meter", "链条": "Sram Force D1, 12-speed", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "SRAM Force AXS HRD (hydraulic road disc)", "刹车把手": "SRAM Force AXS HRD (hydraulic road disc)"}, "组件": {"座垫": "Giant Fleet SL\n7mm SST Rail\nWith Giant ParticleFlow technology", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact SLR Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant SLR 1 50  Wheel system\nwith DBL / Hookless / Ratchet 30t", "轮胎": "Cadex Road Race Tubeless,\n700x25c (26.5mm effecitve),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721882836434_ccac3b72.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721882842361_9036fde5.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721882843207_5350cb96.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721882844234_ef500b16.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721882852506_dfe04335.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced Pro 1',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    35800.0,
+                    35800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Rival eTap AXS", "前变速器": "Sram Rival eTap AXS", "后变速器": "Sram Rival eTap AXS", "飞轮": "Sram Rival eTap AXS, 10x36", "齿盘": "Sram Rival eTap AXS, 33/46\nwith Giant Power Holo", "链条": "Sram Rival Chain", "中轴": "Sram DUB Press Fit"}, "刹车系统": {"刹车": "Sram Rival eTap AXS HRD", "刹车把手": "Sram Rival eTap AXS HRD"}, "组件": {"座垫": "Giant Fleet SL", "座杆": "Giant Vector Composite", "把横": "Giant Contact SL Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant SLR 1 50  Wheel system\nwith DBL / Hookless / Ratchet 30t", "轮胎": "Giant Gavia COURSE 1 Tubeless, 700x25C(28mm effective), 60 TPI , Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1721883505317_d4486907.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721883510574_bd4d744e.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced 1',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    25800.0,
+                    25800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced-Grade Composite, Hybrid OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano 105 Di2", "前变速器": "Shimano 105 Di2", "后变速器": "Shimano 105 Di2", "飞轮": "Shimano 105 Di2, 11x34, 12-speed", "齿盘": "Shimano 105", "链条": "KMC X12L-1", "中轴": "Shimano, PressFit RS500"}, "刹车系统": {"刹车": "Shimano 105 Di2 Hydraulic", "刹车把手": "Shimano 105 Di2 Hydraulic"}, "组件": {"座垫": "Giant Fleet SL", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact SL Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant SLR 2 50 Wheel System\nwith Hookless / Pawl 30t", "轮胎": "Giant Gavia COURSE 1 Tubeless, 700x25C(28mm effective), 60 TPI , Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/2063/1735277657411_7d03e541.jpg", "https://giant-images.giant.com.cn/product/images/2063/1735277672655_4e924e9b.jpg", "https://giant-images.giant.com.cn/product/images/2063/1735277696947_e923e141.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced 2X',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    19800.0,
+                    19800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle, Disc", "前叉": "Advanced-Grade Composite, Hybrid OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano 105", "前变速器": "Shimano 105", "后变速器": "Shimano 105", "飞轮": "Shimano 105, 11-34", "齿盘": "Shimano 105", "链条": "KMC X12L-1", "中轴": "Shimano, PressFit RS500"}, "刹车系统": {"刹车": "Shimano 105 HRD", "刹车把手": "Shimano 105 HRD"}, "组件": {"座垫": "Giant Fleet SL", "座杆": "Giant Vector Composite\nw/ offset -5/+15", "把横": "Giant Contact SL Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "捷安特SLR2碳纤维轮组", "轮胎": "Giant Gavia COURSE 1 Tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401030/1730278414426_1fcd770e.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278419974_60e5d9ee.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278422722_52e27472.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278435021_2343e54a.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278442896_72b1a94b.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278490855_1d7f6bb5.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278502028_8a6d7c2b.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278543798_672d6bbd.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Propel Advanced 3',
+                    'Giant',
+                    'PROPEL',
+                    1,
+                    14800.0,
+                    14800.0,
+                    0,
+                    10,
+                    '全新Propel系列专为赢得比赛而打造，超低风阻的管型设计和优化的全内走线技术既能让专业的骑行爱好者在决胜时刻获得更佳空气动力学竞争优势，也能在日常骑行中获得更好的骑乘体验。',
+                    '{"series": "PROPEL", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, Disc\n12x142mm thru-axle, Disc", "前叉": "Advanced Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano R4720, 2x10", "前变速器": "Shimano R4720, 2x10", "后变速器": "Shimano R4720, 2x10", "飞轮": "Shimano R4700", "齿盘": "Shimano R4720,50/34", "链条": "KMC 10S", "中轴": "Shimano, PressFit"}, "刹车系统": {"刹车": "Shimano R4720 HRD", "刹车把手": "Shimano R4720 HRD"}, "组件": {"座垫": "Giant Fleet SL", "座杆": "Giant Vector Composite", "把横": "Giant Contact SL Aero", "把立": "Giant Contact SL Aero"}, "轮组": {"轮组": "Giant P-A2", "轮胎": "Giant Gavia COURSE 1 Tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401030/1730278015049_8e7a78d4.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278024732_7c901622.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278054703_cc9f2c0e.jpg", "https://giant-images.giant.com.cn/product/images/202401030/1730278101940_69dc8f8a.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731294913584_69dcf5af.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731294959662_31d03474.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731294959710_5dca34cf.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731294962189_991cc971.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731294970226_044f75c4.jpg", "https://giant-images.giant.com.cn/product/images/2046/1731295016173_0b8896d2.jpeg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced SL 0',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    73800.0,
+                    73800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced SL-Grade Composite, 12x142mm thru-axle, Integrated Seatpost, Disc", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Red  AXS HRD, ED-RED-E1", "前变速器": "Sram Red AXS, FD-RED-E-E1", "后变速器": "Sram Red AXS, FD-RED-E-E1", "飞轮": "Sram Red XG-1290, 12-speed, 10-36", "齿盘": "Sram FC RED PM E1,\nDUB , 33/46\nwith Power Meter", "链条": "Sram CN-RED-E1, 12-speed", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "Sram Red  AXS HRD, ED-RED-E1", "刹车把手": "Sram Red  AXS HRD, ED-RED-E1"}, "组件": {"座垫": "Giant Fleet SLR\n9mm Carbon Rail\nWith Giant ParticleFlow technology", "座杆": "Giant D-Fuse SLR\nw/ offset -5/+15", "把横": "Contact SLR D-Fuse", "把立": "Giant Contact SLR AeroLight"}, "轮组": {"轮组": "Cadex 36\nWheel System", "轮胎": "Cadex Classic Tubeless, 700x32c (33.5mm effective),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726627701285_825508fc.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627705866_e07e3a28.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645486198_3fc558ca.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645488846_7d5f7ffb.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645567666_76859675.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645569516_1c884fde.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645571225_238134ad.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced Pro 0',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    37800.0,
+                    37800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Shimano Ultegra Di2", "前变速器": "Shimano Ultegra Di2", "后变速器": "Shimano Ultegra Di2", "飞轮": "Shimano CS-R8100, 11X34", "齿盘": "Shimano Ultegra (R8100), 34/50, with Giant Power Pro power meter", "链条": "Shimano CN-M8100, 12spd", "中轴": "Shimano, PressFit 71"}, "刹车系统": {"刹车": "Shimano Ultegra Di2 HRD", "刹车把手": "Shimano Ultegra Di2 HRD"}, "组件": {"座垫": "Giant Fleet SL\n7mm SST Rail\nWith Giant ParticleFlow technology", "座杆": "Giant D-Fuse SLR\nw/ offset -5/+15", "把横": "Contact SLR D-Fuse", "把立": "Giant Contact SL AeroLight"}, "轮组": {"轮组": "Giant SLR 1 36 Carbon Disc \nWheel System", "轮胎": "Cadex Classic Tubeless, 700x32c (33.5mm effective),\n170 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726627761884_7e601dc9.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627767041_9134706e.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627775393_5f8c4547.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645753831_71902eb6.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645756955_00c5f33e.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645770141_9ed4320e.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645771552_2dfc8deb.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced Pro 1',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    32800.0,
+                    32800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。全新第五代Defy系列公路车秉承了骑行者之所爱，集轻量、舒适、高效、整洁、顺畅的全能战士，不管是在全天候运动、长距离骑行还是在超长距离高难度多日单人骑行，优异的骑乘体验让你无畏路途中任何的艰难险阻。',
+                    '{"series": "DEFY", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, 12x142mm thru-axle", "前叉": "Advanced SL-Grade Composite, Full-Composite OverDrive Aero Steerer, 12x100mm thru-axle, Disc"}, "变速传动系统": {"变速把手": "Sram Rival eTap AXS", "前变速器": "Sram Rival eTap AXS", "后变速器": "Sram Rival eTap AXS", "飞轮": "Sram Rival eTap AXS, 10x36", "齿盘": "Sram Rival eTap AXS, 33/46\nwith Giant Power Holo", "链条": "Sram Rival Chain", "中轴": "Sram DUB Press Fit"}, "刹车系统": {"刹车": "Sram Rival eTap AXS HRD", "刹车把手": "Sram Rival eTap AXS HRD"}, "组件": {"座垫": "Giant Fleet SL\n7mm SST Rail\nWith Giant ParticleFlow technology", "座杆": "Giant D-Fuse SL\nOffset 16mm", "把横": "Contact SL D-Fuse", "把立": "Giant Contact SL AeroLight"}, "轮组": {"轮组": "Giant SLR 1 36 Carbon Disc \nWheel System", "轮胎": "Giant Gavia Fondo 1 Tubeless, 700x32c (33.5mm effective),\n60 TPI, Folding"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726627719278_395894f6.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627727840_b890e0c1.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627731914_53e392c8.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645669073_9001d16e.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645690200_6dccb70f.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645713315_d82064fc.jpg", "https://giant-images.giant.com.cn/product/images/20250112/1736645715001_99017c7a.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced Pro 2',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    18800.0,
+                    18800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, disc", "前叉": "Advanced SL-grade composite, full-composite OverDrive Aero steerer, disc"}, "组件": {"把横": "Giant Contact SL D-Fuse", "把立": "Giant Contact SL AeroLight", "座杆": "Giant SL D-Fuse, composite, -5/+15mm offset", "座垫": "Giant Fleet SL"}, "变速传动系统": {"变速把手": "Shimano 105", "前变速器": "Shimano 105", "后变速器": "Shimano 105", "飞轮": "Shimano 105, 12-speed, 11x36", "链条": "KMC X12L-1", "中轴": "Shimano, press fit", "齿盘": "Shimano 105, 34/50"}, "刹车系统": {"刹车": "Shimano 105 hydraulic, Shimano SM-RT70 rotors  [F]160mm, [R]160mm"}, "轮组": {"辐条": "Sapim", "轮胎": "Giant Gavia Fondo 1, tubeless, 700x32c (33.5mm), folding", "轮组": "Giant SLR 2 36 Carbon Disc WheelSystem"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1712733227194_fc12e8ad.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712733227313_dd42e5f5.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712733231565_a8b96ca9.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced 1',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    18800.0,
+                    18800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite", "前叉": "Advanced-Grade Composite,    Full-Composite OverDrive one Steerer"}, "组件": {"座垫": "Giant Approach"}, "变速传动系统": {"前变速器": "Shimano105 Di2", "后变速器": "Shimano105 Di2", "齿盘": "Shimano 105, 34/50"}, "刹车系统": {"刹车": "Shimano 105 HRD"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726627792854_6241ef5a.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627798421_282da411.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627802783_068dd43b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced 2',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    14800.0,
+                    14800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY25", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite", "前叉": "Advanced-Grade Composite,    Full-Composite OverDrive one Steerer"}, "组件": {"座垫": "Giant Approach"}, "变速传动系统": {"前变速器": "Shimano105", "后变速器": "Shimano105", "齿盘": "Shimano rs520 34/50"}, "刹车系统": {"刹车": "Shimano 105 HRD"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726627824761_1e48aa55.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627828518_e59cb30f.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726627830438_6aac301d.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Defy Advanced 3',
+                    'Giant',
+                    'DEFY',
+                    1,
+                    11800.0,
+                    11800.0,
+                    0,
+                    10,
+                    '自在飙速，顺骑千里。第五代Defy系列公路车秉承了骑行者之所爱，轻量化、高效率、顺畅的骑乘体验一个不少，并更上一层楼。全天候运动、长距离骑行及长距离高难度多日单人骑行都不在话下。',
+                    '{"series": "DEFY", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite, disc", "前叉": "Advanced-grade composite, full-composite OverDrive steerer, disc"}, "组件": {"把立": "Giant Contact AeroLight", "座杆": "Giant D-Fuse, composite, 14mm offset", "座垫": "Giant Approach"}, "变速传动系统": {"变速把手": "Shimano Tiagra", "前变速器": "Shimano 105", "后变速器": "Shimano Tiagra", "飞轮": "Shimano Tiagra, 11x34", "链条": "KMC X10-1", "中轴": "Shimano, press fit", "齿盘": "Shimano Tiagra, 34/50"}, "刹车系统": {"刹车": "Shimano Tiagra hydraulic, Giant MPH rotors  [F]160mm, [R]160mm"}, "轮组": {"辐条": "Sapim", "轮胎": "Giant Gavia Fondo 1, tubeless, 700x32c (33.5mm), folding", "轮组": "Giant P-R2 Disc wheelset, alloy"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401009/1728432939827_dd160c60.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712732848653_f3f5c3eb.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712732852641_0eca0f76.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712732860706_7ca4ae76.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712732886806_c1f8ea03.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1718974723037_072992ca.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'PCR LTD 1',
+                    'Giant',
+                    'PCR LTD',
+                    1,
+                    6998.0,
+                    6998.0,
+                    0,
+                    10,
+                    '全新PCR LTD 1 一脉相承Giant公路车家族的基因，经过市场验证的OverDrive内走方案，搭配轻量化碳纤维轮组，精雕细琢简洁精炼的外观造型设计。巨值、巨快、巨好骑！',
+                    '{"series": "PCR LTD", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX SL 公路车架 12x142mm thru-axle, disc", "前叉": "GIANT dvanced-Grade 全碳纤维OverDrive  steerer, 12x100mm thru-axle, disc"}, "变速传动系统": {"变速把手": "SHIMANO  TIAGRA", "前变速器": "SHIMANO  TIAGRA", "后变速器": "SHIMANO  TIAGRA", "飞轮": "SHIMANO  CS-HG500  11-34T", "齿盘": "铝合金50/34", "链条": "KMC X10", "中轴": "PRESS BB"}, "刹车系统": {"刹车": "GIANT CD油碟", "刹车把手": "SHIMANO  TIAGRA"}, "组件": {"座垫": "公路车座垫", "座杆": "铝合金座垫杆", "把横": "Giant Contact  31.8铝合金", "把立": "Giant Contact  AeroLight  -10D 31.8铝合金"}, "轮组": {"轮圈": "碳纤维 38MM  碟刹圈", "花鼓": "12mm thru-axle 铝合金花鼓", "辐条": "14G HTSS", "轮胎": "700X25C 60TPI 防刺F/V"}, "其他": {"其他": "OD1内走线系统"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1718854694436_61c6e3fc.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854697964_7c8b99f7.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854704246_8c802753.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854834526_b2b08a5f.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854840596_edcd2fd3.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854842290_78b895d8.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718854871745_d9bfb449.jpg", "https://giant-images.giant.com.cn/product/images/202405106/1719043402223_e5b93cdf.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'PCR LTD 2+',
+                    'Giant',
+                    'PCR LTD',
+                    1,
+                    6998.0,
+                    6998.0,
+                    0,
+                    10,
+                    '全新PCR一脉相承Giant公路车家族的基因，经过市场验证的OverDrive内走方案，搭配上油压碟刹变速套件，精雕细琢简洁精炼的外观造型设计。巨值、巨快、巨好骑！',
+                    '{"series": "PCR LTD", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "ALuxx SL铝合金车架", "前叉": "GIANT Advansed-Grade 全碳纤维OverDrive steerer, 12x100mm thru-axle, disc."}, "变速传动系统": {"变速把手": "SHIMANO TIAGRA 4720", "前变速器": "SHIMANO TIAGRA 4700", "后变速器": "SHIMANO TIAGRA 4700", "飞轮": "SHIMANO CS-HG500 11-34T.", "齿盘": "铝合金大齿盘", "链条": "KMC 10S"}, "刹车系统": {"刹车": "SHIMANO TIAGRA 4720 HRD", "刹车把手": "SHIMANO TIAGRA 4720 HRD"}, "组件": {"座垫": "捷安特运动坐垫", "座杆": "铝合金", "把横": "Giant Contact 31.8铝合金", "把立": "Giant Contact  Aerolight 铝合金"}, "轮组": {"轮组": "铝合金碟刹轮组", "轮胎": "捷安特开口外胎"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406103/1722434199643_88256cad.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434205302_d8d8abc4.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434209893_c0e19b53.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434216084_8db48ddc.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434228468_50f92db9.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434229720_a4a782ba.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434231153_34547c23.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434237171_5894542f.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434252440_f62b001e.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'PCR LTD 2',
+                    'Giant',
+                    'PCR LTD',
+                    1,
+                    4998.0,
+                    4998.0,
+                    0,
+                    10,
+                    '全新PCR一脉相承Giant公路车家族的基因，经过市场验证的OverDrive内走方案，搭配上精雕细琢，简洁精炼的外观造型。巨值、巨快、巨好骑！',
+                    '{"series": "PCR LTD", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX SL 公路车架 12x142mm thru-axle, disc", "前叉": "GIANT dvanced-Grade 全碳纤维OverDrive  steerer, 12x100mm thru-axle, disc"}, "变速传动系统": {"变速把手": "SHIMANO  TIAGRA", "前变速器": "SHIMANO  TIAGRA", "后变速器": "SHIMANO  TIAGRA", "飞轮": "SHIMANO  CS-HG500  11-34T", "齿盘": "铝合金50/34", "链条": "KMC X10", "中轴": "PRESS BB"}, "刹车系统": {"刹车": "GIANT CD油碟", "刹车把手": "SHIMANO  TIAGRA"}, "组件": {"座垫": "公路车座垫", "座杆": "铝合金座垫杆", "把横": "Giant Contact 31.8 -10D 铝合金", "把立": "Giant Contact  AeroLight 铝合金"}, "轮组": {"轮圈": "铝合金30MM  碟刹圈", "花鼓": "12mm thru-axle 铝合金花鼓", "辐条": "14G HTSS", "轮胎": "700X25C 60 TPI 防刺F/V"}, "其他": {"其他": "OD1内走线系统"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1713316290720_d1c230e1.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713316367214_682a4daf.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192570089_11fa9ccb.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192574696_72121708.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192577664_a3d15ac0.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192656808_2b81bc6a.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192660634_222dc2e6.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192665780_3342eee4.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192861690_b395a0f2.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192869852_920ad281.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719192973232_c5b1711e.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt X Advanced Pro 0',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    49800.0,
+                    49800.0,
+                    0,
+                    10,
+                    '冲浪板式的下坡，粗略的泥土，各种形状和大小的碎石和岩石，你永远不知道你会在砂石路上遇到什么。Revolt X Advanced Pro 0的前避震系统可以帮助你以最快的速度和控制力通过这一切。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite,\n flat mount disc, \n12x142mm thru-axle\nIntegrated DT storage incl.\nGiant branded in-frame storage bag\nIntegrated cable routing through head tube", "前叉": "Advanced SL-Grade Composite, \n Full-Composite OverDrive one Steerer, 12x100mm thru-axle, flat mount disc"}, "变速传动系统": {"变速把手": "Sram Force eTap AXS HRD", "前变速器": "Sram Force eTap AXS Wide", "后变速器": "Sram Force eTap AXS, Max 36T", "飞轮": "Sram Force, XG-1270,\n12-speed, 10-36", "齿盘": "Sram Force D1 DUB,30/43", "链条": "Sram Rival D1 12S", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "SRAM Force eTap AXS HRD (hydraulic road disc)", "刹车把手": "SRAM Force eTap AXS HRD (hydraulic road disc)"}, "组件": {"座垫": "Giant Approach SL\n7mm SST Rail, with UniClip & ParticleFlow technology", "座杆": "Giant D-Fuse SLR\nw/ offset -5/+15", "把横": "Giant Contact SLR XR D-Fuse, 31.8mm\n5° back sweep , flare drop", "把立": "AeroLite stem\n -10 Degree"}, "轮组": {"轮组": "Giant CXR 1 Carbon Disc Wheelsystem\nHookless w/ 25mm inner width\n12mm Thru axle", "轮胎": "Cadex \nGX\nFoldable \n700X40C"}}, "images": ["https://giant-images.giant.com.cn/product/images/203505/1730775043531_85d236f8.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775046169_980f6022.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775056416_8aef53f0.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775068919_4f347aee.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775110983_af435642.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775132541_9bd2f798.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775146986_e1b51806.jpg", "https://giant-images.giant.com.cn/product/images/203505/1730775209312_ce85c5eb.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt Advanced Pro 1',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    38800.0,
+                    38800.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt Advanced Pro凭借其全新的内走线车架设计提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite,\n flat mount disc, \n12x142mm thru-axle\nIntegrated DT storage incl.\nGiant branded in-frame storage bag\nIntegrated cable routing through head tube", "前叉": "Advanced SL-Grade Composite, \n Full-Composite OverDrive one Steerer, 12x100mm thru-axle, flat mount disc"}, "变速传动系统": {"变速把手": "Sram Rival eTap AXS HRD", "前变速器": "Sram Rival eTap AXS Wide", "后变速器": "Sram Rival eTap AXS", "飞轮": "Sram Rival XG-1250, 10X36", "齿盘": "Sram Rival D1 DUB,30/43", "链条": "Sram Rival D1 12S", "中轴": "SRAM DUB, Press Fit"}, "刹车系统": {"刹车": "Sram Rival eTap AXS HRD", "刹车把手": "Sram Rival eTap AXS HRD"}, "组件": {"座垫": "Giant Approach SL\n7mm SST Rail, with UniClip & ParticleFlow technology", "座杆": "Giant D-Fuse SLR\nw/ offset -5/+15", "把横": "Giant Contact SLR XR D-Fuse, 31.8mm\n5° back sweep , flare drop", "把立": "AeroLite stem\n -10 Degree"}, "轮组": {"轮组": "Giant CXR 1 Carbon Disc Wheelsystem\nHookless w/ 25mm inner width\n12mm Thru axle", "轮胎": "Cadex \nGX\nFoldable \n700X40C"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406103/1721832091269_0bd210f9.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725521970702_f57d8c38.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725522000327_556f375d.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725522003462_0dbd95ea.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725522032831_23aae06e.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725522035355_4ce5a8ee.jpg", "https://giant-images.giant.com.cn/product/images/20240905/1725522040814_777be4d9.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt Advanced 0',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    24800.0,
+                    24800.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt Advanced 0凭借其全新的内走线车架设计提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite,\n flat mount disc, \n12x142mm thru-axle\nIntegrated DT storage incl.\nGiant branded in-frame storage bag\nIntegrated cable routing through head tube", "前叉": "Advanced-Grade Composite, \n Full-Composite OverDrive one Steerer, 12x100mm thru-axle, flat mount disc"}, "组件": {"座垫": "Giant Approach", "座杆": "Giant D-Fuse SL w/ offset -5/+15", "把横": "Giant Contact XR D-Fuse, 31.8mm\n5° back sweep , flare drop", "把立": "AeroLite stem\n -10 Degree"}, "变速传动系统": {"前变速器": "Shimano GRX RX-820", "后变速器": "Shimano GRX RX-820", "齿盘": "Shimano GRX FC-RX820, 31/48", "变速把手": "Shimano GRX RX-820", "飞轮": "Shimano  CS-HG710 11-36T", "链条": "KMC X12L-1", "中轴": "PressFit Shimano"}, "刹车系统": {"刹车": "Shimano GRX RX-820 HRD", "刹车把手": "Shimano GRX RX-820 HRD"}, "轮组": {"轮组": "Giant CXR 2 Carbon Disc Wheelsystem Hookless w/ 25mm inner width 12mm Thru axle", "轮胎": "Cadex GX Foldable 700X40C"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401017/1729136807281_a57b9019.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137026724_8d1221d1.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137032348_cfbef306.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137035677_833c4cd0.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137061177_21e982e0.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137069726_d2c403b4.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137073890_4f73e084.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137077752_4e77e6a0.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729137091701_56e857b3.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt Advanced 2',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    15800.0,
+                    15800.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt Advanced 凭借其全新的内走线车架设计提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite", "前叉": "Advanced-Grade Composite,    Full-Composite OverDrive one Steerer"}, "组件": {"座垫": "Giant Approach"}, "变速传动系统": {"前变速器": "Shimano GRX RX-820", "后变速器": "Shimano GRX RX-820", "齿盘": "FSA Omega CK 48/32"}, "刹车系统": {"刹车": "Shimano GRX RX-610 HRD"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401023/1729648002020_f7850b99.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648017394_838bc7b2.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648028090_2e6fc068.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648032734_8a072db5.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648069967_1f14572c.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648079726_df720cc6.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648100133_4e4bfd3f.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648206350_b1ecb8b7.jpg", "https://giant-images.giant.com.cn/product/images/202401023/1729648432440_10a37e04.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt 0',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    9980.0,
+                    9980.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt凭借其全新设计的车架提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX Grade Aluminum, \nflat mount disc, 12x142mm thru-axle\nFlip chip Drop out", "前叉": "Advanced-Grade Composite, \n Full-Composite OverDrive one Steerer, 12x100mm thru-axle, flat mount disc"}, "组件": {"座垫": "Giant Approach\n7mm Steel Rail, with UniClip / ParticleFlow technology", "座杆": "Giant D-Fuse Alloy\nOffset 14mm", "把横": "Giant Contact XR D-Fuse, 31.8mm", "把立": "Giant Contact, 8 Degree"}, "变速传动系统": {"前变速器": "Shimano GRX RX-820", "后变速器": "Shimano GRX RX-820", "齿盘": "FSA Omega Modular AGX+, 32/48", "变速把手": "Shimano GRX RX-610 HRD", "飞轮": "Shimano 105 , 11x34", "链条": "KMC X12L-1", "中轴": "FSA Mega EXA"}, "刹车系统": {"刹车": "Shimano GRX RX-610 HRD"}, "轮组": {"轮组": "Giant S-X2 Disc 700C wheelset\nFront / Rear thru axle", "轮胎": "CrossCut Grip \nTR 700X40C"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401008/1728365127494_802bccbf.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365153159_cf4efa09.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365237132_55a945bc.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365303247_18c4f45a.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365315794_35f0a329.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365336439_c8c6b4eb.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365338413_74874f0a.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365345571_bd2f6701.jpg", "https://giant-images.giant.com.cn/product/images/202401008/1728365351798_23760d21.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt 1',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    7998.0,
+                    7998.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt凭借其全新设计的车架提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX Grade Aluminum", "前叉": "Advanced-Grade Composite, Full Carbon, OverDrive  Steerer"}, "组件": {"座垫": "Giant Approach"}, "变速传动系统": {"前变速器": "Shimano BR-RX400", "后变速器": "Shimano BR-RX400", "齿盘": "FSA Omega Adventure, 32/48"}, "刹车系统": {"刹车": "Shimano BR-RX400 HRD"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401017/1729138524685_a24e680a.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138558434_751c7a50.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138560149_e0ce83a5.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138567459_7cc2cf2a.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138574063_8e556f46.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138681519_9588a9d7.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138689670_095a14ed.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729138702326_4c89e5ae.jpg", "https://giant-images.giant.com.cn/product/images/202401017/1729139159219_96b3636b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt 2',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    5898.0,
+                    5898.0,
+                    0,
+                    10,
+                    '准备好碾碎一些砾石吧！Revolt凭借其全新设计的车架提供丰富的拓展性和兼容性，优异的性能和舒适度，让您在崎岖不平的道路、砾石或泥土上行驶得更远更快。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX Grade Aluminum", "前叉": "Advanced-Grade Composite"}, "变速传动系统": {"变速把手": "Shimano  Sora 2x9", "前变速器": "Shimano Sora", "后变速器": "Shimano Sora", "飞轮": "CH-HG400, 11x34", "齿盘": "铝合金大齿盘", "链条": "KMC"}, "刹车系统": {"刹车": "Tektro MD-C550", "刹车把手": "Shimano Sora"}, "组件": {"座垫": "Giant Approach", "座杆": "Giant D-Fuse Alloy", "把横": "Giant Connect XR Ergo-Control, 31.8mm", "把立": "Giant Sport"}, "轮组": {"轮组": "Giant S-X2 Disc 700C wheelset", "轮胎": "Giant CrossCut AT 2 Tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405101/1719192098067_49d3663a.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719205588822_5b647abb.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165049236_bd088a93.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165053652_e90537bc.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165061711_3a4d1cc3.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165067438_2b7bf108.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165078251_a7b904da.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165081279_7660ef45.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720165084426_5d6db364.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt-F 2',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    'Revolt F系列拥有Gravel车型的舒适几何 ，平把设计既能满足城市通勤，也可作为短距离郊游使用。宽胎设计和D型减震坐杆，提升骑行时的舒适性，油压碟刹系统在全天候提供良 好的制动力，让你无惧前方道路。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 铝合金车架", "前叉": "铝合金碟刹，OverDrive  steerer"}, "变速传动系统": {"变速把手": "SHIMANO SORA", "前变速器": "SHIMANO SORA", "后变速器": "SHIMANO SORA", "飞轮": "SHIMANO HG201-9 11-34T", "齿盘": "铝合金 48/32T", "链条": "X9", "中轴": "一体式主轴"}, "刹车系统": {"刹车": "平锁式油压碟刹", "刹车把手": "N/A"}, "组件": {"座垫": "运动座垫", "座杆": "GIANT 铝合金D-FORM", "把横": "铝合金横把", "把立": "GIANT  CONTACT 铝合金"}, "轮组": {"轮圈": "铝合金碟刹圈", "花鼓": "铝合金培林花鼓", "辐条": "14G HTSS", "轮胎": "700X38C   防刺  60TPI  F/V"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719303254255_fe937e7c.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719303258881_d9cc2723.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719303276340_2ebd4ec9.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164567094_b1fac07a.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164569692_f4eb59d2.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164592680_662d67fa.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164599029_f40b3c0d.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164601678_35760e88.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720164605935_10762a88.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Revolt-F 3',
+                    'Giant',
+                    'Revolt',
+                    1,
+                    2998.0,
+                    2998.0,
+                    0,
+                    10,
+                    'Revolt F系列拥有Gravel车型的舒适几何 ，平把设计既能满足城市通勤，也可作为短距离郊游使用。宽胎设计和D型减震坐杆，提升骑行时的舒适性，油压碟刹系统在全天候提供良好的制动力，让你无惧前方道路。',
+                    '{"series": "Revolt", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 铝合金车架", "前叉": "铝合金碟刹，OverDrive  steerer"}, "变速传动系统": {"变速把手": "SHIMANO Claris", "前变速器": "SHIMANO Claris", "后变速器": "SHIMANO Claris", "飞轮": "SHIMANO HG41-8 11-34T", "齿盘": "铝合金 48/32T", "链条": "KMC Z8.3", "中轴": "一体式主轴"}, "刹车系统": {"刹车": "平锁式油压碟刹", "刹车把手": "N/A"}, "组件": {"座垫": "运动座垫", "座杆": "GIANT 铝合金D-FORM", "把横": "铝合金横把", "把立": "GIANT  CONTACT 铝合金"}, "轮组": {"轮圈": "铝合金碟刹圈", "花鼓": "铝合金培林花鼓", "辐条": "14G HTSS", "轮胎": "700X38C   防刺  60TPI  F/V"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719386135383_fa7a9173.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719386619233_93c88cbc.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719907579991_26fb69f2.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235600502_da96e67e.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235604853_77791634.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235610017_77d748a6.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235656666_956dfc86.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235659339_b09e07e0.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720235664525_c86dac6d.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Escape 1',
+                    'Giant',
+                    'ESCAPE',
+                    1,
+                    2598.0,
+                    2598.0,
+                    0,
+                    10,
+                    '清新简约的涂装设计，别具一格的整车造型，无论是休闲还是通勤，骑乘Escape都能让生活变得更加舒适与美好，向往自由的灵魂充满更不一般的激情。',
+                    '{"series": "ESCAPE", "year": "MY25", "categories": ["铺设路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT 700C ALUXX铝合金车架", "前叉": "铝合金rigid铝合金前叉"}, "变速传动系统": {"变速把手": "Shimano ALTUS 3x8速", "前变速器": "Shimano TOURNEY", "后变速器": "Shimano TOURNEY", "飞轮": "Shimano 12-32T 8速", "齿盘": "锻造铝腿28/38/48T", "链条": "KMC  Z8.3", "中轴": "一体式主轴"}, "刹车系统": {"刹车": "平面式油压碟刹"}, "组件": {"座垫": "运动座垫", "座杆": "GIANT D-FUSE 铝合金", "把横": "铝合金直把，31.8mm", "把立": "铝合金，10度，31.8mm"}, "轮组": {"轮圈": "双层铝合金轮圈", "花鼓": "铝合金培林碟刹花鼓", "辐条": "14G HTSS", "轮胎": "GIANT S-X3 700x35C 30TPI"}, "其他": {"其他": "标配停车架"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405101/1719193660620_548792ec.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193790343_61f03349.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193798472_f533b151.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193802012_8310d173.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193816711_f35b4ce6.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193819728_8363f812.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719193825746_a121f2b4.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719282855686_39f4663f.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720156340626_2aee4e9a.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Escape 2',
+                    'Giant',
+                    'ESCAPE',
+                    1,
+                    2198.0,
+                    2198.0,
+                    0,
+                    10,
+                    '捷安特为广大消费者全力打造的平把公路车Escape 2，在涂装方面清新简约，别具一格，设计上面也是让整车看起来具有强大的美观度，对于消费者而言是相当友好的存在。让广大骑行爱好者拥有Escape 2后，无论是休闲还是通勤方面，都让生活变得舒适与美好，让人生充满不一般的激情。',
+                    '{"series": "ESCAPE", "year": "MY24", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX铝合金车架", "前叉": "高碳钢碟刹前叉"}, "组件": {"座垫": "舒适运动座垫"}, "变速传动系统": {"前变速器": "SHIMANO 21S", "后变速器": "SHIMANO 21S", "齿盘": "铝合金大齿盘"}, "刹车系统": {"刹车": "机械碟刹"}, "轮组": {"轮胎": "S-X3(GI001) 700X35C", "轮组": "铝合金轮圈+铝合金花鼓"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1713317234148_81424868.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317238824_61947bf0.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317272603_67c3d093.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317282222_fbd9268e.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317291415_3f1c6576.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317379050_47bb8497.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1713317402560_246a17ff.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1718971445725_c190b398.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Escape 3',
+                    'Giant',
+                    'ESCAPE',
+                    1,
+                    1898.0,
+                    1898.0,
+                    0,
+                    10,
+                    '捷安特为广大消费者倾力打造的平把公路车Escape 3，在涂装方面清新简约，别具一格，设计上面也是让整车看起来具有强大的辨识度。让广大骑行爱好者拥有Escape 3后，无论是休闲还是通勤，都能够感受生活的舒适与美好，让人生充满不一般的激情',
+                    '{"series": "ESCAPE", "year": "MY24", "categories": ["铺设路面", "品味休闲"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "High Tensile Steel"}, "组件": {"座垫": "GIANT ErgoContact Saddle"}, "变速传动系统": {"前变速器": "Shimano ST-EF41 3x7", "后变速器": "Shimano ST-EF41 3x7", "齿盘": "Forged alloy, 48/38/28"}, "刹车系统": {"刹车": "Alloy linear-pull  TK837AL"}, "轮组": {"轮胎": "Giant S-X3 , 700x38", "轮组": "Giant Double Wall Aluminum"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1713256823022_4726de63.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256832267_d1fd024f.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256836582_f9de20a1.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256843933_b5e11f5d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256852436_27949f54.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256858950_f29308d6.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256881960_1ad766d9.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713256906739_042f688e.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'FCR 1',
+                    'Giant',
+                    'FCR',
+                    1,
+                    6298.0,
+                    6298.0,
+                    0,
+                    10,
+                    '全新FCR系列采用空气动力学优化的造型设计和经过市场验证的OverDrive内走线方案，搭配轻量化碳纤维前叉，带来轻量、平滑和高效的骑乘体验。',
+                    '{"series": "FCR", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX SL 车架 12x142mm thru-axle, disc", "前叉": "GIANT dvanced-Grade 全碳纤维OverDrive  steerer, 12x100mm thru-axle, disc"}, "变速传动系统": {"变速把手": "SHIMANO  TIAGRA", "前变速器": "SHIMANO  TIAGRA", "后变速器": "SHIMANO  TIAGRA", "飞轮": "SHIMANO HG500-10 11-34T", "齿盘": "SHIMANO FC-4700 48/34T", "链条": "KMC X10", "中轴": "SHIMANO  PRESS BB"}, "刹车系统": {"刹车": "彦豪平锁式油压碟刹内走线）", "刹车把手": "N/A"}, "组件": {"座垫": "SR 运动座垫", "座杆": "铝合金座垫杆", "把横": "GIANT AERO 铝合金把", "把立": "GIANT CONTACT AEROLIGHT  -10D  31.8 铝合金"}, "轮组": {"轮圈": "铝合金 30MM 碟刹圈", "花鼓": "铝合金筒轴花鼓", "辐条": "14G HTSS", "轮胎": "700C*28C 60 TPI 防刺 FV"}, "其他": {"其他": "OD 1 内走线系统，预留泥除货架安装孔"}}, "images": ["https://giant-images.giant.com.cn/product/images/20240918/1726626101339_57a41f7f.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626106255_c65f8557.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626109910_e223106d.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626118081_92672d48.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626121662_38a71df0.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626125657_4af21343.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626137775_77102324.jpg", "https://giant-images.giant.com.cn/product/images/20240918/1726626140229_0b9b1ea7.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'FCR 2',
+                    'Giant',
+                    'FCR',
+                    1,
+                    5298.0,
+                    5298.0,
+                    0,
+                    10,
+                    '全新FCR系列采用空气动力学优化的造型设计和经过市场验证的OverDrive内走线方案，搭配轻量化碳纤维前叉，带来轻量、平滑和高效的骑乘体验。',
+                    '{"series": "FCR", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX SL 车架 12x142mm thru-axle, disc", "前叉": "GIANT dvanced-Grade 全碳纤维OverDrive  steerer, 12x100mm thru-axle, disc"}, "变速传动系统": {"变速把手": "SHIMANO  SORA", "前变速器": "SHIMANO  SORA", "后变速器": "SHIMANO  SORA", "飞轮": "SHIMANO HG201-9  11-34T", "齿盘": "铝合金 48/32T", "链条": "KMC X9", "中轴": "PRESS BB"}, "刹车系统": {"刹车": "平锁式油压碟刹", "刹车把手": "N/A"}, "组件": {"座垫": "SR 运动座垫", "座杆": "铝合金座垫杆", "把横": "GIANT AERO 铝合金把", "把立": "GIANT CONTACT AEROLIGHT  -10D  31.8 铝合金"}, "轮组": {"轮圈": "铝合金 30MM 碟刹圈", "花鼓": "铝合金筒轴花鼓", "辐条": "14G HTSS", "轮胎": "700C*28C 60 TPI 防刺 FV"}, "其他": {"其他": "OD 1 内走线系统，预留泥除货架安装孔"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406103/1722434047619_becf8f54.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434079507_37883544.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434083058_aa4ff370.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434087023_9491ea68.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434091450_dc55b3e1.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434100498_e897918d.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434102430_14cd3eed.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722434104639_649fa222.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Anthem Advanced 29 3',
+                    'Giant',
+                    'Anthem',
+                    1,
+                    29800.0,
+                    29800.0,
+                    0,
+                    10,
+                    '当道路消失，即是乐趣展开时。从平顺、砂砾满布的公园小径到后山树枝盘踞的越野林道、亦或是令人兴奋、刺激的越野下坡路段。Anthem都能提供你极其优秀的技术和性能，支持你征服所有的终极冒险。',
+                    '{"series": "Anthem", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles, Flexpoint Pro Suspension, 100mm travel, 12x148mm thru-axle\nwheelsize 29\" only F&R", "后避震器": "Rockshox \nSidLuxe Select+ 3p, Trunnion Mount, 165x 45, custom tuned for Giant", "前叉": "RockShox \nSid Base 3p , 110mm travel, 44mm offset, Boost 15x110mm Maxle Stealth,Tapered Steerer, remote lockout"}, "变速传动系统": {"变速把手": "Shimano \nDeore M6100, 1x12", "后变速器": "Shimano \nSLX M7100, Shadow +", "飞轮": "Shimano \nSLX M7100, 10-51", "齿盘": "Praxis \nCadet, 32T,55mm chainline, steel chainring", "链条": "KMC \nX-12", "中轴": "Praxis \nPressfit"}, "刹车系统": {"刹车": "Shimano  \nBR MT410,  Hydraulic Disc, 2 piston\n[F] 180mm [R] 160mm,", "刹车把手": "Shimano  \nBR MT410,  Hydraulic Disc, 2 piston\n[F] 180mm [R] 160mm,"}, "组件": {"座垫": "NEW \nGIANT GRIT PP", "座杆": "Contact Switch Core", "把横": "Giant \nContact  XC Flat, 760x35mm", "把立": "Giant \nContact SL XC 35mm"}, "轮组": {"轮组": "GIANT \nXCT 29” tubeless ready sleeve-joint rim, 25mm inner width", "轮胎": "Maxxis Aspen 29X2,4\" Foldable,"}}, "images": ["https://giant-images.giant.com.cn/product/images/203602/1733142864929_2111e476.jpg", "https://giant-images.giant.com.cn/product/images/203602/1733142916909_2cee8b70.jpg", "https://giant-images.giant.com.cn/product/images/203602/1733142923605_950f179d.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 20',
+                    'Giant',
+                    'XTC',
+                    1,
+                    1498.0,
+                    1498.0,
+                    0,
+                    10,
+                    'GIANT专为青少年倾力打造的XTC 20系列，多彩的涂装和人性化设计，坚固耐用的轻量化GIANT ALUXX铝合金车架，让孩子们挥洒汗水，无畏前行，享受骑行乐趣！',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 20” X10” ALUXX青少年铝合金车架预留泥除货架安装孔位", "前叉": "高碳钢前叉  1-1/8\"直管"}, "变速传动系统": {"变速把手": "Shimano TOURNEY 7速转把", "前变速器": "无", "后变速器": "SHIMANO TOURNEY 7速", "飞轮": "7S 14-28T", "齿盘": "锻造铝腿36T齿盘", "链条": "KMC 7速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "铝合金小手省力刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金小燕把中心直径31.8mm 宽度520mm 抬升高度30mm 后翘角度9°", "把立": "铝合金，直径31.8mm，长度60mm 高度40mm 角度10°"}, "轮组": {"轮圈": "铝合金轮圈 28H", "花鼓": "高碳钢花鼓", "辐条": "14G HTSS", "轮胎": "20X1.95  A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，前泥除、竖杆防撞保护套、预留货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405101/1719199296958_4008373e.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719199347571_1a653499.jpg", "https://giant-images.giant.com.cn/product/images/202405101/1719199372650_6a54152f.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719276200063_f8a7247f.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277023299_11c50c28.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277027251_d1ea98e3.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277192781_1c710d70.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277207391_4532d66c.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277211448_f1e5fbf9.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719277216373_60531068.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 20-D',
+                    'Giant',
+                    'XTC',
+                    1,
+                    1798.0,
+                    1798.0,
+                    0,
+                    10,
+                    'GIANT专为青少年倾力打造的XTC 20系列，多彩的涂装和人性化设计，坚固耐用的轻量化GIANT ALUXX铝合金车架搭配油压碟刹展现非凡优势，让孩子们无畏前行，享受骑行乐趣！',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 20” X10” ALUXX青少年铝合金车架预留泥除货架安装孔位", "前叉": "高碳钢避震前叉避震行程30mm"}, "变速传动系统": {"变速把手": "Shimano TOURNEY 7速转把", "前变速器": "无", "后变速器": "SHIMANO TOURNEY 7速", "飞轮": "7S 14-28T", "齿盘": "锻造铝腿36T齿盘", "链条": "KMC 7速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金机械碟刹", "刹车把手": "铝合金小手省力刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金小燕把中心直径31.8mm 宽度520mm 抬升高度30mm 后翘角度9°", "把立": "铝合金，直径31.8mm，长度60mm 高度40mm 角度10°"}, "轮组": {"轮圈": "铝合金双层轮圈 28H", "花鼓": "高碳钢花鼓", "辐条": "14G HTSS", "轮胎": "20X1.95  A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，前泥除、竖杆防撞保护套、预留货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1718069637896_e4e0fe44.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1718069685687_1435b895.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1718069727790_5a04e631.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719283656570_8e84402e.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719283666181_757abde2.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719283670999_1d47a7ad.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719283677227_d17187c8.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285246313_b0925dc5.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285274297_300c94fe.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 24-D 1',
+                    'Giant',
+                    'XTC',
+                    1,
+                    2498.0,
+                    2498.0,
+                    0,
+                    10,
+                    '每个少年都有自己的梦想，在实现梦想的道路上既有顺风也有逆境。GIANT专为青少年倾力打造的XTC 24系列，多彩的涂装和人性化设计，坚固耐用的轻量化GIANT ALUXX铝合金车架搭配油压碟刹展现非凡优势，让少年无畏前行，追逐梦想！',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 24” X12”ALUXX青少年铝合金车架 预留泥除货架安装孔位", "前叉": "铝合金避震前叉 1-1/8\"直管，液压锁死 避震行程50mm"}, "变速传动系统": {"变速把手": "Shimano ALTUS 3X8速", "前变速器": "Shimano TOURNEY 3速", "后变速器": "Shimano ALTUS 8速", "飞轮": "Shimano  12-32T 8速", "齿盘": "锻造铝腿24/34/42T", "链条": "KMC 8速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金油压碟刹", "刹车把手": "铝合金油压碟刹刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金小燕把中心直径31.8mm 宽度560mm 抬升高度30mm 后翘角度9°", "把立": "铝合金，直径31.8mm，长度60mm 高度40mm 角度10°"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 28H", "花鼓": "铝合金培林花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "24X1.95 60TPI A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1720071784239_0de9217c.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720162237586_2c426b26.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720162242451_292cc8fd.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433394789_92538c4a.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433405211_bbb413f8.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433417142_5e52f762.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433448418_4563ee6e.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433449591_f1f6df26.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433451077_1bf8d4f5.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723433456733_057a76f2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 24-D 2',
+                    'Giant',
+                    'XTC',
+                    1,
+                    1998.0,
+                    1998.0,
+                    0,
+                    10,
+                    '每个少年都有自己的梦想，在实现梦想的道路上既有顺风也有逆境。GIANT专为青少年倾力打造的XTC 24系列，多彩的涂装和人性化设计，坚固耐用的轻量化GIANT ALUXX铝合金车架搭配铝合金机械碟刹展现非凡优势，让少年无畏前行，追逐梦想！',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 24” X12”ALUXX青少年铝合金车架 预留泥除货架安装孔位", "前叉": "铝合金避震前叉 1-1/8\"直管，避震行程50mm"}, "变速传动系统": {"变速把手": "Shimano SL-RV400 3X7速转把", "前变速器": "Shimano FD-TY300 3速", "后变速器": "Shimano RD-TX800 7速", "飞轮": "14-34T 7速", "齿盘": "锻造铝腿24/34/42T", "链条": "KMC 7速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金机械碟刹", "刹车把手": "铝合金刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金小燕把中心直径31.8mm 宽度560mm 抬升高度30mm 后翘角度9°", "把立": "铝合金，直径31.8mm，长度60mm 高度40mm 角度10°"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 28H", "花鼓": "铝合金培林花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "24X1.95 A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405105/1719553722173_08854149.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553726092_812b01d3.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553732230_7b0dd0f8.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553737745_8297e1d6.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553748113_33ba6c6e.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553753528_024521d4.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553756537_2c0c5451.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723443119091_c083a61f.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723443130295_58878982.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1723443146262_edaf5c38.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 24 Lite',
+                    'Giant',
+                    'XTC',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    '每个少年都有自己的梦想，在实现梦想的道路上既有顺风也有逆境。GIANT专为青少年倾力打造的XTC 24系列，多彩的涂装和人性化设计，坚固耐用的轻量化GIANT ALUXX铝合金车架搭配油压碟刹展现非凡优势，让少年无畏前行，追逐梦想！',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 24\"X12\"ALUXX青少年铝合金车架", "前叉": "铝合金气压避震前叉 1-1/8\"直管 避震行程70mm"}, "变速传动系统": {"变速把手": "Shimano Cues 2X10速", "前变速器": "Shimano Cues 2S", "后变速器": "Shimano Cues 10S", "飞轮": "Shimano 10-39T 10速", "齿盘": "36X22T 铝合金中空齿盘", "链条": "Shimano Cues 10速", "中轴": "一体式中轴，压入式"}, "刹车系统": {"刹车": "铝合金油压碟刹", "刹车把手": "铝合金油压碟刹手柄青少年小握距"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金小燕把中心直径31.8mm 宽度560mm 抬升高度30mm 后翘角度9°", "把立": "铝合金，直径31.8mm，长度60mm 高度40mm 角度10°"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 28H", "花鼓": "铝合金培林花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "24X1.95 60TPI A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405105/1719553333583_16c6d49a.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553340919_f526c793.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553358177_47e2fb9a.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553360283_694f20b6.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719553362708_adfa5a69.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719818553081_1f3e7b6b.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719818557106_35076b6d.jpg", "https://giant-images.giant.com.cn/product/images/202406101/1719818563336_3f38fe74.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 26',
+                    'Giant',
+                    'XTC',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    '捷安特专为身高更高的青少年小朋友们倾力打造的XTC 26，车架几何满足身高较高的青少年骑行需求。一脉相承的XTC家族化造型，以及专为青少年定制开发的车身零件。让孩子尽情挥洒汗水，享受骑行乐趣。',
+                    '{"series": "XTC", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT XTC 26\"X14\"ALUXX青少年铝合金车架", "前叉": "铝合金避震前叉带线控锁死 行程80mm"}, "变速传动系统": {"变速把手": "Shimano Cues 2X10速", "前变速器": "Shimano Cues 2速", "后变速器": "Shimano Cues 10速", "飞轮": "Shimano 10-39T 10速", "齿盘": "40/26T 铝合金中空齿盘", "链条": "KMC 10速", "中轴": "一体式中轴，压入式"}, "刹车系统": {"刹车": "铝合金油压碟刹前直锁式，后平面式安装", "刹车把手": "铝合金油压碟刹手柄"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金 中心直径31.8mm 把宽620mm Rise 19mm", "把立": "铝合金，直径31.8mm，长度60mm 直径31.8mm 10度抬升"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 32H", "花鼓": "铝合金培林花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "26X1.95 60TPI A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719285807367_1135d780.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285807484_ee74f1bb.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285816210_fec6f2f8.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285816328_4e3625c3.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285853057_4c4d86c9.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285855139_1bbc6439.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285860067_57bc1665.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719285871178_81ae6db5.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC SLR 1',
+                    'Giant',
+                    'XTC',
+                    1,
+                    16800.0,
+                    16800.0,
+                    0,
+                    10,
+                    '专为XC竞赛设计的的山地车，让你在爬坡 时平稳输出，起伏路保持速度，这款 XTC SLR 1结合了效率与平衡，是XC越野的 不二选择。。',
+                    '{"series": "XTC", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant XTC SLR 27.5” Aluxx SLR轻量铝合金车架\nGiant XTC SLR 29”Aluxx SLR轻量铝合金车架", "前叉": "Sram RECON GOLD  27.5” 镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”铝合金转向管, 15X110筒轴\nSram RECON GOLD 29”镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”铝合金转向管,15X110筒轴"}, "变速传动系统": {"变速把手": "Shimano XT 2X12速", "前变速器": "Shimano XT 2速", "后变速器": "Shimano  XT 12速", "飞轮": "Shimano 10-45T 12速", "齿盘": "Shimano  XT 26/36T 2-PC中空一体", "链条": "Shimano 12S 链条", "中轴": "Shimano 压入式中轴"}, "刹车系统": {"刹车": "Shimano DEORE油压碟刹", "刹车把手": "Shimano DEORE油压刹把"}, "组件": {"座垫": "Giant ROMERO 座垫", "座杆": "Giant CONTACT铝合金线控升降，30.9mm", "把横": "27.5\"：CONNECT XC 小燕把，口径31.8mm，宽度740mm，抬升19mm，后掠 9°\n29”   ：CONNECT XC 直把，口径31.8mm，宽度740mm，后掠5°", "把立": "27.5\"：CONTACT，-8°，31.8mm\n29”   ：CONTACT，+8°，31.8mm"}, "轮组": {"轮圈": "27.5\"：27.5\"  碳纤维，圈高25.8mm，28H，TUBELESS READ\n29\"   ： 29\"  碳纤维，圈高25.8mm，28H，TUBELESS READ", "花鼓": "Shimano 铝合金,培林,6螺丝碟刹，\n前: 筒轴15x110, 后:筒轴12x148", "辐条": "14G-15G-14G HTSS 圆形，弯头", "轮胎": "27.5\"：  Maxxis Rekon Race 27.5x2.25 120TPI 防刺真空胎，法式气嘴\n29\"   ：Maxxis Rekon Race 279x2.25 120TPI 防刺真空胎，法式气嘴"}, "其他": {"其他": "标配超轻量可锁死吸振把套；培林碗组； 轻量铝合金大踏面培林脚踏；预留停车架、货架、泥除孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712625806729_af89d6ba.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625837317_aabc2851.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625849776_a4dd67f0.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625863973_b0aeb3f2.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625880492_6630044e.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625899134_3dd41f95.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712625917392_8f8893f7.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1722404300632_0ae6059f.jpg", "https://giant-images.giant.com.cn/product/images/20240909/1725866311444_76b28315.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC SLR 2',
+                    'Giant',
+                    'XTC',
+                    1,
+                    7998.0,
+                    7998.0,
+                    0,
+                    10,
+                    '专为XC竞赛设计的的山地车，让你在爬坡 时平稳输出，起伏路保持速度，这款 XTC SLR 2结合了效率与平衡，是XC越野的 不二选择。',
+                    '{"series": "XTC", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant XTC SLR 27.5” Aluxx SLR轻量铝合金车架\nGiant XTC SLR 29”Aluxx SLR轻量铝合金车架", "前叉": "Giant CREST 27.5” 镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”铝合金转向管, 15X110筒轴\nGiant CREST 29”镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”铝合金转向管,15X110筒轴"}, "变速传动系统": {"变速把手": "Shimano SLX 2x12速", "前变速器": "Shimano SLX 2速", "后变速器": "Shimano SLX 12速", "飞轮": "Shimano 10-45T 12速", "齿盘": "Shimano SLX 36/26T 2-PC中空一体", "链条": "Shimano 12S 链条", "中轴": "Shimano 压入式中轴"}, "刹车系统": {"刹车": "Shimano MT410油压碟刹", "刹车把手": "Shimano M4100油压碟刹手柄"}, "组件": {"座垫": "Giant ROMERO 座垫", "座杆": "Giant CONTACT铝合金线控升降，30.9mm", "把横": "27.5\"：CONNECT XC 小燕把，口径31.8mm，宽度740mm，抬升19mm，后掠 9°\n29”   ：CONNECT XC 直把，口径31.8mm，宽度740mm，后掠5°", "把立": "27.5\"：CONTACT，-8°，31.8mm\n29”   ：CONTACT，+8°，31.8mm"}, "轮组": {"轮圈": "27.5\"：27.5\"  双层偏心铝合金，圈高18mm，焊接，28H，TUBELESS READ\n29\"   ：29\"  双层偏心铝合金，圈高18mm，焊接，28H，TUBELESS READ", "花鼓": "Shimano 铝合金,培林,中锁碟刹，\n前: 筒轴15x110, 后:筒轴12x148", "辐条": "14G HTSS 圆形，弯头", "轮胎": "27.5\"：Giant QUICKSAND PLUS 27.5 x2.1 60TPI 防刺轮胎，法式气嘴\n29\"   ：Giant QUICKSAND PLUS 29x2.1 60TPI 防刺轮胎，法式气嘴"}, "其他": {"其他": "标配超轻量可锁死吸振把套；培林碗组； 轻量铝合金大踏面培林脚踏；预留停车架、货架、泥除孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712630371353_b6f40ef9.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630375209_407a544d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630379416_9cdc75be.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630383395_b644be4e.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630390629_e50564f8.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630397872_2b380c7d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630409092_faf5c059.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935845471_d7d5eac0.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935973772_35a65eeb.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936032138_d2925ecf.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936036436_777fc7d0.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC SLR 3',
+                    'Giant',
+                    'XTC',
+                    1,
+                    5998.0,
+                    5998.0,
+                    0,
+                    10,
+                    '专为XC竞赛设计的的山地车，让你在爬坡 时平稳输出，起伏路保持速度，这款 XTC SLR 3结合了效率与平衡，是XC越野的 不二选择。',
+                    '{"series": "XTC", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant XTC SLR 27.5” Aluxx SLR轻量铝合金车架\nGiant XTC SLR 29”Aluxx SLR轻量铝合金车架", "前叉": "Giant STL 27.5” 镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”转向管, 15X110筒轴\nGiant STL 29”镁合金气压线控前叉（带回弹可调功能）,1 1/8”-1 1/2”转向管,15X110筒轴"}, "变速传动系统": {"变速把手": "Shimano CUES 2x11速", "前变速器": "Shimano CUES 2速", "后变速器": "Shimano CUES 11速", "飞轮": "Shimano 11-45T 11速", "齿盘": "27.5”：锻造铝腿26/40T 2-PC中空一体\n29”： 锻造铝腿22/36T 2-PC中空一体", "链条": "Shimano 9/10/11速", "中轴": "压入式中轴"}, "刹车系统": {"刹车": "Shimano MT200油压碟刹", "刹车把手": "Shimano MT200油压碟刹手柄"}, "组件": {"座垫": "短鼻宽版运动座垫", "座杆": "铝合金，30.9mm", "把横": "27.5\"：CONNECT XC 小燕把，口径31.8mm，宽度740mm，抬升19mm，后掠 9°\n29”   ：CONNECT XC 直把，口径31.8mm，宽度740mm，后掠5°", "把立": "27.5\"：CONTACT，-8°，31.8mm\n29”   ：CONTACT，+8°，31.8mm"}, "轮组": {"轮圈": "27.5\"：27.5\"  双层铝合金，圈高24mm，轴套，28H，TUBELESS READ\n29\"   ：29\"  双层铝合金，圈高24mm，轴套，28H，TUBELESS READ", "花鼓": "Shimano 铝合金,培林,6螺丝碟刹，\n前: 筒轴15x110, 后:筒轴12x148", "辐条": "14G HTSS 圆形，弯头", "轮胎": "27.5\"：Giant QUICKSAND PLUS 27.5 x2.1 60TPI 防刺轮胎，法式气嘴\n29\"   ：Giant QUICKSAND PLUS 29x2.1 60TPI 防刺轮胎，法式气嘴"}, "其他": {"其他": "标配超轻量可锁死吸振把套；培林碗组； 轻量铝合金大踏面脚踏；预留停车架、货架、泥除孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1712630775711_b224d4de.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630800476_756c1b31.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630816158_3339254e.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1712630820604_8a45ded2.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936268473_4540bea5.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936272813_514b736a.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936484787_6d69d240.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725936487202_134f734e.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 800',
+                    'Giant',
+                    'XTC',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    '捷安特XTC系列一直致力于为XC选手提供究极速度和超高效率。全新的XTC 8系列有一个很大的亮点在于车架采用混合轮径的设计，不同大小的车架搭配不同的轮径，能够适应更广的身高范围。',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "27.5\":Giant ALUXX SL 27.5\"铝合金车架\n29\"   :Giant ALUXX SL 29\"铝合金车架", "前叉": "27.5\":Giant SXC2 27.5\" 铝合金气压线控锁死前叉\n29\"   :Giant SXC2 29\"铝合金气压线控锁死前叉"}, "组件": {"把横": "31.8铝合金小燕把", "把立": "铝合金锻造竖杆", "座杆": "铝合金座垫杆", "座垫": "运动座垫"}, "变速传动系统": {"变速把手": "Shimano CUES 2x11速", "前变速器": "Shimano CUES 2速", "后变速器": "Shimano CUES 11速", "飞轮": "Shimano 11-45T 11速", "齿盘": "27.5\":锻造铝腿26/40T 2-PC中空一体\n29\"   :锻造铝腿22/36T 2-PC中空一体", "链条": "Shimano CUES 9/10/11速"}, "刹车系统": {"刹车": "Shimano MT200油压碟刹"}, "轮组": {"轮圈": "Giant,双层,铝合金,碟刹专用", "花鼓": "Giant,铝合金,培林,碟刹", "辐条": "14G HTSS", "轮胎": "27.5\":QUICKSAND 27.5X2.0 30TPI防刺轮胎\n29\"   :QUICKSAND 29X2.0 30TPI防刺轮胎"}}, "images": ["https://giant-images.giant.com.cn/product/images/202407102/1723531607696_857bafde.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531763843_b83983c5.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531764203_b429d969.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531764519_b25af74e.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531800284_6a4a2c6e.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531807072_082057ec.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531846961_651b5f17.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531852658_f58353a4.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723531855762_179245a7.jpg", "https://giant-images.giant.com.cn/product/images/2055/1732066642940_6172984f.jpg", "https://giant-images.giant.com.cn/product/images/2055/1732066657774_aff63db7.jpg", "https://giant-images.giant.com.cn/product/images/2055/1732066666799_bd8010ae.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 800 Plus',
+                    'Giant',
+                    'XTC',
+                    1,
+                    4598.0,
+                    4598.0,
+                    0,
+                    10,
+                    '捷安特XTC系列一直致力于为XC选手提供究极速度和超高效率。全新的XTC 8系列有一个很大的亮点在于车架采用混合轮径的设计，不同大小的车架搭配不同的轮径，能够适应更广的身高范围。',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "27.5\":Giant ALUXX SL 27.5\"铝合金车架\n29\"   :Giant ALUXX SL 29\"铝合金车架", "前叉": "27.5\":Giant SXC1 27.5\" 镁合金气压线控锁死\n29\"   :Giant SXC1 29\" 镁合金气压线控锁死"}, "组件": {"把横": "铝合金，直径31.8mm，Reach19mm", "把立": "铝合金锻造，8度", "座杆": "铝合金，30.9mm", "座垫": "运动座垫"}, "变速传动系统": {"后变速器": "Shimano DEORE 12S", "齿盘": "27.5”：锻造铝腿38T 2-PC中空一体\n29”： 锻造铝腿36T 2-PC中空一体", "变速把手": "Shimano DEORE 1X12S", "飞轮": "Shimano 10-51T", "链条": "KMC 12速", "中轴": "培林，外挂式"}, "刹车系统": {"刹车": "Shimano MT200油压碟刹"}, "轮组": {"轮胎": "QUICKSAND 27.5x2.0 防刺，30TPI,法式气嘴\nQUICKSAND 29x2.0 防刺，30TPI,法式气嘴", "轮圈": "双层铝合金轮圈，框高22mm，28H，铆合连接", "花鼓": "铝合金培林花鼓，快拆式，碟刹", "辐条": "14G HTSS，圆形，弯头，交叉编织"}, "其他": {"其他": "培林碗组，预留停车架，货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1712737792881_7880d0e3.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712737863437_23c7f818.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712737869489_9d8c2a3d.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712737878602_3d8d065e.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712737885346_2c08283d.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712737893062_04678604.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1721792632197_384f6f63.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1721792646601_1a1aa1e3.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314842706_4c1745ea.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314855434_f01fe257.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC 820',
+                    'Giant',
+                    'XTC',
+                    1,
+                    5698.0,
+                    5698.0,
+                    0,
+                    10,
+                    '捷安特XTC系列一直致力于为XC选手提供究极速度和超高效率。全新的XTC 8系列有一个很大的亮点在于车架采用混合轮径的设计，不同大小的车架搭配不同的轮径，能够适应更广的身高范围。',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "27.5\":Giant ALUXX SL 27.5\"铝合金车架\n29\"   :Giant ALUXX SL 29\"铝合金车架", "前叉": "27.5\":Giant SXC1 27.5\" 镁合金气压线控锁死回弹可调\n29\"   :Giant SXC1 29\" 镁合金气压线控锁死回弹可调"}, "组件": {"把横": "铝合金，直径31.8mm，Reach19mm", "把立": "铝合金锻造，8度", "座杆": "铝合金，30.9mm", "座垫": "Giant运动座垫"}, "变速传动系统": {"前变速器": "Shimano SLX 2S", "后变速器": "Shimano SLX 12S", "齿盘": "27.5”：锻造铝腿28/38T 2-PC中空一体\n29”： 锻造铝腿26/36T 2-PC中空一体", "变速把手": "Shimano SLX 2x12S", "飞轮": "Shimano 10-45T 12S", "链条": "KMC 12速", "中轴": "培林，外挂式"}, "刹车系统": {"刹车": "Shimano MT200油压碟刹"}, "轮组": {"轮胎": "27.5”：QUICKSAND PLUS 27.5x2.1防刺，60TPI,法式气嘴\n29”：QUICKSAND PLUS 29x2.1防刺，60TPI,法式气嘴", "轮圈": "双层铝合金轮圈，框高22mm，32H，铆合连接", "花鼓": "Shimano培林花鼓，快拆式，碟刹", "辐条": "14G HTSS，圆形，弯头，交叉编织"}, "其他": {"其他": "培林碗组，预留停车架，货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1712739020634_f7455230.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739025267_fabbe5c4.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739029707_3b1e329f.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739033806_dabbc0c6.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739042980_06ddc1ef.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739057801_2c63fde7.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248862930_3b4c58d4.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248866160_237bf959.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248904217_ddbc6bda.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248908776_dba9e584.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248939214_efe9610a.jpg", "https://giant-images.giant.com.cn/product/images/20240902/1725248943997_0b79b5f6.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC Advanced 1',
+                    'Giant',
+                    'XTC',
+                    1,
+                    20800.0,
+                    20800.0,
+                    0,
+                    10,
+                    '轻量化碳纤维复合材质打造，适应高强度XC及KOM追逐赛，纵情驰骋于山野林道之间，尽情释放你的每一份激情。',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant XTC 27.5” &29”Adcanced 碳纤维车架", "前叉": "RECON GOLD 27.5”& 29”镁合金气压线控前叉（带回弹可调功能）15X110筒轴"}, "组件": {"把横": "CONTACT SL XC 31.8铝合金直把", "把立": "CONTACT铝合金锻造竖杆", "座杆": "30.9线控升降座垫杆", "座垫": "专业座垫"}, "变速传动系统": {"后变速器": "Shimano XT 12S", "中轴": "Shimano压入中轴", "齿盘": "Shimano XT 27.5”: 36T ,29”: 34T 2-PC中空一体", "变速把手": "Shimano XT 1x12速", "飞轮": "Shimano 10-51T 12速"}, "刹车系统": {"刹车": "Shimano XT油压碟刹"}, "轮组": {"轮胎": "27.5 x2.25 & 29x2.25 120TPI防刺真空轮胎", "轮圈": "Giant 27.5” &29”碳纤维轮圈", "花鼓": "培林,碟刹，F: 筒轴15x110, R:筒轴12x148", "辐条": "14G-15G-14G HTSS 轻量钢丝"}, "其他": {"其他": "标配超轻量可锁死吸振把套、培林碗组, 轻量铝合金大踏面培林脚踏，PressFit BB（备注：27.5” 预留停车架、货架、泥除孔位）"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1712710649207_809a8579.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710663866_95a5bfeb.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710667621_0659ed1b.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710681600_c619e5cd.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710685703_c6b553ad.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710691419_412fa66d.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712710698499_ef7e261b.jpg", "https://giant-images.giant.com.cn/product/images/20240826/1724653266692_e2ff2337.jpg", "https://giant-images.giant.com.cn/product/images/20240826/1724653274628_b33709a2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC Advanced 2',
+                    'Giant',
+                    'XTC',
+                    1,
+                    14800.0,
+                    14800.0,
+                    0,
+                    10,
+                    '轻量化碳纤维复合材质打造，适应高强度XC及KOM追逐赛，纵情驰骋于山野林道之间，尽情释放你的每一份激情。',
+                    '{"series": "XTC", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant 27.5” XTC Adcanced 碳纤维车架\nGiant 29” XTC Adcanced 碳纤维车架", "前叉": "Giant CREST 27.5” 镁合金气压线控前叉（带回弹可调功能）,1 1/8“-1 1/2”铝合金转向管, 15X110筒轴\nGiant CREST 29”镁合金气压线控前叉（带回弹可调功能）,1 1/8“-1 1/2”铝合金转向管,15X110筒轴"}, "变速传动系统": {"变速把手": "Shimano SLX 2x12速", "前变速器": "Shimano SLX 2速", "后变速器": "Shimano SLX 12速", "飞轮": "Shimano 10-45T 12速", "齿盘": "Shimano SLX 36/26T 2-PC中空一体", "链条": "Shimano 12S 链条", "中轴": "Shimano 压入式中轴"}, "刹车系统": {"刹车": "Shimano DEORE油压碟刹", "刹车把手": "Shimano DEORE油压刹把"}, "组件": {"座垫": "Giant ROMERO 座垫", "座杆": "Giant CONTACT铝合金线控升降，30.9mm", "把横": "27.5\"：CONNECT XC 小燕把，口径31.8mm，宽度740mm，抬升19mm，后掠 9°\n29“   ：CONNECT XC 直把，口径31.8mm，宽度740mm，后掠5°", "把立": "27.5\"：CONTACT，-8°，31.8mm\n29“   ：CONTACT，+8°，31.8mm"}, "轮组": {"轮圈": "27.5\"：XTC 27.5\" TUBELESS READ 双层铝合金，圈高21mm\n29\"   ：XTC 29\" TUBELESS READY 双层铝合金，圈高21mm", "花鼓": "Shimano 铝合金,培林,碟刹，F: 筒轴15x110, R:筒轴12x148", "辐条": "14G HTSS 钢丝", "轮胎": "27.5\"：Giant QUICKSAND PLUS 27.5 x2.1 60TPI 防刺轮胎\n29\"   ：Giant QUICKSAND PLUS 29x2.1 60TPI 防刺轮胎"}, "其他": {"其他": "标配超轻量可锁死吸振把套；培林碗组； 轻量铝合金大踏面培林脚踏；\n27.5”预留停车架、货架、泥除孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/203506/1730852923561_84801e63.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730852928621_12b4ab6a.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730852945170_f02e2f45.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730852952217_5960941e.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730853053399_7f8beefb.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730853163954_8503ea95.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730853347469_42b571ad.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730853369599_ceb405e9.jpg", "https://giant-images.giant.com.cn/product/images/203506/1730853408626_566da04a.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC Advanced 3',
+                    'Giant',
+                    'XTC',
+                    1,
+                    9980.0,
+                    9980.0,
+                    0,
+                    10,
+                    '',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Giant XTC 27.5” &29”Adcanced 碳纤维车架", "前叉": "Giant STL 27.5”& 29”镁合金气压线控前叉，15X110筒轴"}, "组件": {"把横": "CONTACT XC 31.8铝合金直把", "把立": "CONTACT铝合金锻造竖杆", "座杆": "30.9铝合金座垫杆", "座垫": "运动座垫"}, "变速传动系统": {"变速把手": "Shimano CUES 2x11速", "前变速器": "Shimano CUES 2速", "后变速器": "Shimano CUES 11速", "飞轮": "Shimano 11-45T 11速", "中轴": "压入中轴", "齿盘": "锻造铝腿27.5”:26/40T,29”:22/36T, 2-PC中空一体"}, "刹车系统": {"刹车": "油压碟刹"}, "轮组": {"轮胎": "Giant QUICKSAND PLUS 27.5 x2.1&29x2.1 60TPI防刺山地轮胎", "轮圈": "Giant  27.5” &29”双层铝合金轮圈，Tubeless Ready", "花鼓": "铝合金,培林,碟刹，F: 筒轴15x110, R:筒轴12x148", "辐条": "14G HTSS"}, "其他": {"其他": "标配超轻量可锁死吸振把套、培林碗组, 轻量铝合金大踏面脚踏，PressFit BB；（备注：27.5” 预留停车架、货架、泥除孔位）"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403103/1712739573104_99a4f3db.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739574994_26533ada.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739579671_007a75ae.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739583119_4d0a26af.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739593819_f13f5d0b.jpg", "https://giant-images.giant.com.cn/product/images/202403103/1712739611243_4257222c.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935477917_634d4ca5.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935487466_132d11f5.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935495796_2bec04b7.jpg", "https://giant-images.giant.com.cn/product/images/202409010/1725935503937_7f1984c4.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'XTC Advanced 24',
+                    'Giant',
+                    'XTC',
+                    1,
+                    7998.0,
+                    7998.0,
+                    0,
+                    10,
+                    '谁说孩子山地探险没有合适的自行车？XTC Advanced 24青少年碳纤维山地越野自行车，适合于XC路面的探索。专为小骑士整体性开发设计的车架、轮组以及零部件等，XTC Advanced 24不仅是是一款性能卓越的山地越野自行车，更是一款关注青少年健康、提供全方位骑行体验的不二之选。',
+                    '{"series": "XTC", "year": "MY24", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "GIANT 24 青少年碳纤维车架", "前叉": "荣轮XCT铝合金气压避震前叉"}, "组件": {"座垫": "青少年座垫"}, "变速传动系统": {"变速把手": "SHIMANO Cues 1X11S", "齿盘": "锻造铝腿34T中空一体齿盘 压入式中轴"}, "刹车系统": {"刹车": "青少年油压碟刹"}, "轮组": {"轮圈": "铝合金双层轮圈", "花鼓": "铝合金培林花鼓", "轮胎": "24\"X2.2\"Tubeless 120TPI轮胎"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768563164_12b71258.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768575814_6dc350b7.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768578531_0476e558.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768581463_3496afb4.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768589992_cb907816.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768600535_82e6b1dd.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768612057_691ed966.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713768632797_b8abe9a1.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 20-S',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1298.0,
+                    1298.0,
+                    0,
+                    10,
+                    '坚固耐用的GIANT ALUXX轻量化铝合金技术倾心打造，多彩的涂装和人性化设计展现非凡优势，专为青少年骑乘设计的ATX 20系列车架几何，让小骑士尽情挥洒汗水，享受骑行乐趣。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "20”X10”铝合金车架", "前叉": "高碳钢rigid前叉"}, "变速传动系统": {"变速把手": "无", "前变速器": "无", "后变速器": "无", "飞轮": "18T", "齿盘": "38T齿盘 140mm曲柄", "链条": "单速链条", "中轴": "分体式中轴"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "铝塑刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "高碳钢 27.2x250mm", "把横": "高碳钢燕把 25.4mm", "把立": "高碳钢一体式 25.4mm"}, "轮组": {"轮圈": "铝合金单层轮圈 28H", "花鼓": "高碳钢花鼓", "辐条": "14G HTSS", "轮胎": "20”X1.95“ A/V  美式气嘴"}, "其他": {"其他": "标配中置停车架、泥除货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1719900725756_3dc6af21.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900730662_f8237f6d.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900734837_b873eeda.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900741731_51d7725a.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900755784_fcc26412.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900760609_30a8edae.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900764433_beb1775e.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900771202_b55cb1a1.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719900799091_cac67110.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 24-D 1',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1798.0,
+                    1798.0,
+                    0,
+                    10,
+                    '运动伴成长，捷安特专为身形娇小的青少年小朋友们倾力打造的ATX 24-D1，坚固耐用的轻量化GIANT ALUXX铝合金搭配油压碟刹设计，让小骑士尽情挥洒汗水，享受骑行乐趣。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "青少年铝合金车架 24”X12”", "前叉": "高碳钢避震前叉"}, "变速传动系统": {"变速把手": "Shimano TOURNEY 3X8S指拨", "前变速器": "SHIMANO TOURNEY 3速", "后变速器": "SHIMANO TOURNEY 8速", "飞轮": "SHIMANO TOURNEY 8S 12-32T", "齿盘": "42/34/24T铝腿大齿盘", "链条": "8S链条", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金油压碟刹", "刹车把手": "铝合金油压碟刹刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金坐垫杆30.9*250mm", "把横": "铝合金小燕把长度560mm，抬升20mm", "把立": "铝合金竖杆长度60mm 抬升20°"}, "轮组": {"轮圈": "铝合金双层圈28H", "花鼓": "铝合金碟刹花鼓", "辐条": "14G HTSS", "轮胎": "24”X1.95” A/V 美式气嘴"}, "其他": {"其他": "标配停车架"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719370106514_e48558ab.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370112459_b9e5f351.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370118657_60b84e5b.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370123972_a1f0c5d6.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370144370_4c8fc3cf.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370151479_499a59e1.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370151640_69994519.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370155322_bd03d734.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719370185937_2cdb2e46.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722324806442_acedf613.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 24-D 2',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1298.0,
+                    1298.0,
+                    0,
+                    10,
+                    '从蹒跚学步，到捷伴骑行，ATX 24-D2是一款为身形娇小的小朋友专属设计的青少年自行车，坚固耐用的轻量化 GIANT ALUXX铝合金搭配碟刹设计，旨在为孩
+子们带来安全、有趣且充满探索欲望的骑行体验。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "青少年铝合金车架 24”X12”", "前叉": "高碳钢避震前叉"}, "变速传动系统": {"变速把手": "禧玛诺TOURNEY 1X7S转把", "前变速器": "无", "后变速器": "SHIMANO TOURNEY 7速", "飞轮": "7S 14-28T", "齿盘": "36T大齿盘", "链条": "7S链条", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金机械碟刹", "刹车把手": "铝塑刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金坐垫杆30.9*250mm", "把横": "铝合金小燕把长度560mm，抬升20mm", "把立": "铝合金竖杆长度60mm 抬升20°"}, "轮组": {"轮圈": "铝合金双层圈28H", "花鼓": "铝合金碟刹花鼓", "辐条": "14G HTSS", "轮胎": "24”X1.95” A/V 美式气嘴"}, "其他": {"其他": "标配停车架"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719391754077_eadf5e0c.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391761124_1866fbbf.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391766747_53ed2b42.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391780692_6dd30c62.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391795657_509e084d.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391799004_a2c8fb5e.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391802678_ba35cb72.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719391819251_1bd28586.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719556249497_812532cf.jpg", "https://giant-images.giant.com.cn/product/images/202405105/1719558146087_2a56b4f6.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 26',
+                    'Giant',
+                    'ATX',
+                    1,
+                    2298.0,
+                    2298.0,
+                    0,
+                    10,
+                    '捷安特专为身高更高的青少年小朋友们倾力打造的ATX 26，车架几何满足身高较高的青少年骑行需求。一脉相承ATX家族化设计，以及专为青少年定制开发的车身零件。让孩子尽情挥洒汗水，享受骑行乐趣',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT ATX 26\" X14\"ALUXX青少年铝合金车架", "前叉": "铝合金避震前叉 1-1/8\"直管，避震行程80mm"}, "变速传动系统": {"变速把手": "Shimano TOURNEY 3X8速", "前变速器": "Shimano TOURNEY 3速", "后变速器": "Shimano TOURNEY 8速", "飞轮": "Shimano 12-32T 8速", "齿盘": "42/34/24T方孔高碳钢软材包覆曲柄 方孔", "链条": "KMC 8速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金油压碟刹直锁式", "刹车把手": "铝合金油压碟刹手柄"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2mm", "把横": "铝合金 中心直径31.8mm 把宽620mm Rise 19mm", "把立": "铝合金，直径31.8mm，长度60mm 直径31.8mm 10度抬升"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 32H", "花鼓": "铝合金散珠花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "26X1.95 A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719382521969_2c779eba.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382526126_3a2d9f43.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382533902_9c78703c.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382544940_abde55c7.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382549850_51082dbb.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382550072_20b0f782.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719382557952_2d159f82.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1722819719982_a0efc1bc.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 610 24',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1598.0,
+                    1598.0,
+                    0,
+                    10,
+                    '坚固耐用的GIANT ALUXX轻量化铝合金技术倾心打造，专为青少年骑乘设计的车架几何。快速精准的变速，灵活易控的转把搭配专属设计坐垫，更加适合青少年骑行姿势，在单车上挥洒汗水。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT青少年铝合金车架 24”X12”", "前叉": "高碳钢避震前叉1-1/8\"直管，避震行程40MM"}, "变速传动系统": {"变速把手": "SHIMANO TOURNEY 3X7速转把", "前变速器": "SHIMANO TOURNEY 3速", "后变速器": "SHIMANO TOURNEY 7速", "飞轮": "7S 14-28T", "齿盘": "42/34/24大齿盘", "链条": "KMC 7速链条", "中轴": "一体式中轴 旋入式"}, "刹车系统": {"刹车": "铝合金机械碟刹", "刹车把手": "铝合金刹把"}, "组件": {"座垫": "青少年座垫", "座杆": "铝合金30.9mm", "把横": "铝合金 中心直径25.4mm 长度560mm 抬升20mm 后翘10°", "把立": "铝合金长度 60mm 高度40mm 抬升20°"}, "轮组": {"轮圈": "铝合金双层轮圈24H", "花鼓": "铝合金碟刹花鼓", "辐条": "14G", "轮胎": "24x1.95 A/V 美式气嘴"}, "其他": {"其他": "标配停车架"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719281542384_292fe3ce.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281547441_f0f4fccb.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281554780_b84536de.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281559962_9a36cbc5.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281568542_4b0e39c0.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281573352_19daa251.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281576886_0f732f49.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719281582234_45e832e9.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720159973724_9d54a765.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720159986781_9d50f224.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 620',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1598.0,
+                    1598.0,
+                    0,
+                    10,
+                    '青春新势力，我有我活力。全新ATX 620专为青春而生，动感车型设计展现年轻的姿态，鲜亮涂装风格彰显青春的风采，无处不在的时尚运动气息让你成为街头的一道靓丽的风景线。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "Giant ATX 6系列 26” ALUXX铝合金车架", "前叉": "26”避震前叉，铝合金肩盖/高碳钢叉腿"}, "变速传动系统": {"变速把手": "Shimano 3x7速", "前变速器": "Shimano TOURNEY 3速", "后变速器": "Shimano 7速", "飞轮": "Shimano 14-28T 7速", "齿盘": "高碳钢软材包覆曲柄，24/34/42T，方孔", "链条": "KMC 7速", "中轴": "一体式培林中轴"}, "刹车系统": {"刹车": "铝合金机械碟刹", "刹车把手": "Shimano 一体式"}, "组件": {"座垫": "舒适运动座垫", "座杆": "铝合金,30.9mm", "把横": "铝合金直把,31.8mm", "把立": "铝合金, 8°抬升,31.8mm"}, "轮组": {"轮圈": "双层铝合金轮圈，碟刹专用，不支持真空胎，框高20.5mm，铆合式", "花鼓": "铝合金培林花鼓，碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "26x1.95"}, "其他": {"其他": "标配铝合金停车架，小副把；预留货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719385605590_fa976f7e.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719385782760_11a4323d.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719385818521_76bacb41.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719385831967_52bdba42.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719385848809_e1614aa8.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719385990649_6d57150f.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719386002506_eb9f3e6d.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719386007336_0de43fd2.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719386033012_508ca904.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719386282361_63ce55d0.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 660',
+                    'Giant',
+                    'ATX',
+                    1,
+                    1898.0,
+                    1898.0,
+                    0,
+                    10,
+                    '青春新势力，我有我活力。全新ATX 660
+专为青春而生，动感车型设计展现年轻的
+姿态，鲜亮涂装风格彰显青春的风采，无
+处不在的时尚运动气息让你成为街头的一
+道靓丽的风景线',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "Giant ATX 6系列 26” ALUXX铝合金车架", "前叉": "26”避震前叉，铝合金肩盖/高碳钢叉腿"}, "变速传动系统": {"变速把手": "Shimano ALTUS 3x7速", "前变速器": "Shimano TOURNEY 3速", "后变速器": "Shimano TOURNEY 7速", "飞轮": "Shimano 14-28T 7速", "齿盘": "高碳钢软材包覆曲柄，24/34/42T，方孔", "链条": "KMC 7速", "中轴": "一体式培林中轴"}, "刹车系统": {"刹车": "Tektro专款高性能油压碟刹", "刹车把手": "油压碟刹刹把"}, "组件": {"座垫": "舒适运动座垫", "座杆": "铝合金,30.9mm", "把横": "铝合金直把,31.8mm", "把立": "铝合金, 8°抬升,31.8mm"}, "轮组": {"轮圈": "双层铝合金轮圈，碟刹专用，不支持真空胎，框高20.5mm，铆合式", "花鼓": "铝合金培林花鼓，碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "26x1.95"}, "其他": {"其他": "标配铝合金停车架，小副把；预留货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719279208316_f5360ff3.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718862685224_b409ad4c.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718862688436_cf68b741.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718862693177_2ad082b4.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718862702015_31f28531.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718862933913_0b9fae3a.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 720',
+                    'Giant',
+                    'ATX',
+                    1,
+                    2198.0,
+                    2198.0,
+                    0,
+                    10,
+                    'ATX 7系列采用Giant ALUXX铝合金科技车架，搭配26”铝合金肩盖/高碳钢叉腿高性能运动避震前叉，并且采用内走线设计，更加简洁美观。且预留货架，泥除，停车架孔位，丰富的拓展配置，后期升级无忧！',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "Giant ATX 7系列 26” ALUXX铝合金车架", "前叉": "26”避震前叉，铝合金肩盖/高碳钢叉腿"}, "变速传动系统": {"变速把手": "Shimano ALTUS 3x8速", "前变速器": "Shimano TOURNEY 3速", "后变速器": "Shimano TOURNEY TX 8速", "飞轮": "Shimano 12-32T 8速", "齿盘": "铝合金曲柄，24/34/42T，方孔", "链条": "KMC 8速", "中轴": "一体式培林中轴"}, "刹车系统": {"刹车": "Tektro专款高性能油压碟刹", "刹车把手": "油压碟刹刹把"}, "组件": {"座垫": "舒适运动座垫", "座杆": "铝合金,30.9mm", "把横": "铝合金直把,31.8mm", "把立": "铝合金, 8°抬升,31.8mm"}, "轮组": {"轮圈": "双层铝合金轮圈，碟刹专用，不支持真空胎，框高20.5mm，铆合式", "花鼓": "铝合金培林花鼓，碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "26x1.95"}, "其他": {"其他": "标配铝合金停车架，小副把；预留货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1717633307485_a4aa2abc.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633307618_f4af92be.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633307809_a5cf7f2e.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633335030_9fd3c430.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633343920_b5854979.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633351406_ba0e2562.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633359946_0573832b.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717633408652_226fc97f.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717634011380_afe76329.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1717634059929_7d39e724.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 810',
+                    'Giant',
+                    'ATX',
+                    1,
+                    2498.0,
+                    2498.0,
+                    0,
+                    10,
+                    '捷安特ATX 8系列是一款在混合路面具有较强通过能力的日常用车，非常适合日常运动、探险和轻度越野骑行。全新ATX 810有一个很大的亮点在于车架采用混合轮径的设计，升级搭载铝合金油压肩控可锁死避震前叉以及丰富的拓展配置，将会是山地新手或寻求多用途自行车的首选。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "Giant ATX 8系列 27.5” ALUXX铝合金车架\nGiant ATX 8系列 29” ALUXX铝合金车架", "前叉": "27.5”：27.5”铝合金避震前叉,1 1/8\"直管,油压肩控可锁死,T100mm\n29”：29”铝合金避震前叉,1 1/8\"直管,油压肩控可锁死,T100mm"}, "变速传动系统": {"变速把手": "27.5\":Shimano ALTUS 3x8速\n29\":Shimano ALTUS 2x8速", "前变速器": "27.5\":Shimano Turney 3速\n29\":Shimano ALTUS 2速", "后变速器": "Shimano Turney 8速", "飞轮": "Shimano 12-32T 8速", "齿盘": "27.5”：22/32/42T 锻造铝曲柄\n29\"：22/36T 锻造铝曲柄", "链条": "KMC 8速", "中轴": "培林，一体式"}, "刹车系统": {"刹车": "专款高性能铝合金油压碟刹", "刹车把手": "油压碟刹刹把"}, "组件": {"座垫": "CONTACT TRAIL,运动坐垫", "座杆": "铝合金,30.9mm", "把横": "铝合金，31.8mm，直把", "把立": "铝合金, 31.8mm，8°抬升"}, "轮组": {"轮圈": "27.5\"：27.5\"双层铝合金，碟刹专用，框高20.5mm，铆合式\n29\"：29\" 双层铝合金，碟刹专用，框高20.5mm，铆合式", "花鼓": "培林，铝合金,6螺丝碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "27.5\"：QUICKCROSS 27.5x1.95,30TPI,法式\n29\"：QUICKCROSS 29x1.95,30TPI,法式"}, "其他": {"其他": "预留停车架，货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1718853119329_39460ee6.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853126460_7a33b0a9.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853131857_197bcfe4.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853141147_7516fe0a.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853169710_e334a712.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853178311_b7d969f5.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718853178315_5c14a09d.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312789615_8204c0df.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312804525_a9d4e3de.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312825804_a50d9db2.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312840982_e1bfdf14.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312860288_0ed7b89b.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724312865452_ce3fb9ad.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 830',
+                    'Giant',
+                    'ATX',
+                    1,
+                    2898.0,
+                    2898.0,
+                    0,
+                    10,
+                    '捷安特ATX 8系列是一款在混合路面具有较强通过能力的日常用车，非常适合日常运动、探险和轻度越野骑行。全新ATX 830有一个很大的亮点在于车架采用混合轮径的设计，升级搭载XCM铝合金线控可锁死避震前叉以及丰富的拓展配置，将会是入门骑士或寻求多用途自行车的首选。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "Giant ATX 8系列 27.5” ALUXX铝合金车架\nGiant ATX 8系列 29” ALUXX铝合金车架", "前叉": "27.5”：XCM,27.5”铝合金避震前叉,1 1/8\"直管,线控锁死,T100mm\n29”：XCM,29”铝合金避震前叉,1 1/8\"直管,线控锁死,T100mm"}, "变速传动系统": {"变速把手": "Shimano CUES 2x9速", "前变速器": "Shimano CUES 2速", "后变速器": "Shimano CUES 9速", "飞轮": "Shimano 11-36T 9速", "齿盘": "27.5”：26/40T 中空一体，锻造铝曲柄\n29\"：22/36T 中空一体，锻造铝曲柄", "链条": "KMC 9/10/11速", "中轴": "培林，外挂式旋牙"}, "刹车系统": {"刹车": "专款高性能铝合金油压碟刹", "刹车把手": "油压碟刹刹把"}, "组件": {"座垫": "CONTACT TRAIL,运动坐垫", "座杆": "铝合金,30.9mm", "把横": "铝合金直把,31.8mm", "把立": "铝合金, 8°抬升,31.8mm"}, "轮组": {"轮圈": "27.5\"：27.5\"双层铝合金，碟刹专用，框高20.5mm，铆合式\n29\"：29\" 双层铝合金，碟刹专用，框高20.5mm，铆合式", "花鼓": "培林，铝合金,6螺丝碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "27.5\"：LITESTEP 27.5x1.95,30TPI,法式\n29\"：LITESTEP 29x1.95,30TPI,法式"}, "其他": {"其他": "预留停车架，货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1718855373746_ecc6475c.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718855389261_b583262b.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718855394180_3ad0a55b.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718855414742_f9b62ac6.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718855414869_8943184c.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718855427190_cf9d18c2.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313862951_084d8e6c.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313870982_5b789694.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313942945_257b8c1b.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313945216_5f33654f.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313964288_7729cb9e.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313966922_58be0f9f.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313981566_99c82923.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724313984211_946b912a.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'ATX 860',
+                    'Giant',
+                    'ATX',
+                    1,
+                    3298.0,
+                    3298.0,
+                    0,
+                    10,
+                    '捷安特ATX 8系列是一款在混合路面具有较强通过能力的日常用车，非常适合日常运动、探险和轻度越野骑行。全新ATX860有一个很大的亮点在于车架采用混合轮径的设计，升级搭载GIANT SXC 3铝合金线控锁死避震前叉以及丰富的拓展配置，将科技、造型、功能全面结合，带给入门骑士全新体验。',
+                    '{"series": "ATX", "year": "MY25", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "Giant ATX 8系列 27.5” ALUXX铝合金车架\nGiant ATX 8系列 29” ALUXX铝合金车架", "前叉": "27.5”：Giant SXC 3,27.5”铝合金避震前叉,1 1/8\"直管,线控锁死,T100mm\n29”：Giant SXC 3,29”铝合金避震前叉,1 1/8\"直管,线控锁死,T100mm"}, "变速传动系统": {"变速把手": "Shimano CUES 2x10速", "前变速器": "Shimano CUES 2速", "后变速器": "Shimano CUES 10速", "飞轮": "Shimano 11-39T 10速", "齿盘": "27.5”：26/40T 中空一体，锻造铝曲柄\n29\"：22/36T 中空一体，锻造铝曲柄", "链条": "KMC 9/10/11速", "中轴": "培林，外挂式旋牙"}, "刹车系统": {"刹车": "专款高性能铝合金油压碟刹", "刹车把手": "油压碟刹刹把"}, "组件": {"座垫": "CONTACT TRAIL,运动坐垫", "座杆": "铝合金,30.9mm", "把横": "铝合金直把,31.8mm", "把立": "铝合金, 8°抬升,31.8mm"}, "轮组": {"轮圈": "27.5\"：27.5\"双层铝合金，碟刹专用，框高20.5mm，铆合式\n29\"：29\" 双层铝合金，碟刹专用，框高20.5mm，铆合式", "花鼓": "培林，铝合金,6螺丝碟刹，快拆式", "辐条": "14G HTSS，圆形，弯头", "轮胎": "27.5\"：LITESTEP 27.5x1.95,30TPI,法式\n29\"：LITESTEP 29x1.95,30TPI,法式"}, "其他": {"其他": "预留停车架，货架，泥除安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405104/1718860528925_4fc5c790.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718860534297_a68b776d.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718860579370_27e2b994.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718860604085_1f007973.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718860618807_80db8c08.jpg", "https://giant-images.giant.com.cn/product/images/202405104/1718860619012_d3f1ada4.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314645315_0d6b8c5c.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314648048_c6a57e1a.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314664115_5e0aa844.jpg", "https://giant-images.giant.com.cn/product/images/20240822/1724314666621_38eef6b3.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Reign Advanced Pro 1',
+                    'Giant',
+                    'REIGN',
+                    1,
+                    40800.0,
+                    40800.0,
+                    0,
+                    10,
+                    '全新的Reign碳纤维车架为GIANT专业越野耐力赛选手打造。坚固、轻便、快速，新的悬架设置经过全新升级，在最高水平竞赛在中进行比赛和测试。丰富的可调节性使你能以你喜欢的方式来处理技术性路面。',
+                    '{"series": "REIGN", "year": "MY23", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite 160mm Maestro suspension, flip chip, 12x148mm thru-axle", "前叉": "Fox 38 Performance Elite, 170mm, GRIP 2 damper, 15x110 Kabolt X,44mm offset, custom tuned for Giant"}, "组件": {"把横": "Giant Contact SLR TR35, composite, 800x35mm", "把立": "Giant Contact SL 35", "座杆": "TranzX travel-adjustable dropper, remote", "座垫": "Giant Romero SL"}, "变速传动系统": {"后变速器": "SRAM GX Eagle", "飞轮": "SRAM GX XG-1275 Eagle, 10x52", "链条": "SRAM GX Eagle", "中轴": "SRAM DUB, press fit", "齿盘": "SRAM GX, DUB, 32t, 55mm chainline"}, "刹车系统": {"刹车": "Shimano SLX M7120, hydraulic, Shimano RT-66 rotors [F]220mm, [R]200mm"}, "轮组": {"轮圈": "Giant TRX 2 29 Carbon WheelSystem, 30mm inner width", "轮胎": "[F] Maxxis Assegai 29x2.5 WT, 3C MaxxTerra, EXO+,  TR [R] Maxxis Minion DHR II 29x2.4 WT", "轮组": "Giant TRX 2 29 Carbon WheelSystem"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1721724020635_9c85370b.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721724023090_7f71c61e.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721724028567_0d06e8c0.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721724047127_41a3ebd9.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721724052460_6e8121f1.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1721724056636_39c149e5.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674971404746.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Reign Advanced 1',
+                    'Giant',
+                    'REIGN',
+                    1,
+                    49800.0,
+                    49800.0,
+                    0,
+                    10,
+                    '这款全新的碳纤维车架为GIANT专业耐力赛选手打造，坚固、轻便、快速。新的悬架设置经过全新升级，在最高水平的金在中进行比赛和测试。丰富的可调节性使你能以你喜欢的方式来处理技术性路面。',
+                    '{"series": "REIGN", "year": "MY24", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles, Maestro Suspension,  160mm travel, 12x148mm thru-axle, integrated storage solution\nframe size S/XL: 29\"\"F & 29\"\"R commercial spec and 27.5\"\" rear wheel compatible", "后避震器": "Fox  Float X2 Factory, 2 position adjust, Trunnion mount, 205x62,5", "前叉": "FOX 38 Factory, GRIP2 ,170mm, ,15x110 Kabolt X, Tapered"}, "变速传动系统": {"变速把手": "SRAM AXS Pod, right,  discrete clamp", "后变速器": "SRAM GX Eagle T-Type AXS", "飞轮": "SRAM GX, CS  1275 T-TYPE 10-52", "齿盘": "SRAM GX T-Type , 32T, 55mm chainline,  with MRP AMG CS guide, Next Generation upper guide", "链条": "SRAM GX T-TYPE", "中轴": "SRAM DUB PressFit"}, "刹车系统": {"刹车": "Shimano SLX ,M7120, 4 piston, Hydraulic Disc \n [F] 220mm [R] 203mm", "刹车把手": "Shimano SLX, BL-M7100"}, "组件": {"座垫": "Giant Romero SL", "座杆": "JD YS105 JL", "把横": "Giant Contact SL TR35, 800x35mm, 20mm rise, AL7075", "把立": "Giant Contact SL 35, Diameter 35mm"}, "轮组": {"轮组": "Stronger than ever, the new TRX 2 29\" hookless carbon wheelsystem and 30mm rim inner width", "轮胎": "[F] Maxxis Assegai 29x2.5 WT, 3C MaxxTerra, 60 TPI, EXO+, TR\n [R] MaxxisDHRII 29x2,4WT,  3C MaxxTerra, DD  2x60 TPI TR"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713764937811_0463971f.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713764939505_3d80e223.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403101/1713764945530_8cd6d25b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Reign Advanced 2',
+                    'Giant',
+                    'REIGN',
+                    1,
+                    35800.0,
+                    35800.0,
+                    0,
+                    10,
+                    '这款全新的碳纤维车架为GIANT专业耐力赛选手打造，坚固、轻便、快速。新的悬架设置经过全新升级，在最高水平的金在中进行比赛和测试。丰富的可调节性使你能以你喜欢的方式来处理技术性路面。',
+                    '{"series": "REIGN", "year": "MY25", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles, Maestro Suspension,  160mm travel, 12x148mm thru-axle, integrated storage solution\nframe size S/XL: 29\"F & 29\"R commercial spec and 27.5\" rear wheel compatible", "后避震器": "New Fox  Float  Performance, 2 position adjust, Trunnion mount, 205x62,5, custom tuned for Giant, recommended sag 30%", "前叉": "FOX 38 Rhythm, GRIP ,170mm, ,15x110 Kabolt X, Tapered ,"}, "变速传动系统": {"变速把手": "Shimano SLX M7100, 1x12", "后变速器": "Shimano SLX M7100 , Shadow +", "飞轮": "Shimano Deore M6100, 10-51", "齿盘": "Shimano SLX,M7100 32t , 55mm chainline with NEW MRP AMg CS Guide, Next generation upper guide", "链条": "KMC X-12", "中轴": "Shimano PressFit"}, "刹车系统": {"刹车": "Shimano BR-MT520 , 4 piston, Hydraulic Disc\n[F] 220mm [R] 203mm", "刹车把手": "Shimano BR-MT520 , 4 piston, Hydraulic Disc\n[F] 220mm [R] 203mm"}, "组件": {"座垫": "Giant Romero SL\nNEW FULL BLACK Giant Romero SL", "座杆": "NEW Contact Switch AT DSP with remote lever, 30,9mm", "把横": "Giant Contact  TR35, 800x35mm, 35mm rise,AL6061", "把立": "Giant Contact SL 35, Diameter 35mm"}, "轮组": {"轮组": "TRA  2", "轮胎": "Maxxis"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401022/1729566124795_8d93bb19.jpg", "https://giant-images.giant.com.cn/product/images/202401022/1729566129838_6108f4dd.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Trance X Advanced Pro 29 1',
+                    'Giant',
+                    'TRANCE',
+                    1,
+                    47800.0,
+                    47800.0,
+                    0,
+                    10,
+                    'Trance 29冲破障碍勇往直前，全新的车架搭载Advanced碳纤科技与可调节的几何，助你拥有顺滑的操控体验和林道中绝佳的速度效率，山野林道，唯我称王。',
+                    '{"series": "TRANCE", "year": "MY23", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles, Maestro Suspension with flip chip, 135mm travel, 12x148mm thru-axle wheelsize 29\"\" only F&R", "后避震器": "FOX  Factory Live Valve  Trunnion 185x55, custom tuned for Giant", "前叉": "Fox Updated 36  Factory  Valve, FIT4, 44mm offset,150mm travel, Boost 15x110 Kabolt X, Tapered"}, "变速传动系统": {"变速把手": "SRAM GX Eagle, 1x12", "后变速器": "SRAM GX Eagle", "飞轮": "SRAM GX, 10-52", "齿盘": "SRAM GX 30T, 55mm chainline,", "链条": "SRAM GX", "中轴": "SRAM DUB PressFit"}, "刹车系统": {"刹车": "\"SRAM G2 RSC,  4 piston, Hydraulic Disc\n [F] 200mm [R] 180mm, Hydraulic Disc\"", "刹车把手": "\"SRAM G2 RSC,  4 piston, Hydraulic Disc\n [F] 200mm [R] 180mm, Hydraulic Disc\""}, "组件": {"座垫": "Giant Romero SL", "座杆": "JD YS105 JL", "把横": "Giant Contact SLR TR35, 780x35mm, 20mm rise, Carbon", "把立": "Giant Contact SL 35, Diameter 35mm"}, "轮组": {"轮组": "TRX 2 29 hookless carbon wheelsystem with  30mm rim inner width", "轮胎": "[F] Maxxis Minion DHF 29x2.5WT, 60 TPI, 3C Max Terra, EXO, TR\n [R] Maxxis Dissector 29x2.4WT, 60 TPI, 3C Max Terra, EXO, TR,"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1722299861081_689f586e.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299863887_f09163a5.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299868232_755e70a4.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299869425_7cb2eb92.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299871089_c1a9cb09.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299915118_acafcd35.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Trance X 29 1',
+                    'Giant',
+                    'TRANCE',
+                    1,
+                    20800.0,
+                    20800.0,
+                    0,
+                    10,
+                    'Trance 29冲破障碍勇往直前，全新的车架搭载Advanced碳纤科技与可调节的几何，助你拥有顺滑的操控体验和林道中绝佳的速度效率。',
+                    '{"series": "TRANCE", "year": "MY23", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Aluxx SL-Grade Aluminum front and rear triangles, Maestro Suspension with flip chip, 120mm travel, 12x148mm thru-axle wheelsize 29\"\" only F&R", "后避震器": "Fox Float DPS Performance, 185x50 Trunnion Moun, custom tuned for Giantt", "前叉": "Fox 34 Float Performance, 130mm Travel, Grip Damper, Boost 15x110 Kabolt, Tapered"}, "变速传动系统": {"变速把手": "Shimano SLX M7100,1x12", "后变速器": "Shimano SLX M7100, Shadow +", "飞轮": "Shimano SLX M7100, 10x51", "齿盘": "Shimano SLX M7120-1, 30t, 55mm chainline", "链条": "KMC X-12", "中轴": "Shimano PressFit"}, "刹车系统": {"刹车": "Shimano BR-MT520 , 4 piston, Hydraulic Disc[F] 180mm [R] 180mm", "刹车把手": "Shimano BR-MT520 , 4 piston, Hydraulic Disc[F] 180mm [R] 180mm"}, "组件": {"座垫": "Giant Romero", "座杆": "GIANT Contact Switch dropper post with remote lever, 30.9mm", "把横": "Giant Contact TR35, 780x35mm, 20mm rise, AL6061", "把立": "Giant Contact SL 35, Diameter 35mm"}, "轮组": {"轮组": "GIANT AM 29” tubeless ready sleeve-joint rim, 30mm inner width", "轮胎": "[F] Maxxis Minion DHF 29x2.5 WT, 60 TPI, 3CMaxTerra , EXO, TR,   \n [R] Maxxis Aggressor  29x2.5WT, 60 TPI,Dual, EXO, TR"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1722300105308_f3ea8ad3.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722300186002_8a5d050d.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Trance Advanced Pro 29 1',
+                    'Giant',
+                    'TRANCE',
+                    1,
+                    43800.0,
+                    43800.0,
+                    0,
+                    10,
+                    'Trance 29冲破障碍勇往直前，全新的车架搭载Advanced碳纤科技与可调节的几何，助你拥有顺滑的操控体验和林道中绝佳的速度效率，山野林道，唯我称王！',
+                    '{"series": "TRANCE", "year": "MY23", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles, Maestro Suspension with flip chip, 120mm travel, 12x148mm thru-axle\nwheelsize 29\"\" only F&R", "后避震器": "FOX  Factory", "前叉": "Fox 34 Factory"}, "变速传动系统": {"变速把手": "SRAM GX Eagle, 1x12", "后变速器": "SRAM GX Eagle", "飞轮": "SRAM GX, 10-52", "齿盘": "SRAM GX  30T, 55mm chainline", "链条": "SRAM GX", "中轴": "PressFit"}, "刹车系统": {"刹车": "Shimano XT M8120, Hydraulic Disc, 4 piston [F] 180mm [R]180mm", "刹车把手": "Shimano XT M8120, Hydraulic Disc, 4 piston [F] 180mm [R]180mm"}, "组件": {"座垫": "Giant Romero SL", "座杆": "JD YS105 JL", "把横": "Giant Contact SLR TR35, 780x35mm, 20mm rise, Carbon", "把立": "Giant Contact SL 35, Diameter 35mm"}, "轮组": {"轮组": "TRX 2 29\" hookless carbon wheelsystem and 30mm rim inner width", "轮胎": "[F] Maxxis Minion DHF 29x2.5 WT, 60 TPI, 3CMaxTerra , EXO, TR,   \n [R] Maxxis Aggressor  29x2.5WT, 60 TPI,Dual, EXO, TR, Tubeless tires tested and verified to work best with GIANT tubeless wheels"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1722299523385_13e995d1.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299525964_078e50ed.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299536143_89e2d6cb.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299538396_22b2500b.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299541893_61b3d2eb.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1722299559782_b36fad61.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Trance Advanced Pro 29 2',
+                    'Giant',
+                    'TRANCE',
+                    1,
+                    30800.0,
+                    30800.0,
+                    0,
+                    10,
+                    'Trance 29冲破障碍勇往直前，全新Trance车架搭载Advanced碳纤科技与可调节的几何，助你拥有顺滑的操控体验和林道中绝佳的速度效率，山野林道，唯我称王！',
+                    '{"series": "TRANCE", "year": "MY23", "categories": ["山野林道", "竞技挑战"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite front and rear triangles", "前叉": "Fox 34 Float Rhythm, 130mm, GRIP damper,  Boost 15x110 Kabolt, 44mm offset, custom tuned for Giant"}, "组件": {"把横": "Giant Contact SL TR35, 780x35mm", "把立": "Giant Contact SL 35", "座杆": "TranzX travel-adjustable dropper, remote", "座垫": "Giant Romero SL"}, "变速传动系统": {"变速把手": "Shimano SLX SL-M7100, 1x12", "后变速器": "Shimano SLX RD-M7100", "飞轮": "Shimano SLX, 10x51", "链条": "KMC X-12", "中轴": "Shimano, press fit", "齿盘": "Shimano MT512-1, 30t, 55mm chainline"}, "刹车系统": {"刹车": "Shimano Deore BR-M6120, hydraulic, Shimano RT-56 rotors  [F]180mm, [R]180mm"}, "轮组": {"轮圈": "Giant TRX 2 29 Carbon WheelSystem, 30mm inner width", "花鼓": "Front : Giant MTB alloy, 6-bolt [R] Giant MTB alloy, 3-pawl driver, 6-bolt", "辐条": "Sapim", "轮胎": "[F] Maxxis Minion DHF 29x2.5 WT, 3C MaxxTerra, EXO, TR [R] Maxxis Aggressor 29x2.5, EXO, TR, tubeless"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1722301196697_54836a34.jpg", "https://giant-images.giant.com.cn/product/images/202406103/1720581865009_42591085.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674978245513.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Faith 24-Giant',
+                    'Giant',
+                    'Faith',
+                    1,
+                    14800.0,
+                    14800.0,
+                    0,
+                    10,
+                    '全新的Faith 24车型，是针对青少年推出的一款革命性的高性能全避震山地自行车，从轻量化的ALUXX SL铝合金车架，到专为青少年设计的几何结构，再到全新的专利避震装置和优化的轮毂系统，丰富的拓展配置，将会是青少年山地车手寻求越野自行车的首选。',
+                    '{"series": "Faith", "year": "MY25", "categories": ["Youth Off-Road", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX SL-grade aluminum \n130mm Flexpoint suspension", "后避震器": "CREST FLOTRAC Lite, 165x45, Trunnion Mount", "前叉": "CREST TR Elite Lite, FLOTUNE damper, wheel size 24”, T140mm"}, "变速传动系统": {"变速把手": "Microshift Advent X Trail Trigger Shifter \n SL-M9505-R (with nanowire)", "后变速器": "Microshift Advent X\nRD-M6205AM", "飞轮": "Microshift Advent X G-Series 10-speed Cassette 11-48T\nCS-G104 11-48T", "齿盘": "ProWheel CHARM-30T\n30T, 140mm", "链条": "KMC X10 with missing link", "中轴": "Press-fit"}, "刹车系统": {"刹车": "Tektro HD-J285", "刹车把手": "Tektro HD-J285"}, "组件": {"座垫": "Selle Royal VIVO JR", "座杆": "Contact Switch AT Lite, T100mm", "把横": "Giant Contact TR Riser, \n20mm rise, AL6061\nGA 680mm", "把立": "Giant Contact, 8 Degrees, 40mm Length"}, "轮组": {"轮组": "TRA wheelsystem, DBL", "轮胎": "Maxxis"}}, "images": ["https://giant-images.giant.com.cn/product/images/202401024/1729733782258_7a48eee8.jpg", "https://giant-images.giant.com.cn/product/images/202401024/1729733785935_4b23509f.jpg", "https://giant-images.giant.com.cn/product/images/202401024/1729733788851_8f61932c.jpg", "https://giant-images.giant.com.cn/product/images/202401024/1729733811006_d677fb0a.jpg", "https://giant-images.giant.com.cn/product/images/202401024/1729733814262_87f8331a.jpg", "https://giant-images.giant.com.cn/product/images/202401024/1729733816907_454b1bfa.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719296518453_b72e1ea0.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad AR ADV 1-A',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    12800.0,
+                    12800.0,
+                    0,
+                    10,
+                    'FastRoad AR  Advanced是一台快速、高效、有趣的出行工具。它融合了高性能道路的速度和平把自行车的平稳的行驶稳定性。车架采用Giant Advanced的先进复合材料制成，赋予其轻盈、灵敏的品质，而D-Fuse座杆能减少颠簸，自在骑行。',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite", "前叉": "Advanced-Grade Composite, Full Carbon, OverDrive  Steerer"}, "组件": {"座垫": "GIANT ErgoContact"}, "变速传动系统": {"前变速器": "Shimano 105", "后变速器": "Shimano 105", "齿盘": "FSA Omega, 32/48"}, "刹车系统": {"刹车": "Tektro Flat mount HD-R280"}}, "images": ["https://giant-images.giant.com.cn/product/images/203501/1730447805590_fb580e57.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447822238_d029b970.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447828790_654f39f0.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447831769_35f2a9be.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447834979_a4215ea0.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447840572_3b59d5e8.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447842421_6d70a8d3.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447844469_5f01e32f.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad AR Advanced 2',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    8998.0,
+                    8998.0,
+                    0,
+                    10,
+                    'FastRoad AR Advanced是一台快速、高效、有趣的出行工具。它融合了高性能道路的速度和平把自行车的平稳的行驶稳定性。车架采用Giant Advanced的先进复合材料制成，赋予其轻盈、灵敏的品质，而D-Fuse座杆能减少颠簸，自在骑行。',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "Advanced-Grade Composite", "前叉": "Advanced-Grade Composite, Full Carbon, OverDrive  Steerer"}, "组件": {"座垫": "GIANT ErgoContact Saddle"}, "变速传动系统": {"前变速器": "Shimano Cues U6000 10 speed", "后变速器": "Shimano Cues U6000 10 speed", "齿盘": "FSA Omega AGX+, 42t"}, "刹车系统": {"刹车": "Tektro Flat mount t HD-R280"}}, "images": ["https://giant-images.giant.com.cn/product/images/203501/1730447897515_965f3af4.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447903335_81351acb.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447909715_08200758.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447913074_89edb8cc.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447916875_25d71c28.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447921201_656fa5ad.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447924646_0f10f5cc.jpg", "https://giant-images.giant.com.cn/product/images/203501/1730447930352_c25e53cf.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad 16',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    1598.0,
+                    1598.0,
+                    0,
+                    10,
+                    'ALUXX轻量化铝合金设计与撞色涂装的融合带来全新不同的感受，骑乘Fastroad 16带来风驰电掣的轻量体验，欢乐童年骑行有我。',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架 16”X8”", "前叉": "铝合金前叉 铝腿铁竖杆 25.4mm直管"}, "变速传动系统": {"变速把手": "无", "前变速器": "无", "后变速器": "无", "飞轮": "18T", "齿盘": "28T 铝合金曲柄 长度89mm", "链条": "单速链条", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "铝合金青少年省力刹车手柄"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2X300mm", "把横": "铝合金 中心直径25.4mm 把宽480mm 后翘角度20°Rise 50mm", "把立": "铁杆铝头 直径22.2mm 长度150mm 前伸40mm"}, "轮组": {"轮圈": "铝合金单层圈 20H", "花鼓": "铝合金花鼓", "辐条": "14G HTSS", "轮胎": "16X1.5 33TPI A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406102/1719901833270_85b8e243.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901866517_1455c01c.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901886488_93f38020.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901888459_bd010d02.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901897172_c08fb488.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901920194_8b48185f.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901924078_dc9b6b1d.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901930293_e2eead2e.jpg", "https://giant-images.giant.com.cn/product/images/202406102/1719901935579_11d57319.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad 20',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    1998.0,
+                    1998.0,
+                    0,
+                    10,
+                    'ALUXX轻量化铝合金设计与撞色涂装的融合带来全新不同的感受，骑乘Fastroad 20带来风驰电掣的轻量体验，欢乐童年骑行有我',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架 20”X10”", "前叉": "铝合金前叉 1-1/8\"直管"}, "变速传动系统": {"变速把手": "SHIMANO ALTUS 8S指拨", "前变速器": "无", "后变速器": "Shimano RD-M310 8速", "飞轮": "Shimano 12-32T 8速", "齿盘": "32T 铝合金曲柄 127mm", "链条": "KMC 8速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "铝合金青少年省力刹车手柄"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2x250mm", "把横": "铝合金直把中心直径25.4mm 把宽480mm 后翘角度9°", "把立": "铝合金 直径25.4mm 长度60mm 7度抬升"}, "轮组": {"轮圈": "铝合金双层圈 28H", "花鼓": "铝合金花鼓", "辐条": "14G HTSS", "轮胎": "20X1.5 60TPI AV 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719384071884_79910c50.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719384075883_e64ffa9b.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719384082748_6308512f.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719384092005_8ff8a05e.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719388481043_26b370eb.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719388484400_06c59e22.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719388488445_428120a3.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1722823714844_6adf9600.jpg", "https://giant-images.giant.com.cn/product/images/202407101/1722823728642_deb67f1b.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad 24 JR 1',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    2998.0,
+                    2998.0,
+                    0,
+                    10,
+                    'ALUXX轻量化铝合金设计与撞色涂装的融合带来全新不同的感受，骑乘Fastroad 24 JR 1带来风驰电掣的轻量体验，欢乐童年骑行有我。',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架 24”X12”", "前叉": "铝合金前叉 1-1/8\"直管"}, "变速传动系统": {"变速把手": "Shimano Cues 2X9速", "前变速器": "Shimano Cues 2速", "后变速器": "Shimano Cues 9速", "飞轮": "Shimano 11-36T 9速", "齿盘": "锻造铝腿36X22T 方孔", "链条": "9速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金油压碟刹平面式安装", "刹车把手": "铝合金油压碟刹手柄"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金27.2x230mm", "把横": "铝合金直把中心直径25.4mm 把宽500mm 后翘角度9°", "把立": "铝合金 直径25.4mm 长度60mm 7度抬升"}, "轮组": {"轮圈": "铝合金双层碟刹轮圈 28H", "花鼓": "铝合金花鼓，快拆式", "辐条": "14G HTSS", "轮胎": "24X1.5 60TPI A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719380341730_521c647a.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380344437_9ad5c722.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380349699_2a7ee0c0.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380356570_38c088eb.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380367511_a9ac0dbe.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380370481_30f0d942.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380377164_1c4f833f.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719380377286_faf8fc42.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1720082681919_7d3f8399.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Fastroad 24 JR 2',
+                    'Giant',
+                    'Fastroad',
+                    1,
+                    2198.0,
+                    2198.0,
+                    0,
+                    10,
+                    'ALUXX轻量化铝合金设计与撞色涂装的融合带来全新不同的感受，骑乘Fastroad 24 JR 2带来风驰电掣的轻量体验，欢乐童年骑行有我。',
+                    '{"series": "Fastroad", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架 24”X12”", "前叉": "铝合金前叉 1-1/8\"直管"}, "变速传动系统": {"变速把手": "SHIMANO ALTUS 8S指拨", "前变速器": "无", "后变速器": "SHIMANO RD-M310 8速", "飞轮": "SHIMANO 8S 12-32T", "齿盘": "铝合金曲柄齿盘 32T", "链条": "KMC 8速", "中轴": "一体式中轴，旋入式"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "铝合金刹把"}, "组件": {"座垫": "青少年坐垫", "座杆": "铝合金坐垫杆27.2x230mm", "把横": "铝合金直把中心直径25.4mm 把宽500mm 后翘角度9°", "把立": "铝合金 直径25.4mm 长度60mm 7度抬升"}, "轮组": {"轮圈": "铝合金双层圈 28H", "花鼓": "铝合金花鼓", "辐条": "14G HTSS", "轮胎": "24\"X1.5\", 60TPI, A/V 美式气嘴"}, "其他": {"其他": "标配铝合金停车架，预留泥除、货架安装孔位"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406104/1720057398290_3574a6ab.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160186525_1e591907.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160215708_69e6393f.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160222438_ea7de51d.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160228134_ab822896.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160234654_a0bcffa0.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160242567_3fe498b4.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160246576_0468aff5.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1720160248966_1da23a24.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'SCR 2',
+                    'Giant',
+                    'SCR',
+                    1,
+                    3498.0,
+                    3498.0,
+                    0,
+                    10,
+                    '全新SCR 2车型一脉相承GIANT公路车家族速度设计的灵魂，由GIANT ALUXX轻量化铝合金倾情打造，让每一秒骑行都彰显公路车的优异性能，精准的操控让您随心所驭， 燃起对速度的渴望与追求。',
+                    '{"series": "SCR", "year": "MY25", "categories": ["铺设路面", "运动健身"], "specifications": {"车架组": {"车架": "ALUXX", "前叉": "ALUXX"}, "变速传动系统": {"变速把手": "Shimano R2000", "前变速器": "Shimano R2000", "后变速器": "Shimano R2000", "飞轮": "Shimano HG500 11-34T", "齿盘": "铝合金齿盘", "链条": "KMC 8s"}, "刹车系统": {"刹车": "机械碟刹", "刹车把手": "shimano R2000"}, "组件": {"座垫": "捷安特运动坐垫", "座杆": "Giant Contact铝合金", "把横": "Giant Contact铝合金", "把立": "Giant Contact铝合金"}, "轮组": {"轮组": "30mm铝合金碟刹轮组", "轮胎": "700*25C防刺外胎"}}, "images": ["https://giant-images.giant.com.cn/product/images/202406103/1721831841919_72fd0dc0.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278808320_765043a7.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278824551_8e1c0d0f.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278827678_635ae09b.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278833052_8ba56b73.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278837463_1fd31f50.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278848235_a657f3ed.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278851009_533d3f4f.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1721278853190_9273ab18.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Contend AR 3',
+                    'Giant',
+                    'Contend',
+                    1,
+                    4498.0,
+                    4498.0,
+                    0,
+                    10,
+                    '品味高性能骑行体验，帮助你骑得更快、骑得更远、拓展公路骑行体验的完美选择。Contend专为有更高理想的骑手设计，旨在骑行更快、更远，创新的D-Fuse座管提供更加平稳、高效的骑行品质和快速、敏捷的路感。',
+                    '{"series": "Contend", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum, 12x142mm thru-axle, Disc", "前叉": "Advanced-Grade Composite,  Full Carbon, OverDrive Steerer, 12x100mm thru-axle, Disc"}, "组件": {"把横": "Giant Connect", "把立": "Giant Sport", "座杆": "Alloy D-Fuse Offset 14mm", "座垫": "GIANT Approach"}, "变速传动系统": {"变速把手": "Shimano Sora", "前变速器": "Shimano Sora", "后变速器": "Shimano Sora", "飞轮": "Shimano CS-HG400, 11x34", "齿盘": "铝合金大齿盘34/50"}, "刹车系统": {"刹车": "Tektro MD-C550 160 Rotor F&R"}, "轮组": {"轮圈": "Giant S-R2 Disc wheelset", "轮胎": "S-R3 AC all condition Road 700X32C"}}, "images": ["https://giant-images.giant.com.cn/product/qrcode/20230809Images/1691549807253.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719478145_b0785a1d.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719507579_fb2439a0.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719511585_ab6643cf.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719516138_9b6bf686.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719524922_8304f5cc.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719546218_d380d68c.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712719650427_4a5c750a.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712720045566_bdbcea51.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Contend AR 4',
+                    'Giant',
+                    'Contend',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    '品味高性能骑行体验，帮助你骑得更快、骑得更远、拓展公路骑行体验的完美选择。Contend专为有更高理想的骑手设计，旨在骑行更快、更远，创新的D-Fuse座管提供更加平稳、高效的骑行品质和快速、敏捷的路感。',
+                    '{"series": "Contend", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Advanced-Grade Composite"}, "组件": {"座垫": "GIANT Approach"}, "变速传动系统": {"前变速器": "Shimano  Claris", "后变速器": "Shimano  Claris", "齿盘": "FSA Tempo, 34/50"}, "刹车系统": {"刹车": "Tektro MD-C550"}, "轮组": {"轮胎": "S-R3 AC all condition Road 700X32C", "轮组": "S-R2 Disc 12mm Thru-Axle"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731605612_4f8fffab.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731615825_19615c09.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731622766_b948acd6.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731632693_2945977e.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731642069_81267dae.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731649714_4dd7abed.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731697164_83a1646a.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712731720496_5bb13da6.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Contend 2',
+                    'Giant',
+                    'Contend',
+                    1,
+                    3598.0,
+                    3598.0,
+                    0,
+                    10,
+                    '品味高性能骑行体验，帮助你骑得更快、骑得更远、拓展公路骑行体验的完美选择。Contend专为有更高理想的骑手设计，旨在骑行更快、更远，创新的D-Fuse座管提供更加平稳、高效的骑行品质和快速、敏捷的路感。',
+                    '{"series": "Contend", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Advanced-Grade Composite"}, "组件": {"座垫": "GIANT Approach"}, "变速传动系统": {"前变速器": "Shimano Claris", "后变速器": "Shimano Claris", "齿盘": "34/50"}, "刹车系统": {"刹车": "Tektro TK-B177"}, "轮组": {"轮胎": "Giant   S-R3 AC all condition Road 700x28C", "轮组": "Giant S-R3"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716269171_d74dc152.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716272058_3366b3be.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716287670_dc27ea05.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716290586_4c576364.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716291000_493343d6.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716294959_a552a767.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716300649_34900952.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716311146_60de8ddb.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716334185_975f6f8b.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716340047_c939fcde.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716349552_9046095c.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716365296_b7c63953.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712716424960_1b663c54.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Contend 1',
+                    'Giant',
+                    'Contend',
+                    1,
+                    3998.0,
+                    3998.0,
+                    0,
+                    10,
+                    '品味高性能骑行体验，帮助你骑得更快、骑得更远、拓展公路骑行体验的完美选择。Contend专为有更高理想的骑手设计，旨在骑行更快、更远，创新的D-Fuse座管提供更加平稳、高效的骑行品质和快速、敏捷的路感。',
+                    '{"series": "Contend", "year": "MY24", "categories": ["铺设路面", "竞技挑战"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Advanced-Grade Composite"}, "组件": {"座垫": "GIANT Approach"}, "刹车系统": {"刹车": "Tektro TK-B177"}, "变速传动系统": {"齿盘": "50/34T"}, "轮组": {"轮胎": "Giant  S-R3 AC all condition Road 700x28C", "轮组": "Giant S-R3"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712714765747_839e6ee1.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712714878776_c497bb55.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712714888820_c79221a0.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712715032965_e03c5797.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712715603526_58a7abf1.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712715717638_d28bac13.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403103/1712715737301_2181379f.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Speeder',
+                    'Giant',
+                    'SPEEDER',
+                    1,
+                    2498.0,
+                    2498.0,
+                    0,
+                    10,
+                    '作为入门运动公路车，为刚接触公路自行车运动的车友们提供舒适、轻量的骑乘感受，专属设计的车架几何设定，能够轻松驾驭享受风和速度之美。',
+                    '{"series": "SPEEDER", "year": "MY25", "categories": ["铺设路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT ALUXX 公路车架", "前叉": "铝合金前叉  1-1/8  铁转向管"}, "变速传动系统": {"变速把手": "SHIMANO ST-A070", "前变速器": "SHIMANO FD-A070", "后变速器": "SHIMANO RD-A070", "飞轮": "14-28T 7S", "齿盘": "铝合金腿 50/34T", "链条": "KMC Z7", "中轴": "一体式"}, "刹车系统": {"刹车": "铝合金公路“C\"夹", "刹车把手": "SHIMANO ST-A070"}, "组件": {"座垫": "公路车座垫", "座杆": "铝合金  27.2MM", "把横": "铝合金 31.8MM", "把立": "铝合金 8D 31.8"}, "轮组": {"轮圈": "铝合金轮圈", "花鼓": "铝合金花鼓", "辐条": "14G HTSS", "轮胎": "700X28C  27TPI  F/V"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405103/1719366398474_bdada387.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366405489_595366ef.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366410289_24e3d4b6.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366420233_b8f03106.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366425207_e36d247c.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366429028_9c52a626.jpg", "https://giant-images.giant.com.cn/product/images/202405103/1719366436470_90bb6749.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1721959933358_c67f4e57.jpg", "https://giant-images.giant.com.cn/product/images/202406105/1721959961308_590fc869.jpg", "https://giant-images.giant.com.cn/product/images/202406106/1720232127376_ee4f7aec.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'STP 20',
+                    'Giant',
+                    'STP',
+                    1,
+                    2298.0,
+                    2298.0,
+                    0,
+                    10,
+                    '土坡泵道，任我飞翔。全新STP车型专为5-16岁的少儿土坡泵道林道骑行设计开发，让孩子充分获得骑行的自由与乐趣，鼓励推动孩子拓展他们能力的新边界和看世界的新视野。STP是一台具有专业运动性能的自行车，轻量车架与专业的车架几何带来的优秀性能，让STP帮我们的小车手掌控自我，感受自信，鼓励他们获得更多乐趣，并走向更远的人生。',
+                    '{"series": "STP", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Alloy Rigid fork"}, "组件": {"座垫": "Giant  Jr. Sports"}, "刹车系统": {"刹车": "Mechanical disc brake"}, "变速传动系统": {"齿盘": "Forge Alloy  30T w/CG x127mm"}, "轮组": {"轮胎": "Kenda Karma  K1237 20x2.6, 60 TPI", "轮组": "Giant  20\", 6061 Aluminum,  28 mm inner width"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403101/1714354400160_b5c0a1e1.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354405104_55034654.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354411551_3712049b.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354418257_6bc9656c.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354491607_cf2884ee.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354498145_1378244c.jpg", "https://giant-images.giant.com.cn/product/images/202403101/1714354548668_769db82d.jpg", "https://giant-images.giant.com.cn/product/images/202407103/1722995261947_e5f2eb82.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'STP 24',
+                    'Giant',
+                    'STP',
+                    1,
+                    2498.0,
+                    2498.0,
+                    0,
+                    10,
+                    '土坡泵道，任我飞翔。全新STP车型专为5-16岁的少儿土坡泵道林道骑行设计开发，让孩子充分获得骑行的自由与乐趣，鼓励推动孩子拓展他们能力的新边界和看世界的新视野。STP是一台具有专业运动性能的自行车，轻量车架与专业的车架几何带来的优秀性能，让STP帮我们的小车手掌控自我，感受自信，鼓励他们获得更多乐趣，并走向更远的人生。',
+                    '{"series": "STP", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Alloy Rigid fork"}, "组件": {"座垫": "Giant  Jr. Sports"}, "刹车系统": {"刹车": "Mechanical disc brake"}, "变速传动系统": {"齿盘": "Forge Alloy  30T w/CG x127mm"}, "轮组": {"轮胎": "Kenda Karma  K1237 24x2.6, 60 TPI", "轮组": "Giant  24"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1713252132631_7edcc573.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713252136392_1bbaced5.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713252139456_fda190f5.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713252149340_0b06da79.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713252170081_cf83019d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713252177720_0850e0d5.jpg", "https://giant-images.giant.com.cn/product/images/202407103/1722995478566_2fad3540.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'STP 26',
+                    'Giant',
+                    'STP',
+                    1,
+                    4498.0,
+                    4498.0,
+                    0,
+                    10,
+                    '土坡泵道，任我飞翔。全新STP让世界成为你的游乐场，它是你最喜欢的土坡、街头和任何你梦想的风格。STP是一台具有专业运动性能的自行车，轻量车架与专业的车架几何带来的优秀性能，让STP帮我们的小车手掌控自我，感受自信，鼓励他们获得更多乐趣，并走向更远的人生。',
+                    '{"series": "STP", "year": "MY24", "categories": ["山野林道", "运动健身"], "specifications": {"车架组": {"车架": "ALUXX-Grade Aluminum", "前叉": "Crest气压"}, "组件": {"座垫": "Giant  Jr. Sports"}, "刹车系统": {"刹车": "Tektro HD-M275  hydraulic disc"}, "变速传动系统": {"齿盘": "Forge Alloy  30T w/CG x127mm"}, "轮组": {"轮胎": "Maxxie ARDENT 26x2.25 60TPI, folding", "轮组": "Giant  26"}}, "images": ["https://giant-images.giant.com.cn/product/images/202403102/1713251360447_0e398897.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713251362854_0debc79d.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713251367503_15e456ca.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713251654774_208dc5cb.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713251666265_7eba73a0.jpg", "https://giant-images.giant.com.cn/product/images/202403102/1713251683112_ad04d3b9.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723514765776_86959be6.jpg", "https://giant-images.giant.com.cn/product/images/202407102/1723514773331_7d3613a2.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Amplify',
+                    'Giant',
+                    'AMPLIFY',
+                    1,
+                    1598.0,
+                    1598.0,
+                    0,
+                    10,
+                    '专利设计的可伸缩车架，多彩的涂装和个性化设计展现非凡优势，专为儿童打造的Amplify系列，让孩子尽情释放童年，享受骑行乐趣。',
+                    '{"series": "AMPLIFY", "year": "MY25", "categories": ["铺设路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT专利可伸缩式镁合金童车车架 16″×7″", "前叉": "镁合金前叉"}, "变速传动系统": {"变速把手": "无", "前变速器": "无", "后变速器": "无", "飞轮": "18T", "齿盘": "28T 双孔可调铝合金曲柄89/114mm", "链条": "单速链条", "中轴": "一体中轴 旋入式"}, "刹车系统": {"刹车": "铝合金V刹", "刹车把手": "儿童车塑料刹把"}, "组件": {"座垫": "儿童舒适坐垫", "座杆": "高碳钢27.2mm", "把横": "铝合金 中心直径25.4mm，宽度500mm 抬升75mm", "把立": "铝合金 长度150mm 前伸40mm"}, "轮组": {"轮圈": "铝合金轮圈20H", "花鼓": "高碳钢花鼓", "辐条": "14G HTSS", "轮胎": "16\"X2.125\"低阻力轮胎 AV美式气嘴"}, "其他": {"其他": "标配辅助轮，竖杆保护套，上管保护套，链盖，泥除，舒适把套"}}, "images": ["https://giant-images.giant.com.cn/product/images/202405102/1719302440932_ef8208c3.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302458309_894be565.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302558716_fb212ca6.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302564031_136da4a5.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302570821_b6878b13.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302620682_03ced642.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302642786_d81b2c3b.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302651838_a3c8a555.jpg", "https://giant-images.giant.com.cn/product/images/202405102/1719302656817_6d0869e5.jpg", "https://giant-images.giant.com.cn/product/images/202406104/1720682134392_8db92a15.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'Trooper 5100',
+                    'Giant',
+                    'TROOPER',
+                    1,
+                    3398.0,
+                    3398.0,
+                    0,
+                    10,
+                    '',
+                    '{"series": "TROOPER", "year": "MY24", "categories": ["混合路面", "运动健身"], "specifications": {"车架组": {"车架": "铝合金旅行车车架", "前叉": "VITA油压锁死避震前叉"}, "组件": {"座垫": "SR GEL旅行车坐垫"}, "变速传动系统": {"前变速器": "SHIMANO 2*9速", "后变速器": "SHIMANO 2*9速", "齿盘": "CZEP-C802S 9/10S 46/30T"}, "刹车系统": {"刹车": "彦豪M275内走线油压碟刹"}, "轮组": {"轮圈": "700C双层铝合金轮圈", "轮胎": "正新700X38C轮胎"}}, "images": ["https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887791060_4e289853.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887797305_b9b8ee0b.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887816916_8c2d97d4.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887834847_33fa5816.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887884049_735f7d1f.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887893358_8dd09e40.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887945265_498dfcf8.jpg", "https://giant-images.oss-cn-shanghai.aliyuncs.com/product/images/202403105/1712887962633_1c11432c.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'PRE PRO',
+                    'Giant',
+                    'PRE',
+                    1,
+                    1398.0,
+                    1398.0,
+                    0,
+                    10,
+                    '萌动骑行 伴我成长',
+                    '{"series": "PRE", "year": "MY22", "categories": ["铺设路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT ALUXX滑步车车架", "前叉": "铝合金"}, "组件": {"把横": "铝合金", "把立": "铝合金", "座杆": "27.2 铝合金", "座垫": "童车座垫"}, "轮组": {"轮圈": "铝合金轮圈", "花鼓": "铝合金培林花鼓", "轮胎": "12*1/2X2*1/4轮胎", "轮组": "铝合金培林+铝合金圈"}}, "images": ["https://giant-images.giant.com.cn/product/qrcode/20211115Images/1636963711009.jpg", "https://giant-images.giant.com.cn/product/qrcode/20220920Images/1663669437115.jpg", "https://giant-images.giant.com.cn/product/qrcode/20220920Images/1663669480498.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/163149650318041.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/163149650772900.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/163149651174346.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'GFR 16',
+                    'Giant',
+                    'GFR',
+                    1,
+                    1398.0,
+                    1398.0,
+                    0,
+                    10,
+                    '自由少年，花样同年',
+                    '{"series": "GFR", "year": "MY23", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架", "前叉": "铝合金硬叉"}, "组件": {"座垫": "青少年座垫"}, "变速传动系统": {"前变速器": "单速", "后变速器": "单速", "齿盘": "30T齿盘"}, "刹车系统": {"刹车": "前后铝合金V刹"}, "轮组": {"轮圈": "铝合金轮圈", "花鼓": "铝合金花鼓", "轮胎": "16X2.125 轮胎"}}, "images": ["https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674961393544.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674961400483.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674961407221.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/168016387461062.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );
+INSERT INTO product (
+                    name, brand, model, category_id, price, cost_price,
+                    stock, warning_stock, description, specs, status,
+                    create_time, update_time, deleted
+                ) VALUES (
+                    'GFR 20',
+                    'Giant',
+                    'GFR',
+                    1,
+                    1598.0,
+                    1598.0,
+                    0,
+                    10,
+                    '自由少年，花样同年',
+                    '{"series": "GFR", "year": "MY23", "categories": ["混合路面", "品味休闲"], "specifications": {"车架组": {"车架": "GIANT ALUXX 青少年铝合金车架", "前叉": "铝合金硬叉"}, "组件": {"座垫": "青少年座垫"}, "变速传动系统": {"前变速器": "单速", "后变速器": "单速", "齿盘": "36T铝合金齿盘"}, "刹车系统": {"刹车": "前后铝合金V刹"}, "轮组": {"轮圈": "铝合金轮圈", "花鼓": "铝合金花鼓", "轮胎": "20X2.125 轮胎"}}, "images": ["https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674962024358.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674962031233.jpg", "https://giant-images.giant.com.cn/product/qrcode/20230129Images/1674962037521.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/168016439195987.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/168016439642705.jpg", "https://giant-yugou.oss-cn-shanghai.aliyuncs.com/admin/goods/168016440140109.jpg"]}',
+                    1,
+                    '2025-01-14 13:03:23',
+                    '2025-01-14 13:03:23',
+                    0
+                );

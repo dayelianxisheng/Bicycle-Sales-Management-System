@@ -1,0 +1,299 @@
+{
+  "categories": [
+    {
+      "name": "E-Bike",
+      "products": [
+        {
+          "title": "FRENETICA-CITY电助力",
+          "url": "https://www.javabikes.com/ProductsDetail/24.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/8d73394c-86c8-48af-9556-66029bb92a8e.png",
+          "price": "¥6999"
+        },
+        {
+          "title": "GRAVEL电助力",
+          "url": "https://www.javabikes.com/ProductsDetail/25.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/af1e7150-b1a4-4bbc-971b-c62299a72828.jpg",
+          "price": "￥7999"
+        },
+        {
+          "title": "软尾电助力E-SUS01A",
+          "url": "https://www.javabikes.com/ProductsDetail/28.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/e42a4606-4365-4db7-a67c-095ec7174704.jpg",
+          "price": "￥9999"
+        },
+        {
+          "title": "E-SUS06A",
+          "url": "https://www.javabikes.com/ProductsDetail/169.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/0404c26c-fab5-4094-b26e-409ef461011d.jpg",
+          "price": "￥13000"
+        },
+        {
+          "title": "E-SUS03A",
+          "url": "https://www.javabikes.com/ProductsDetail/168.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/4eb168bd-13d8-49f1-90f5-eda1cbe5d436.jpg",
+          "price": "￥13999"
+        },
+        {
+          "title": "公路电助力-SCATTO",
+          "url": "https://www.javabikes.com/ProductsDetail/27.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/7ddbe00b-5ea2-41af-b30b-0a3678a384b4.jpg",
+          "price": "￥30000"
+        },
+        {
+          "title": "三轮车电助力",
+          "url": "https://www.javabikes.com/ProductsDetail/29.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/efd42c7e-245c-456f-80e1-eefaa26dd61e.jpg",
+          "price": "￥30000"
+        },
+        {
+          "title": "GRAVEL电助力-FANGO",
+          "url": "https://www.javabikes.com/ProductsDetail/26.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/2bbc4527-d196-4332-a181-e7911a7a1ccf.jpg",
+          "price": "￥33000"
+        }
+      ]
+    },
+    {
+      "name": "公路车",
+      "products": [
+        {
+          "title": "沃小白-平把",
+          "url": "https://www.javabikes.com/ProductsDetail/4830.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/7eeaf3d5-1ac6-4c2f-8fbd-bea9dbe1f79e.jpg",
+          "price": "￥999"
+        },
+        {
+          "title": "沃小黑",
+          "url": "https://www.javabikes.com/ProductsDetail/4807.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/e2d62708-4697-45f2-9fe8-847b2a9f7f43.jpg",
+          "price": "¥1499"
+        },
+        {
+          "title": "沃小白",
+          "url": "https://www.javabikes.com/ProductsDetail/3862.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/8e342e27-a125-4a33-9b97-9372fa122436.png",
+          "price": "¥1499"
+        },
+        {
+          "title": "VELOCE-平把",
+          "url": "https://www.javabikes.com/ProductsDetail/4819.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/3f9898a6-d1c1-40d0-9b9b-2675557a1733.jpg",
+          "price": "￥1599"
+        },
+        {
+          "title": "RAPIDA",
+          "url": "https://www.javabikes.com/ProductsDetail/3875.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/7d135ec0-9520-457f-893c-39a2a029376e.png",
+          "price": "¥1899"
+        },
+        {
+          "title": "VELOCE",
+          "url": "https://www.javabikes.com/ProductsDetail/171.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/dccd4828-1a79-4409-975e-abcd97f19e88.jpg",
+          "price": "￥2299"
+        },
+        {
+          "title": "SEQUOIA（红杉）",
+          "url": "https://www.javabikes.com/ProductsDetail/3893.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/e19ac4dc-032c-421e-aba5-de7299629472.png",
+          "price": "¥2399"
+        },
+        {
+          "title": "RONDA",
+          "url": "https://www.javabikes.com/ProductsDetail/170.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/96ff2a31-663a-4ad6-bfe8-570b20d22112.jpg",
+          "price": "￥2560"
+        },
+        {
+          "title": "SENTIERO",
+          "url": "https://www.javabikes.com/ProductsDetail/183.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/a356e2ce-ae94-4aaa-9e5b-ce749f46d54a.jpg",
+          "price": "￥2600"
+        },
+        {
+          "title": "AURIGA-22s",
+          "url": "https://www.javabikes.com/ProductsDetail/3906.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/fe4ea924-4ab0-43ea-a1bb-8a589ed4d2dc.jpg",
+          "price": "¥2999"
+        },
+        {
+          "title": "AURIGA-18s",
+          "url": "https://www.javabikes.com/ProductsDetail/30.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/c4135523-07f2-45af-83b5-e3a5da32123a.JPG",
+          "price": "￥2699"
+        },
+        {
+          "title": "IDRA",
+          "url": "https://www.javabikes.com/ProductsDetail/32.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/781c2936-bdb2-4369-9b4e-c6d440cc3fad.jpg",
+          "price": "￥3690"
+        },
+        {
+          "title": "SILURO6-TOP",
+          "url": "https://www.javabikes.com/ProductsDetail/74.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/2d051813-47be-4e64-a28e-726d6d6077ed.jpg",
+          "price": "￥3999"
+        },
+        {
+          "title": "FUOCO TOP 铝轮版",
+          "url": "https://www.javabikes.com/ProductsDetail/3930.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/52204a5d-2754-447c-872a-866fa4702a07.jpg",
+          "price": "￥5999"
+        },
+        {
+          "title": "FUOCO TOP-24S碳轮版",
+          "url": "https://www.javabikes.com/ProductsDetail/31.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/6a8eca9b-a69b-4991-b06b-439ab0ef8488.jpg",
+          "price": "￥6999"
+        },
+        {
+          "title": "VESUVIO-铝轮电变版",
+          "url": "https://www.javabikes.com/ProductsDetail/3941.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/2fcaafe4-2a72-4243-9349-1cbbec9c1eef.png",
+          "price": "￥7999"
+        },
+        {
+          "title": "VESUVIO",
+          "url": "https://www.javabikes.com/ProductsDetail/173.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/82ac6363-45a0-4e76-ba9d-d4d78682a5e0.png",
+          "price": "￥8999"
+        },
+        {
+          "title": "VOLATA-铝轮电变版",
+          "url": "https://www.javabikes.com/ProductsDetail/3954.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/505f2b34-397f-4f63-978c-428bcc57c69a.png",
+          "price": "￥9999"
+        },
+        {
+          "title": "VOLATA碳轮",
+          "url": "https://www.javabikes.com/ProductsDetail/172.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/cdbc8b76-dc13-420b-85cc-3cb8e9d9d7d4.jpg",
+          "price": "￥12999"
+        },
+        {
+          "title": "SUPREMA",
+          "url": "https://www.javabikes.com/ProductsDetail/174.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/899e968e-502a-4ea6-be6e-f8a652a8c74c.png",
+          "price": "￥9999"
+        },
+        {
+          "title": "TT SCIA",
+          "url": "https://www.javabikes.com/ProductsDetail/182.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/608c58a7-87bd-44c3-8f81-34b455205318.JPG",
+          "price": "￥12999"
+        },
+        {
+          "title": "LANCIA",
+          "url": "https://www.javabikes.com/ProductsDetail/181.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/cbdd20bb-51b7-4573-9faa-24871748af03.jpg",
+          "price": "￥14999"
+        }
+      ]
+    },
+    {
+      "name": "山地车",
+      "products": [
+        {
+          "title": "SABBIA铝合金避震车",
+          "url": "https://www.javabikes.com/ProductsDetail/36.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/6313940f-5a88-4bff-b062-d4f19ad5b46a.png",
+          "price": "￥3099"
+        },
+        {
+          "title": "DOLOMIA",
+          "url": "https://www.javabikes.com/ProductsDetail/34.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/aef932a6-4547-4847-84fc-94bc2cea4455.png",
+          "price": "￥2999"
+        },
+        {
+          "title": "SUOH",
+          "url": "https://www.javabikes.com/ProductsDetail/2589.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/ecbad499-fd5b-4a14-acd0-c63d1c0952c2.jpg",
+          "price": "￥4900"
+        },
+        {
+          "title": "VETTA",
+          "url": "https://www.javabikes.com/ProductsDetail/184.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/4495e376-37d1-4710-8fc2-d684ab4c8215.JPG",
+          "price": "￥3999"
+        },
+        {
+          "title": "SALTAFOSSI-SUS",
+          "url": "https://www.javabikes.com/ProductsDetail/37.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/941d17e2-ac62-45a4-bd7d-e4c4b819bb40.JPG",
+          "price": "￥5999"
+        }
+      ]
+    },
+    {
+      "name": "童车-KSR",
+      "products": [
+        {
+          "title": "童车-KSR",
+          "url": "https://www.javabikes.com/ProductsDetail/38.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/d741653c-7f2b-4821-8345-3a394a952941.jpg",
+          "price": "￥1600"
+        }
+      ]
+    },
+    {
+      "name": "小轮车",
+      "products": [
+        {
+          "title": "CL2",
+          "url": "https://www.javabikes.com/ProductsDetail/39.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/f76ccdc8-2e7b-43f6-bb66-0aac122e757b.jpg",
+          "price": "￥2600"
+        },
+        {
+          "title": "CL-CB-451-18S-直把",
+          "url": "https://www.javabikes.com/ProductsDetail/40.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/cd4edd7a-f17a-4618-9a66-efa27f41706e.png",
+          "price": "￥4399"
+        },
+        {
+          "title": "CL-CB-ROAD-22S-弯把",
+          "url": "https://www.javabikes.com/ProductsDetail/41.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/c769a4b5-c3d9-41c4-9f44-9dee76ae4e1b.png",
+          "price": "￥5999"
+        }
+      ]
+    },
+    {
+      "name": "折叠车",
+      "products": [
+        {
+          "title": "X2",
+          "url": "https://www.javabikes.com/ProductsDetail/187.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/a4ba241c-e232-4d5e-8b21-cce1271f300a.jpg",
+          "price": "￥1999"
+        },
+        {
+          "title": "X3",
+          "url": "https://www.javabikes.com/ProductsDetail/2588.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/40a4a662-0174-487f-b667-7a4dc2aec88e.jpg",
+          "price": "￥3900"
+        },
+        {
+          "title": "X1",
+          "url": "https://www.javabikes.com/ProductsDetail/2584.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/831e965e-f05f-4a0f-832d-0cdcb1157c35.jpg",
+          "price": "￥5300"
+        },
+        {
+          "title": "NEO2",
+          "url": "https://www.javabikes.com/ProductsDetail/189.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/795bd77e-6f25-484e-b033-467555fbb013.jpg",
+          "price": "￥2999"
+        },
+        {
+          "title": "ARIA",
+          "url": "https://www.javabikes.com/ProductsDetail/185.html",
+          "image": "https://www.javabikes.com/UserFiles/Article/Products/9a737a68-b8a7-4d31-9480-6afcaf8c76bc.jpg",
+          "price": "￥5300"
+        }
+      ]
+    }
+  ],
+  "timestamp": "2025-01-08 22:55:51"
+}
