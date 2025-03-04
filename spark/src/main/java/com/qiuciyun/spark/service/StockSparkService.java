@@ -40,6 +40,11 @@ public class StockSparkService implements Serializable {
     private transient final SimpMessagingTemplate messagingTemplate;
     private transient final Map<String, Object> currentAnalysis = new ConcurrentHashMap<>();
 
+    private int currentBatch = 0;
+    private static final int BATCH_SIZE = 5;
+    private final Map<String, Object> batchResults = new ConcurrentHashMap<>();
+    private volatile boolean isProcessing = false;
+
     @Autowired
     public StockSparkService(SparkSession sparkSession, SparkStreamingManager streamingManager, 
                            SimpMessagingTemplate messagingTemplate) {
@@ -50,14 +55,15 @@ public class StockSparkService implements Serializable {
 
     @PostConstruct
     public void init() {
-        // 加载数据表
         loadTables();
         
-        // 创建一个DStream用于定期执行库存分析
         JavaDStream<String> analysisTrigger = streamingManager.getStreamingContext()
             .socketTextStream("localhost", 9999);
+            
         analysisTrigger.foreachRDD(rdd -> {
-            startStockAnalysis();
+            if (!isProcessing) {
+                processBatch();
+            }
         });
     }
 
@@ -93,15 +99,25 @@ public class StockSparkService implements Serializable {
             productDF.createOrReplaceTempView("product");
             stockRecordDF.createOrReplaceTempView("stock_record");
             
-            log.info("数据表加载完成");
+            // 检查数据是否正确加载
+            long productCount = productDF.count();
+            long stockRecordCount = stockRecordDF.count();
+            log.info("数据表加载完成 - 商品数量: {}, 库存记录数量: {}", productCount, stockRecordCount);
+            
+            // 初始化时立即触发一次分析
+            processBatch();
         } catch (Exception e) {
             log.error("加载数据表时发生错误", e);
             throw e;
         }
     }
 
-    private void startStockAnalysis() {
+    private synchronized void processBatch() {
         try {
+            isProcessing = true;
+            log.info("开始处理库存分析数据...");
+            
+            // 库存状态分布
             Dataset<Row> stockRecords = sparkSession.sql(
                 "SELECT p.name, p.stock, p.warning_stock, " +
                 "CASE WHEN p.stock <= p.warning_stock THEN 'WARNING' " +
@@ -110,79 +126,121 @@ public class StockSparkService implements Serializable {
                 "     ELSE 'NORMAL' END as stock_status " +
                 "FROM product p"
             );
+            log.info("商品总数: {}", stockRecords.count());
 
             // 库存状态分布
             Dataset<Row> stockStatus = stockRecords.groupBy("stock_status")
                 .count()
                 .orderBy("stock_status");
+            log.info("库存状态分布: {}", stockStatus.collectAsList());
 
             // 库存预警商品
             Dataset<Row> warningProducts = stockRecords
                 .filter("stock_status = 'WARNING'")
                 .select("name", "stock", "warning_stock");
+            log.info("预警商品数量: {}", warningProducts.count());
 
-            // 库存变动分析
+            // 库存变动分析（最近30天）
             Dataset<Row> stockChanges = sparkSession.sql(
-                "SELECT sr.type, COUNT(*) as count, SUM(sr.amount) as total_amount " +
-                "FROM stock_record sr " +
-                "GROUP BY sr.type"
+                "SELECT DATE(operate_time) as date, type, " +
+                "COUNT(*) as count, " +
+                "CAST(SUM(CAST(amount AS DOUBLE)) AS DOUBLE) as total_amount " +
+                "FROM stock_record " +
+                "WHERE DATE(operate_time) >= DATE_SUB(CURRENT_DATE(), 30) " +
+                "GROUP BY DATE(operate_time), type " +
+                "ORDER BY date"
             );
+            log.info("库存变动记录: {}", stockChanges.collectAsList());
 
-            // 更新分析结果
-            Map<String, Object> results = new HashMap<>();
+            // 合并当前批次结果
+            Map<String, Object> currentResults = new HashMap<>();
             
-            // 库存状态分布
+            // 处理库存状态数据
             List<Map<String, Object>> statusList = new ArrayList<>();
             for (Row row : stockStatus.collectAsList()) {
                 Map<String, Object> statusMap = new HashMap<>();
-                statusMap.put("status", row.getString(0));  // stock_status
-                statusMap.put("count", row.getLong(1));     // count
+                statusMap.put("status", row.getString(0));
+                statusMap.put("count", row.getLong(1));
                 statusList.add(statusMap);
             }
-            results.put("stockStatus", statusList);
+            currentResults.put("stockStatus", statusList);
             
-            // 库存预警商品
+            // 处理预警商品数据
             List<Map<String, Object>> warningList = new ArrayList<>();
             for (Row row : warningProducts.collectAsList()) {
                 Map<String, Object> warningMap = new HashMap<>();
-                warningMap.put("name", row.getString(0));     // name
-                warningMap.put("stock", row.getInt(1));       // stock
-                warningMap.put("warningStock", row.getInt(2)); // warning_stock
+                warningMap.put("name", row.getString(0));
+                warningMap.put("stock", row.getInt(1));
+                warningMap.put("warningStock", row.getInt(2));
                 warningList.add(warningMap);
             }
-            results.put("warningProducts", warningList);
+            currentResults.put("warningProducts", warningList);
             
-            // 库存变动分析
+            // 处理库存变动数据
             List<Map<String, Object>> changesList = new ArrayList<>();
             for (Row row : stockChanges.collectAsList()) {
                 Map<String, Object> changeMap = new HashMap<>();
-                changeMap.put("type", row.getString(0));       // type
-                changeMap.put("count", row.getLong(1));        // count
-                changeMap.put("totalAmount", row.getLong(2));  // total_amount
+                changeMap.put("date", row.getDate(0).toString());
+                changeMap.put("type", row.getString(1));
+                changeMap.put("count", row.getLong(2));
+                changeMap.put("totalAmount", row.getDouble(3));
                 changesList.add(changeMap);
             }
-            results.put("stockChanges", changesList);
+            currentResults.put("stockChanges", changesList);
             
             // 汇总数据
             long totalProducts = stockRecords.count();
             long warningCount = warningProducts.count();
-            
-            results.put("totalProducts", totalProducts);
-            results.put("warningCount", warningCount);
-            results.put("warningRate", totalProducts > 0 ? (double)warningCount/totalProducts : 0);
+            currentResults.put("totalProducts", totalProducts);
+            currentResults.put("warningCount", warningCount);
+            currentResults.put("warningRate", totalProducts > 0 ? (double)warningCount/totalProducts : 0);
 
-            // 发送更新
-            messagingTemplate.convertAndSend("/topic/stock-analysis", results);
-            currentAnalysis.clear();  // 清除旧数据
-            currentAnalysis.putAll(results);
+            // 更新分析结果
+            currentAnalysis.clear();
+            currentAnalysis.putAll(currentResults);
             
-            log.info("库存分析完成，结果: {}", results);
+            // 发送WebSocket通知
+            messagingTemplate.convertAndSend("/topic/stock-analysis", currentResults);
+            
+            log.info("库存分析数据处理完成: {}", currentResults);
+            isProcessing = false;
         } catch (Exception e) {
-            log.error("执行库存分析时发生错误", e);
+            log.error("处理数据时发生错误", e);
+            e.printStackTrace();
+            isProcessing = false;
+        }
+    }
+
+    private boolean checkMoreData() {
+        try {
+            long totalRecords = sparkSession.sql("SELECT COUNT(*) FROM product").first().getLong(0);
+            return (currentBatch * BATCH_SIZE) < totalRecords;
+        } catch (Exception e) {
+            log.error("检查剩余数据时发生错误", e);
+            return false;
         }
     }
 
     public Map<String, Object> getCurrentAnalysis() {
-        return new HashMap<>(currentAnalysis);
+        try {
+            // 如果没有分析结果，立即触发一次分析
+            if (currentAnalysis.isEmpty()) {
+                log.info("当前没有分析结果，触发新的分析...");
+                processBatch();
+            }
+            
+            Map<String, Object> result = new HashMap<>(currentAnalysis);
+            log.info("返回库存分析结果: {}", result);
+            return result;
+        } catch (Exception e) {
+            log.error("获取分析结果时发生错误", e);
+            return new HashMap<>();
+        }
+    }
+
+    public void resetAnalysis() {
+        currentBatch = 0;
+        batchResults.clear();
+        isProcessing = false;
     }
 } 

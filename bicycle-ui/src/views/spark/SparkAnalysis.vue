@@ -89,9 +89,21 @@
             style="width: 100%"
             v-loading="loading.stock"
           >
-            <el-table-column prop="category" label="类别" />
-            <el-table-column prop="count" label="数量" />
-            <el-table-column prop="avgPrice" label="平均价格" />
+            <el-table-column prop="category" label="类别">
+              <template #default="scope">
+                <span>{{ scope.row.category || '暂无数据' }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="count" label="数量">
+              <template #default="scope">
+                <span>{{ scope.row.count || 0 }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="avgPrice" label="平均价格">
+              <template #default="scope">
+                <span>{{ scope.row.avgPrice || '-' }}</span>
+              </template>
+            </el-table-column>
           </el-table>
 
           <!-- 订单数据表格 -->
@@ -102,9 +114,21 @@
             style="width: 100%"
             v-loading="loading.order"
           >
-            <el-table-column prop="category" label="类别" />
-            <el-table-column prop="count" label="数量" />
-            <el-table-column prop="amount" label="金额" />
+            <el-table-column prop="category" label="类别">
+              <template #default="scope">
+                <span>{{ scope.row.category || '暂无数据' }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="count" label="数量">
+              <template #default="scope">
+                <span>{{ scope.row.count || 0 }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="amount" label="金额">
+              <template #default="scope">
+                <span>{{ scope.row.amount || '-' }}</span>
+              </template>
+            </el-table-column>
           </el-table>
 
           <!-- 客户数据表格 -->
@@ -115,9 +139,21 @@
             style="width: 100%"
             v-loading="loading.customer"
           >
-            <el-table-column prop="type" label="客户类型" />
-            <el-table-column prop="count" label="数量" />
-            <el-table-column prop="amount" label="消费金额" />
+            <el-table-column prop="type" label="客户类型">
+              <template #default="scope">
+                <span>{{ scope.row.type || '暂无数据' }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="count" label="数量">
+              <template #default="scope">
+                <span>{{ scope.row.count || 0 }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column prop="amount" label="消费金额">
+              <template #default="scope">
+                <span>{{ scope.row.amount || '-' }}</span>
+              </template>
+            </el-table-column>
           </el-table>
         </el-card>
       </el-col>
@@ -140,7 +176,7 @@ export default {
   setup() {
     // 定时器
     let refreshTimer = null
-    const refreshInterval = ref(5) // 5秒刷新一次
+    const refreshInterval = ref(30000) // 30秒刷新一次
 
     // 图表实例
     const stockChart = ref(null)
@@ -353,12 +389,17 @@ export default {
     // 初始化订单趋势图表
     const initOrderTrendChart = (instance) => {
       const option = {
+        ...commonChartStyle,
         title: {
-          text: '订单趋势',
-          left: 'center'
+          ...commonChartStyle.title,
+          text: '订单趋势分析'
         },
         tooltip: {
+          ...commonChartStyle.tooltip,
           trigger: 'axis',
+          axisPointer: {
+            type: 'cross'
+          },
           formatter: function(params) {
             let result = params[0].axisValue + '<br/>';
             params.forEach(param => {
@@ -371,6 +412,13 @@ export default {
             return result;
           }
         },
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '15%',
+          top: '15%',
+          containLabel: true
+        },
         legend: {
           data: ['订单数', '订单金额'],
           bottom: 0
@@ -379,18 +427,29 @@ export default {
           type: 'category',
           data: [],
           axisLabel: {
-            rotate: 45
+            rotate: 45,
+            interval: 0
           }
         },
         yAxis: [
           {
             type: 'value',
             name: '订单数',
-            minInterval: 1
+            minInterval: 1,
+            axisLine: {
+              show: true
+            },
+            axisLabel: {
+              formatter: '{value}'
+            }
           },
           {
             type: 'value',
-            name: '金额',
+            name: '订单金额',
+            position: 'right',
+            axisLine: {
+              show: true
+            },
             axisLabel: {
               formatter: '¥{value}'
             }
@@ -400,13 +459,25 @@ export default {
           {
             name: '订单数',
             type: 'bar',
-            data: []
+            data: [],
+            itemStyle: {
+              color: themeColors[0]
+            }
           },
           {
             name: '订单金额',
             type: 'line',
             yAxisIndex: 1,
-            data: []
+            data: [],
+            itemStyle: {
+              color: themeColors[1]
+            },
+            lineStyle: {
+              width: 3
+            },
+            symbol: 'circle',
+            symbolSize: 8,
+            smooth: true
           }
         ]
       }
@@ -677,11 +748,13 @@ export default {
       loading.value.stock = true
       try {
         const response = await axios.get('http://localhost:8081/api/spark/stock/analysis')
+        console.log('Stock API Response:', response.data)
         if (response.data.code === 200) {
           stockData.value = response.data.data
           updateStockChart(response.data.data)
         }
       } catch (error) {
+        console.error('Stock API Error:', error)
         ElMessage.error('获取库存分析数据失败')
       } finally {
         loading.value.stock = false
@@ -692,11 +765,13 @@ export default {
       loading.value.order = true
       try {
         const response = await axios.get('http://localhost:8081/api/spark/order/analysis')
+        console.log('Order API Response:', response.data)
         if (response.data.code === 200) {
           orderData.value = response.data.data
           updateOrderChart(response.data.data)
         }
       } catch (error) {
+        console.error('Order API Error:', error)
         ElMessage.error('获取订单分析数据失败')
       } finally {
         loading.value.order = false
@@ -707,11 +782,13 @@ export default {
       loading.value.customer = true
       try {
         const response = await axios.get('http://localhost:8081/api/spark/customer/analysis')
+        console.log('Customer API Response:', response.data)
         if (response.data.code === 200) {
           customerData.value = response.data.data
           updateCustomerChart(response.data.data)
         }
       } catch (error) {
+        console.error('Customer API Error:', error)
         ElMessage.error('获取客户分析数据失败')
       } finally {
         loading.value.customer = false
@@ -720,6 +797,7 @@ export default {
 
     // 更新图表方法
     const updateStockChart = (data) => {
+      console.log('Updating stock chart with data:', data)
       if (stockChartInstance && stockTrendChartInstance && stockWarningChartInstance && data) {
         // 确保数据存在且有效
         const stockStatus = data.stockStatus || []
@@ -823,27 +901,34 @@ export default {
     }
 
     const updateOrderChart = (data) => {
-      if (orderChartInstance && orderTrendChartInstance && paymentChartInstance && data) {
-        // 处理订单状态分布
-        const orderStatus = data.orderStatus || []
-        const statusData = orderStatus.map(item => ({
-          name: item.name,
-          value: item.count
-        }))
+      console.log('Updating order chart with data:', data)
+      if (!orderChartInstance || !orderTrendChartInstance || !paymentChartInstance || !data) {
+        return
+      }
 
-        // 处理支付方式分布
-        const paymentMethods = data.paymentMethods || []
-        const paymentData = paymentMethods.map(item => ({
-          name: item.name,
-          value: item.count
-        }))
+      // 处理订单状态分布
+      const orderStatus = data.orderStatus || []
+      const statusData = orderStatus.map(item => ({
+        name: item.name,
+        value: item.count
+      }))
 
-        // 处理每日订单趋势
-        const dailyTrend = data.dailyTrend || []
-        const dates = dailyTrend.map(item => item.date)
-        const counts = dailyTrend.map(item => item.count)
-        const amounts = dailyTrend.map(item => item.amount)
+      // 处理支付方式分布
+      const paymentMethods = data.paymentMethods || []
+      const paymentData = paymentMethods.map(item => ({
+        name: item.name,
+        value: item.count
+      }))
 
+      // 处理每日订单趋势
+      const dailyTrend = data.dailyTrend || []
+      dailyTrend.sort((a, b) => new Date(a.date) - new Date(b.date)) // 按日期排序
+      const dates = dailyTrend.map(item => item.date.substring(5)) // 只显示月-日
+      const counts = dailyTrend.map(item => item.count)
+      const amounts = dailyTrend.map(item => item.amount)
+
+      // 使用nextTick确保DOM更新后再更新图表
+      nextTick(() => {
         // 更新订单状态饼图
         orderChartInstance.setOption({
           series: [{
@@ -858,9 +943,11 @@ export default {
           },
           series: [
             {
+              name: '订单数',
               data: counts
             },
             {
+              name: '订单金额',
               data: amounts
             }
           ]
@@ -872,50 +959,45 @@ export default {
             data: paymentData
           }]
         })
+      })
 
-        // 更新表格数据
-        orderData.value = [
-          // 订单状态统计
-          ...orderStatus.map(item => ({
-            category: `订单状态：${item.name}`,
-            count: item.count,
-            amount: `¥${item.amount.toFixed(2)}`
-          })),
-          // 支付方式统计
-          ...paymentMethods.map(item => ({
-            category: `支付方式：${item.name}`,
-            count: item.count,
-            amount: '-'
-          })),
-          // 热销商品统计
-          ...(data.hotProducts || []).map(item => ({
-            category: `热销商品：${item.name}`,
-            count: item.orderCount,
-            amount: `¥${item.amount.toFixed(2)}`
-          })),
-          // 汇总信息
-          {
-            category: '总订单数',
-            count: data.totalOrders,
-            amount: `¥${data.totalAmount.toFixed(2)}`
-          },
-          {
-            category: '平均订单金额',
-            count: '-',
-            amount: `¥${data.avgAmount.toFixed(2)}`
-          }
-        ]
-      }
+      // 更新表格数据
+      orderData.value = [
+        // 订单状态统计
+        ...orderStatus.map(item => ({
+          category: `订单状态：${item.name}`,
+          count: item.count,
+          amount: `¥${item.amount.toFixed(2)}`
+        })),
+        // 支付方式统计
+        ...paymentMethods.map(item => ({
+          category: `支付方式：${item.name}`,
+          count: item.count,
+          amount: '-'
+        })),
+        // 热销商品统计
+        ...(data.hotProducts || []).map(item => ({
+          category: `热销商品：${item.name}`,
+          count: item.orderCount,
+          amount: `¥${item.amount.toFixed(2)}`
+        })),
+        // 汇总信息
+        {
+          category: '总订单数',
+          count: orderStatus.reduce((sum, item) => sum + item.count, 0),
+          amount: `¥${orderStatus.reduce((sum, item) => sum + item.amount, 0).toFixed(2)}`
+        }
+      ]
     }
 
     const updateCustomerChart = (data) => {
+      console.log('Updating customer chart with data:', data)
       if (customerChartInstance && customerTrendChartInstance && customerFrequencyChartInstance && data) {
-        const customerLevels = data.customerLevels || []
-        
         // 处理客户等级分布数据
+        const customerLevels = data.customerLevels || []
         const chartData = customerLevels.map(item => ({
-          name: item.level || '未知',
-          value: item.count || 0
+          name: item.level,
+          value: item.count
         }))
 
         // 更新客户等级饼图
@@ -927,7 +1009,7 @@ export default {
 
         // 更新新增客户趋势图
         if (data.newCustomers && data.newCustomers.length > 0) {
-          const dates = data.newCustomers.map(item => item.date)
+          const dates = data.newCustomers.map(item => item.date.substring(5)) // 只显示月-日
           const counts = data.newCustomers.map(item => item.count)
 
           customerTrendChartInstance.setOption({
@@ -968,21 +1050,6 @@ export default {
             type: '总客户数',
             count: data.totalCustomers,
             amount: '-'
-          },
-          {
-            type: '活跃客户数',
-            count: data.activeCustomers,
-            amount: '-'
-          },
-          {
-            type: '客均订单数',
-            count: data.avgOrdersPerCustomer.toFixed(2),
-            amount: '-'
-          },
-          {
-            type: '客均消费金额',
-            count: '-',
-            amount: `¥${data.avgSpentPerCustomer.toFixed(2)}`
           }
         ]
 
@@ -999,9 +1066,20 @@ export default {
         if (data.purchaseFrequency) {
           customerData.value.push(
             ...data.purchaseFrequency.map(item => ({
-              type: item.range,
+              type: `购买频率: ${item.range}`,
               count: item.count,
               amount: '-'
+            }))
+          )
+        }
+
+        // 添加地域分布数据
+        if (data.regionDistribution) {
+          customerData.value.push(
+            ...data.regionDistribution.map(item => ({
+              type: `地区: ${item.region}`,
+              count: item.customerCount,
+              amount: `¥${item.totalAmount.toFixed(2)}`
             }))
           )
         }
@@ -1035,7 +1113,7 @@ export default {
       }
       refreshTimer = setInterval(() => {
         refreshAllData()
-      }, refreshInterval.value * 1000)
+      }, refreshInterval.value)
     }
 
     // 停止定时刷新
@@ -1044,12 +1122,6 @@ export default {
         clearInterval(refreshTimer)
         refreshTimer = null
       }
-    }
-
-    // 处理刷新间隔变化
-    const handleIntervalChange = () => {
-      stopAutoRefresh()
-      startAutoRefresh()
     }
 
     onMounted(async () => {
@@ -1108,7 +1180,8 @@ export default {
       refreshOrderData,
       refreshCustomerData,
       refreshAllData,
-      handleIntervalChange
+      startAutoRefresh,
+      stopAutoRefresh
     }
   }
 }

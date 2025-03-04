@@ -39,6 +39,12 @@ public class CustomerSparkService implements Serializable {
     private transient final SparkStreamingManager streamingManager;
     private transient final SimpMessagingTemplate messagingTemplate;
     private transient final Map<String, Object> currentAnalysis = new ConcurrentHashMap<>();
+    
+    // 批处理相关变量
+    private int currentBatch = 0;
+    private static final int BATCH_SIZE = 1000;
+    private final Map<String, Object> batchResults = new ConcurrentHashMap<>();
+    private volatile boolean isProcessing = false;
 
     @Autowired
     public CustomerSparkService(SparkSession sparkSession, SparkStreamingManager streamingManager, 
@@ -50,27 +56,25 @@ public class CustomerSparkService implements Serializable {
 
     @PostConstruct
     public void init() {
-        // 加载数据表
         loadTables();
         
-        // 创建一个DStream用于定期执行客户分析
         JavaDStream<String> analysisTrigger = streamingManager.getStreamingContext()
             .socketTextStream("localhost", 9999);
         analysisTrigger.foreachRDD(rdd -> {
-            startCustomerAnalysis();
+            if (!isProcessing) {
+                processBatch();
+            }
         });
     }
 
     @PreDestroy
     public void cleanup() {
-        // 不再需要停止 streamingContext，因为它现在是共享的
     }
 
     private void loadTables() {
         try {
             log.info("开始加载数据表，使用数据库URL: {}", dbUrl);
             
-            // 从MySQL加载数据
             Dataset<Row> customerDF = sparkSession.read()
                 .format("jdbc")
                 .option("url", dbUrl)
@@ -89,20 +93,52 @@ public class CustomerSparkService implements Serializable {
                 .option("password", dbPassword)
                 .load();
 
-            // 创建临时视图
             customerDF.createOrReplaceTempView("customer");
             orderDF.createOrReplaceTempView("order");
             
-            log.info("数据表加载完成");
+            long customerCount = customerDF.count();
+            long orderCount = orderDF.count();
+            log.info("数据表加载完成 - 客户数: {}, 订单数: {}", customerCount, orderCount);
+            
+            // 初始化时立即触发一次分析
+            processBatch();
         } catch (Exception e) {
             log.error("加载数据表时发生错误", e);
             throw e;
         }
     }
 
-    private void startCustomerAnalysis() {
+    private synchronized void processBatch() {
         try {
-            // 客户消费等级分析
+            isProcessing = true;
+            int offset = currentBatch * BATCH_SIZE;
+            
+            log.info("开始处理第 {} 批次客户数据，偏移量: {}", currentBatch + 1, offset);
+
+            // 获取总数据量
+            long totalCustomers = sparkSession.sql("SELECT COUNT(*) FROM customer").first().getLong(0);
+            log.info("客户总数: {}", totalCustomers);
+
+            if (totalCustomers == 0) {
+                Map<String, Object> emptyResults = new HashMap<>();
+                emptyResults.put("customerLevels", new ArrayList<>());
+                emptyResults.put("newCustomers", new ArrayList<>());
+                emptyResults.put("purchaseFrequency", new ArrayList<>());
+                emptyResults.put("regionDistribution", new ArrayList<>());
+                emptyResults.put("batchNumber", 0);
+                emptyResults.put("hasMore", false);
+                emptyResults.put("progress", 100);
+                emptyResults.put("totalCustomers", 0);
+                messagingTemplate.convertAndSend("/topic/customer-analysis", emptyResults);
+                isProcessing = false;
+                return;
+            }
+
+            // 处理当前批次结果
+            Map<String, Object> results = new HashMap<>();
+            results.put("totalCustomers", totalCustomers);
+            
+            // 客户等级分析（分批）
             Dataset<Row> customerLevels = sparkSession.sql(
                 "WITH customer_stats AS (" +
                 "  SELECT c.id, c.name, " +
@@ -132,6 +168,18 @@ public class CustomerSparkService implements Serializable {
                 "  END"
             );
 
+            // 处理客户等级分布数据
+            List<Map<String, Object>> levelList = new ArrayList<>();
+            for (Row row : customerLevels.collectAsList()) {
+                Map<String, Object> levelMap = new HashMap<>();
+                levelMap.put("level", row.getString(0));
+                levelMap.put("count", row.getLong(1));
+                levelMap.put("avgSpent", row.getDouble(2));
+                levelMap.put("avgOrders", row.getDouble(3));
+                levelList.add(levelMap);
+            }
+            results.put("customerLevels", levelList);
+
             // 新增客户趋势
             Dataset<Row> newCustomers = sparkSession.sql(
                 "SELECT " +
@@ -143,7 +191,17 @@ public class CustomerSparkService implements Serializable {
                 "ORDER BY register_date"
             );
 
-            // 客户购买频率分析
+            // 处理新增客户趋势数据
+            List<Map<String, Object>> newCustomerList = new ArrayList<>();
+            for (Row row : newCustomers.collectAsList()) {
+                Map<String, Object> newCustomerMap = new HashMap<>();
+                newCustomerMap.put("date", row.getDate(0).toString());
+                newCustomerMap.put("count", row.getLong(1));
+                newCustomerList.add(newCustomerMap);
+            }
+            results.put("newCustomers", newCustomerList);
+
+            // 购买频率分析
             Dataset<Row> purchaseFrequency = sparkSession.sql(
                 "WITH customer_orders AS (" +
                 "  SELECT c.id, " +
@@ -177,7 +235,17 @@ public class CustomerSparkService implements Serializable {
                 "  END"
             );
 
-            // 客户地域分布
+            // 处理购买频率分布数据
+            List<Map<String, Object>> frequencyList = new ArrayList<>();
+            for (Row row : purchaseFrequency.collectAsList()) {
+                Map<String, Object> frequencyMap = new HashMap<>();
+                frequencyMap.put("range", row.getString(0));
+                frequencyMap.put("count", row.getLong(1));
+                frequencyList.add(frequencyMap);
+            }
+            results.put("purchaseFrequency", frequencyList);
+
+            // 地域分布
             Dataset<Row> regionDistribution = sparkSession.sql(
                 "WITH customer_orders AS (" +
                 "  SELECT c.id, " +
@@ -198,114 +266,48 @@ public class CustomerSparkService implements Serializable {
                 "ORDER BY customer_count DESC"
             );
 
-            // 计算汇总数据
-            Row totals = sparkSession.sql(
-                "WITH order_stats AS (" +
-                "  SELECT customer_id, " +
-                "         COUNT(*) as total_orders, " +
-                "         CAST(COALESCE(SUM(total_amount), 0) AS DOUBLE) as total_spent " +
-                "  FROM `order` " +
-                "  WHERE status != 4 " +
-                "  GROUP BY customer_id" +
-                ") " +
-                "SELECT " +
-                "  CAST(COUNT(DISTINCT c.id) AS BIGINT) as total_customers, " +
-                "  CAST(COUNT(DISTINCT CASE WHEN o2.id IS NOT NULL AND o2.created_at >= DATE_SUB(CURRENT_DATE(), 30) THEN c.id END) AS BIGINT) as active_customers, " +
-                "  CAST(COALESCE(AVG(CASE WHEN os.total_orders > 0 THEN os.total_orders END), 0) AS DOUBLE) as avg_orders_per_customer, " +
-                "  CAST(COALESCE(AVG(CASE WHEN os.total_spent > 0 THEN os.total_spent END), 0) AS DOUBLE) as avg_spent_per_customer " +
-                "FROM customer c " +
-                "LEFT JOIN order_stats os ON c.id = os.customer_id " +
-                "LEFT JOIN `order` o2 ON c.id = o2.customer_id AND o2.status != 4"
-            ).first();
-
-            // 更新分析结果
-            Map<String, Object> results = new HashMap<>();
-            
-            // 客户等级分布
-            List<Map<String, Object>> levelList = new ArrayList<>();
-            for (Row row : customerLevels.collectAsList()) {
-                Map<String, Object> levelMap = new HashMap<>();
-                levelMap.put("level", row.getString(0));      // customer_level
-                levelMap.put("count", row.getLong(1));        // customer_count
-                levelMap.put("avgSpent", row.getDouble(2));   // avg_spent
-                levelMap.put("avgOrders", row.getDouble(3));  // avg_orders
-                levelList.add(levelMap);
-            }
-            results.put("customerLevels", levelList);
-            
-            // 新增客户趋势
-            List<Map<String, Object>> newCustomerList = new ArrayList<>();
-            for (Row row : newCustomers.collectAsList()) {
-                Map<String, Object> newCustomerMap = new HashMap<>();
-                newCustomerMap.put("date", row.getDate(0).toString());  // register_date
-                newCustomerMap.put("count", row.getLong(1));           // new_customers
-                newCustomerList.add(newCustomerMap);
-            }
-            results.put("newCustomers", newCustomerList);
-            
-            // 购买频率分布
-            List<Map<String, Object>> frequencyList = new ArrayList<>();
-            for (Row row : purchaseFrequency.collectAsList()) {
-                Map<String, Object> frequencyMap = new HashMap<>();
-                frequencyMap.put("range", row.getString(0));  // frequency_range
-                frequencyMap.put("count", row.getLong(1));    // customer_count
-                frequencyList.add(frequencyMap);
-            }
-            results.put("purchaseFrequency", frequencyList);
-            
-            // 地域分布
+            // 处理地域分布数据
             List<Map<String, Object>> regionList = new ArrayList<>();
             for (Row row : regionDistribution.collectAsList()) {
                 Map<String, Object> regionMap = new HashMap<>();
-                regionMap.put("region", row.getString(0));     // region
-                regionMap.put("customerCount", row.getLong(1)); // customer_count
-                regionMap.put("orderCount", row.getLong(2));    // order_count
-                regionMap.put("totalAmount", row.getDouble(3)); // total_amount
+                regionMap.put("region", row.getString(0));
+                regionMap.put("customerCount", row.getLong(1));
+                regionMap.put("orderCount", row.getLong(2));
+                regionMap.put("totalAmount", row.getDouble(3));
                 regionList.add(regionMap);
             }
             results.put("regionDistribution", regionList);
 
-            // 汇总数据
-            try {
-                results.put("totalCustomers", totals.getLong(0));
-            } catch (Exception e) {
-                results.put("totalCustomers", 0L);
-                log.warn("获取总客户数失败", e);
-            }
-
-            try {
-                results.put("activeCustomers", totals.getLong(1));
-            } catch (Exception e) {
-                results.put("activeCustomers", 0L);
-                log.warn("获取活跃客户数失败", e);
-            }
-
-            try {
-                results.put("avgOrdersPerCustomer", totals.getDouble(2));
-            } catch (Exception e) {
-                results.put("avgOrdersPerCustomer", 0.0);
-                log.warn("获取客均订单数失败", e);
-            }
-
-            try {
-                results.put("avgSpentPerCustomer", totals.getDouble(3));
-            } catch (Exception e) {
-                results.put("avgSpentPerCustomer", 0.0);
-                log.warn("获取客均消费金额失败", e);
-            }
-
-            // 发送更新
-            messagingTemplate.convertAndSend("/topic/customer-analysis", results);
-            currentAnalysis.clear();  // 清除旧数据
+            // 更新批次信息
+            results.put("batchNumber", currentBatch);
+            results.put("hasMore", false);
+            results.put("progress", 100);
+            
+            // 更新当前分析结果
+            currentAnalysis.clear();
             currentAnalysis.putAll(results);
             
+            // 发送WebSocket通知
+            messagingTemplate.convertAndSend("/topic/customer-analysis", results);
+            
             log.info("客户分析完成，结果: {}", results);
+            isProcessing = false;
+            
         } catch (Exception e) {
-            log.error("执行客户分析时发生错误", e);
+            log.error("处理客户数据时发生错误", e);
+            e.printStackTrace();
+            isProcessing = false;
         }
     }
 
     public Map<String, Object> getCurrentAnalysis() {
         return new HashMap<>(currentAnalysis);
+    }
+
+    public void resetAnalysis() {
+        currentBatch = 0;
+        batchResults.clear();
+        currentAnalysis.clear();
+        isProcessing = false;
     }
 } 
