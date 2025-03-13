@@ -4,18 +4,19 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/login?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/bishe?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
     username: root
     password: 123456 
   mvc:
     static-path-pattern: /uploads/**
   web:
     resources:
-      static-locations: file:uploads/
+      static-locations: file:uploads/*
+
   servlet:
     multipart:
-      max-file-size: 2MB
-      max-request-size: 2MB
+      max-file-size: 10MB
+      max-request-size: 10MB
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.qiuciyun.login.entity
@@ -37,14 +38,3 @@ mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
   type-aliases-package: com.qiuciyun.bicycle.entity
 
-justauth:
-  enabled: true
-  type:
-    WECHAT_MP: # 微信公众号
-      client-id: ${wx.mp.app-id}
-      client-secret: ${wx.mp.app-secret}
-      ignore-check-redirect-uri: true
-    WECHAT_MINI_APP: # 微信小程序
-      client-id: ${wx.miniapp.app-id}
-      client-secret: ${wx.miniapp.app-secret}
-      ignore-check-redirect-uri: true

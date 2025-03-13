@@ -18,6 +18,10 @@ export default defineConfig({
       '^/uploads/avatars/.*': {  // 使用更精确的路径匹配
         target: 'http://localhost:8080',
         changeOrigin: true
+      },
+      '^/uploads/bikes/.*': {  // 添加对自行车图片的代理
+        target: 'http://localhost:8080',
+        changeOrigin: true
       }
     }
   },
@@ -26,4 +30,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src')
     }
   }
-}); 
+});

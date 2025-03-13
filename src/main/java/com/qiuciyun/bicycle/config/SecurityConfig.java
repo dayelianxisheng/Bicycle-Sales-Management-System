@@ -52,6 +52,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/users/*").permitAll()
                         .requestMatchers("/api/products/**").permitAll()
                         .requestMatchers("/uploads/avatars/**").permitAll()
+                        .requestMatchers("/uploads/bikes/**").permitAll()
                         .requestMatchers("/error").permitAll()
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)

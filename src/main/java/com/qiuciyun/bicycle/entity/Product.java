@@ -19,6 +19,7 @@ public class Product {
     private Integer warningStock;   // 库存预警值
     private String specs;           // 规格参数(JSON格式)
     private String images;          // 商品图片(JSON数组)
+    private String localImages;     // 本地图片路径(JSON数组)
     private Integer sales;          // 销量
     private Integer status;         // 状态：1-上架，0-下架
     @TableField(fill = FieldFill.INSERT)
@@ -165,5 +166,13 @@ public class Product {
 
     public void setDeleted(Integer deleted) {
         this.deleted = deleted;
+    }
+
+    public String getLocalImages() {
+        return localImages;
+    }
+
+    public void setLocalImages(String localImages) {
+        this.localImages = localImages;
     }
 }

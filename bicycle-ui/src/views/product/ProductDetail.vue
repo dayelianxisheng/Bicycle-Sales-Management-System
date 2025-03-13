@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="image-upload-section">
-            <el-input v-model="editForm.imageInput" placeholder="请输入图片URL" style="margin: 10px 0" />
+            <el-input v-model="editForm.imageInput" placeholder="请输入本地图片路径，例如：/uploads/bikes/xxx.jpg" style="margin: 10px 0" />
             <el-button @click="addImage" style="margin-bottom: 10px">添加图片</el-button>
             <div class="image-list">
               <div v-for="(image, index) in editForm.images" :key="index" class="image-item">
@@ -210,18 +210,36 @@ const rules = {
 // 获取图片列表
 const getImages = computed(() => {
   try {
-    const images = product.value.images
-    // 如果是字符串，尝试解析为数组
-    if (typeof images === 'string') {
-      return JSON.parse(images).filter(url => url && typeof url === 'string' && url.trim() !== '')
+    // 优先使用本地图片路径
+    if (product.value.localImages) {
+      if (typeof product.value.localImages === 'string') {
+        const images = JSON.parse(product.value.localImages)
+        return images
+          .filter(url => url && typeof url === 'string' && url.trim() !== '')
+          .map(url => {
+            // 确保所有路径都以 /uploads/bikes/ 开头，并且没有重复的bikes目录
+            if (!url.startsWith('/uploads/bikes/')) {
+              return '/uploads/bikes/' + url.replace(/^\/+|^\/?(uploads\/)?bikes\//g, '')
+            }
+            return url
+          })
+      }
+      if (Array.isArray(product.value.localImages)) {
+        return product.value.localImages
+          .filter(url => url && typeof url === 'string' && url.trim() !== '')
+          .map(url => {
+            // 确保所有路径都以 /uploads/bikes/ 开头，并且没有重复的bikes目录
+            if (!url.startsWith('/uploads/bikes/')) {
+              return '/uploads' + url.replace(/^\/+|^\/?(uploads\/)?bikes\//g, '')
+            }
+            return url
+          })
+      }
     }
-    // 如果是数组，直接过滤
-    if (Array.isArray(images)) {
-      return images.filter(url => url && typeof url === 'string' && url.trim() !== '')
-    }
+    // 如果没有本地图片，返回空数组
     return []
   } catch (e) {
-    console.error('解析图片列表失败:', e)
+    console.error('解析本地图片列表失败:', e)
     return []
   }
 })
@@ -245,10 +263,22 @@ const initEditForm = () => {
   // 处理图片数组
   let images = []
   try {
-    if (typeof product.value.images === 'string') {
-      images = JSON.parse(product.value.images)
-    } else if (Array.isArray(product.value.images)) {
-      images = product.value.images
+    if (typeof product.value.localImages === 'string') {
+      images = JSON.parse(product.value.localImages)
+      // 确保所有图片路径都是正确的格式
+      images = images.map(url => {
+        if (!url.startsWith('/uploads/bikes/')) {
+          return '/uploads/bikes/' + url.replace(/^\/+|^\/?(uploads\/)?bikes\//g, '')
+        }
+        return url
+      })
+    } else if (Array.isArray(product.value.localImages)) {
+      images = product.value.localImages.map(url => {
+        if (!url.startsWith('/uploads/bikes/')) {
+          return '/uploads/bikes/' + url.replace(/^\/+|^\/?(uploads\/)?bikes\//g, '')
+        }
+        return url
+      })
     }
   } catch (e) {
     console.error('解析图片数组失败:', e)
@@ -294,20 +324,20 @@ const removeSpec = (index) => {
 const addImage = () => {
   if (editForm.value.imageInput && editForm.value.imageInput.trim()) {
     const newImage = editForm.value.imageInput.trim()
-    try {
-      new URL(newImage)
-      // 确保images是数组
-      if (!Array.isArray(editForm.value.images)) {
-        editForm.value.images = []
-      }
-      // 检查是否已存在相同的图片
-      if (!editForm.value.images.includes(newImage)) {
-        editForm.value.images.push(newImage)
-      }
-      editForm.value.imageInput = ''
-    } catch (e) {
-      ElMessage.warning('请输入有效的图片URL')
+    // 检查是否是有效的本地图片路径
+    if (!newImage.startsWith('/uploads/bikes/')) {
+      ElMessage.warning('请输入有效的本地图片路径，必须以 /uploads/bikes/ 开头')
+      return
     }
+    // 确保images是数组
+    if (!Array.isArray(editForm.value.images)) {
+      editForm.value.images = []
+    }
+    // 检查是否已存在相同的图片
+    if (!editForm.value.images.includes(newImage)) {
+      editForm.value.images.push(newImage)
+    }
+    editForm.value.imageInput = ''
   }
 }
 
@@ -351,9 +381,16 @@ const saveEdit = async () => {
       }
     })
 
-    // 处理图片数组，确保是有效的URL数组
+    // 处理图片数组，确保是有效的路径
     const images = Array.isArray(editForm.value.images) 
-      ? editForm.value.images.filter(url => url && typeof url === 'string' && url.trim() !== '')
+      ? editForm.value.images
+          .filter(url => url && typeof url === 'string' && url.trim() !== '')
+          .map(url => {
+            if (!url.startsWith('/uploads/bikes/')) {
+              return '/uploads/bikes/' + url.replace(/^\/+|^\/?(uploads\/)?bikes\//g, '')
+            }
+            return url
+          })
       : []
 
     // 构建提交的数据
@@ -371,10 +408,9 @@ const saveEdit = async () => {
       description: editForm.value.description,
       warningStock: Number(editForm.value.warningStock),
       sales: product.value.sales || 0,
-      images: JSON.stringify(images)
+      images: JSON.stringify(images),
+      localImages: JSON.stringify(images)  // 使用相同的图片路径更新localImages字段
     }
-
-    console.log('提交的数据:', submitData)
 
     // 发送更新请求
     const response = await axios.put(`/api/products/${product.value.id}`, submitData)
@@ -396,6 +432,7 @@ const fetchProductDetail = async () => {
     const response = await axios.get(`/api/products/${route.params.id}`)
     if (response.data.code === 200) {
       product.value = response.data.data
+      initEditForm()
     }
   } catch (error) {
     console.error('获取产品详情失败:', error)

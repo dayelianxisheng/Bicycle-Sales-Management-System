@@ -4,7 +4,7 @@
     <el-aside :width="isCollapse ? '64px' : '220px'" class="aside">
       <div class="logo" :class="{ 'collapsed-logo': isCollapse }">
         <img src="../assets/img_2.png" alt="logo">
-        <span v-show="!isCollapse">管理系统</span>
+        <span v-show="!isCollapse">QCQC</span>
       </div>
       <el-menu
         :default-active="activeMenu"
