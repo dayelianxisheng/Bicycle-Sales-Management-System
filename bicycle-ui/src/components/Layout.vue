@@ -174,6 +174,14 @@
             </el-icon>
             <span>Spark分析</span>
           </el-menu-item>
+          <el-menu-item index="/data-dashboard">
+            <el-icon>
+              <template #default>
+                <DataAnalysis />
+              </template>
+            </el-icon>
+            <span>数据大屏</span>
+          </el-menu-item>
         </el-sub-menu>
 
         <el-sub-menu index="5">
@@ -465,7 +473,9 @@ import {
   Goods,
   ArrowDown,
   ArrowUp,
-  Warning
+  Warning,
+  DataAnalysis,
+  Monitor
 } from '@element-plus/icons-vue'
 import { ElMessageBox, ElMessage } from 'element-plus'
 import axios from 'axios'
@@ -511,6 +521,7 @@ const routeMap = {
   '/layout/generate-customers': '客户生成',
   '/layout/generate-products': '商品生成',
   '/layout/spark-analysis': 'Spark分析',
+  '/layout/data-dashboard': '数据大屏',
   '/layout/stock-overview': '库存概览',
   '/layout/stock-in': '入库管理',
   '/layout/stock-out': '出库管理',
@@ -782,6 +793,8 @@ const menuList = [
   { path: '/layout/stock-in', title: '入库管理', icon: 'ArrowDown' },
   { path: '/layout/stock-out', title: '出库管理', icon: 'ArrowUp' },
   { path: '/layout/stock-warning', title: '库存预警', icon: 'Warning' },
+  { path: '/layout/spark-analysis', title: 'Spark分析', icon: 'DataLine' },
+  { path: '/layout/data-dashboard', title: '数据大屏', icon: 'DataAnalysis' },
   // { path: '/layout/stock-check', title: '库存盘点', icon: 'Document' },
 ]
 

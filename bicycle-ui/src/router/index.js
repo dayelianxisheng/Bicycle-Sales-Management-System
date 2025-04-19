@@ -10,6 +10,12 @@ const routes = [
     component: Login
   },
   {
+    path: '/data-dashboard',
+    name: 'DataDashboard',
+    component: () => import('../views/data-dashboard/index.vue'),
+    meta: { title: '数据大屏', icon: 'Monitor' }
+  },
+  {
     path: '/layout',
     name: 'Layout',
     component: Layout,
@@ -152,7 +158,7 @@ const router = createRouter({
 // 路由守卫
 router.beforeEach((to, from, next) => {
   const token = localStorage.getItem('token');
-  if (to.path !== '/' && !token) {
+  if (to.path !== '/' && to.path !== '/data-dashboard' && !token) {
     next('/');
   } else {
     next();
