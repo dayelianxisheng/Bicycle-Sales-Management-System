@@ -69,8 +69,9 @@
       <el-pagination
         v-model:current-page="currentPage"
         v-model:page-size="pageSize"
-        :total="total"
         :page-sizes="[10, 20, 50, 100]"
+        :total="total"
+        :background="true"
         layout="total, sizes, prev, pager, next, jumper"
         @size-change="handleSizeChange"
         @current-change="handleCurrentChange"
@@ -100,50 +101,94 @@ const currentPage = ref(1)
 const pageSize = ref(10)
 const total = ref(0)
 const orderList = ref([])
+const loading = ref(false)
 
 // 获取订单列表数据
 const getOrderList = async () => {
+  loading.value = true
   try {
-    const params = {
-      page: currentPage.value,
-      size: pageSize.value,
-      orderNo: queryForm.orderNo,
-      customerName: queryForm.customerName,
-      status: queryForm.status,
-      startDate: queryForm.dateRange[0],
-      endDate: queryForm.dateRange[1]
+    // 构建查询参数
+    const params = new URLSearchParams()
+    params.append('page', currentPage.value.toString())
+    params.append('size', pageSize.value.toString())
+
+    if (queryForm.orderNo) {
+      params.append('orderNo', queryForm.orderNo)
     }
-    const res = await axios.get('/api/orders', { params })
+    if (queryForm.customerName) {
+      params.append('customerName', queryForm.customerName)
+    }
+    if (queryForm.status !== '') {
+      params.append('status', queryForm.status.toString())
+    }
+    if (queryForm.dateRange && queryForm.dateRange.length === 2) {
+      params.append('startDate', queryForm.dateRange[0])
+      params.append('endDate', queryForm.dateRange[1])
+    }
+
+    const res = await axios.get('/api/orders', {
+      params: params,
+      paramsSerializer: {
+        indexes: null // 数组格式化方式
+      }
+    })
+
     if (res.data.code === 200) {
-      orderList.value = res.data.data.list
-      total.value = res.data.data.total
+      const data = res.data.data
+      orderList.value = data.list || []
+      total.value = data.total || 0 // 使用后端返回的总记录数
+      
+      // 如果当前页大于最大页数，跳转到最后一页
+      const maxPage = Math.ceil(total.value / pageSize.value)
+      if (maxPage > 0 && currentPage.value > maxPage) {
+        currentPage.value = maxPage
+        await getOrderList()
+        return
+      }
+
+      // 如果没有数据，显示提示信息
+      if (orderList.value.length === 0) {
+        ElMessage.info('暂无数据')
+      }
     } else {
       ElMessage.error(res.data.message || '获取订单列表失败')
+      orderList.value = []
+      total.value = 0
     }
   } catch (error) {
     console.error('获取订单列表出错：', error)
     ElMessage.error('获取订单列表失败')
+    orderList.value = []
+    total.value = 0
+  } finally {
+    loading.value = false
   }
 }
 
 // 查询按钮点击事件
 const handleSearch = () => {
-  currentPage.value = 1
+  currentPage.value = 1 // 重置到第一页
   getOrderList()
 }
 
 // 重置按钮点击事件
 const handleReset = () => {
+  // 重置查询表单
   queryForm.orderNo = ''
   queryForm.customerName = ''
   queryForm.status = ''
   queryForm.dateRange = []
-  handleSearch()
+  // 重置分页
+  currentPage.value = 1
+  pageSize.value = 10
+  // 重新加载数据
+  getOrderList()
 }
 
 // 分页大小改变事件
 const handleSizeChange = (val) => {
   pageSize.value = val
+  currentPage.value = 1 // 切换每页显示数量时重置为第一页
   getOrderList()
 }
 

@@ -196,20 +196,25 @@ const updateCharts = (data) => {
   const orderCounts = data.orderDistribution || [0, 0, 0, 0]
 
   charts.orderAnalysis.setOption({
-    title: { text: '客户订单分布' },
+    title: { 
+      text: '客户订单分布',
+      left: 'center'
+    },
     tooltip: { 
       trigger: 'item',
       formatter: '{b}: {c} 人 ({d}%)'
     },
     legend: { 
-      orient: 'vertical',
-      left: 'left',
-      padding: 5
+      orient: 'horizontal',
+      bottom: 'bottom',
+      type: 'scroll',
+      padding: [0, 20]
     },
     series: [{
       name: '订单分布',
       type: 'pie',
-      radius: '50%',
+      radius: ['0%', '60%'],
+      center: ['50%', '45%'],
       data: orderRanges.map((range, index) => ({
         name: range,
         value: orderCounts[index]
@@ -220,27 +225,36 @@ const updateCharts = (data) => {
           shadowOffsetX: 0,
           shadowColor: 'rgba(0, 0, 0, 0.5)'
         }
+      },
+      label: {
+        show: true,
+        formatter: '{b}\n{c}人\n{d}%'
       }
     }]
   }, true)
 
   // 更新地域分布图
   charts.regionDistribution.setOption({
-    title: { text: '客户地域分布' },
+    title: { 
+      text: '客户地域分布',
+      left: 'center'
+    },
     tooltip: { 
       trigger: 'item',
       formatter: '{b}: {c} 人 ({d}%)'
     },
     legend: { 
-      orient: 'vertical',
-      left: 'left',
-      padding: 5
+      orient: 'horizontal',
+      bottom: 'bottom',
+      type: 'scroll',
+      padding: [0, 20]
     },
     series: [{
       name: '地域分布',
       type: 'pie',
-      radius: ['40%', '70%'],
-      avoidLabelOverlap: false,
+      radius: ['30%', '60%'],
+      center: ['50%', '45%'],
+      avoidLabelOverlap: true,
       itemStyle: {
         borderRadius: 10,
         borderColor: '#fff',
@@ -248,10 +262,17 @@ const updateCharts = (data) => {
       },
       label: {
         show: true,
-        position: 'outside'
+        position: 'outside',
+        formatter: '{b}\n{c}人\n{d}%',
+        alignTo: 'edge',
+        minMargin: 5,
+        edgeDistance: 10,
+        lineHeight: 15
       },
       labelLine: {
-        show: true
+        length: 15,
+        length2: 0,
+        maxSurfaceAngle: 80
       },
       data: data.regionDistribution || []
     }]

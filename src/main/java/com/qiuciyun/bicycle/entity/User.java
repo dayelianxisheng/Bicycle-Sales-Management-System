@@ -23,6 +23,15 @@ public class User {
     private String updater;
     private Integer deleted;
     private Long tenantId;
+    private String role;
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
 
     public Integer getId() {
         return id;

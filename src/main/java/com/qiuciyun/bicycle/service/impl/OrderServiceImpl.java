@@ -45,8 +45,26 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
     public IPage<Order> getOrderPage(Integer page, Integer size, String orderNo, 
                                    String customerName, Integer status, 
                                    String startDate, String endDate) {
-        Page<Order> pageInfo = new Page<>(page, size);
-        return baseMapper.selectOrderPage(pageInfo, orderNo, customerName, status, startDate, endDate);
+        try {
+            // 创建分页对象
+            Page<Order> pageInfo = new Page<>(page, size);
+            
+            // 获取分页数据
+            IPage<Order> result = baseMapper.selectOrderPage(pageInfo, orderNo, customerName, status, startDate, endDate);
+            
+            // 如果结果为空，返回空页
+            if (result == null) {
+                pageInfo.setTotal(0);
+                return pageInfo;
+            }
+            
+            return result;
+        } catch (Exception e) {
+            logger.error("获取订单列表失败", e);
+            Page<Order> emptyPage = new Page<>(page, size);
+            emptyPage.setTotal(0);
+            return emptyPage;
+        }
     }
 
     @Override

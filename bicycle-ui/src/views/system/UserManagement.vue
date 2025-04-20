@@ -93,6 +93,16 @@
             <el-radio :label="1">停用</el-radio>
           </el-radio-group>
         </el-form-item>
+        <el-form-item label="角色" prop="role">
+          <el-select v-model="form.role" placeholder="请选择角色">
+            <el-option label="管理员" value="role_admin"></el-option>
+            <el-option label="人事" value="role_hr"></el-option>
+            <el-option label="销售经理" value="role_manager"></el-option>
+            <el-option label="销售人员" value="role_sale"></el-option>
+            <el-option label="库存管理" value="role_stock"></el-option>
+            <el-option label="财务" value="role_finance"></el-option>
+          </el-select>
+        </el-form-item>
         <el-form-item label="备注" prop="remark">
           <el-input type="textarea" v-model="form.remark" placeholder="请输入备注" />
         </el-form-item>
@@ -128,6 +138,7 @@ export default {
         deptId: null,
         postIds: [],
         status: 0,
+        role: '',
         remark: ''
       },
       rules: {
@@ -150,6 +161,9 @@ export default {
         ],
         deptId: [
           { required: true, message: '请选择部门', trigger: 'change' }
+        ],
+        role: [
+          { required: true, message: '请选择角色', trigger: 'change' }
         ]
       }
     };
@@ -196,6 +210,7 @@ export default {
         deptId: null,
         postIds: [],
         status: 0,
+        role: '',
         remark: ''
       };
       this.isEdit = false;

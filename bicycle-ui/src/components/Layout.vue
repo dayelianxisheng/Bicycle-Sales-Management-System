@@ -34,7 +34,7 @@
             </el-icon>
             <span>系统管理</span>
           </template>
-          <el-menu-item index="/layout/user-management">
+          <el-menu-item index="/layout/user-management" v-if="userInfo.role === 'role_admin'">
             <el-icon>
               <template #default>
                 <User />
@@ -42,7 +42,7 @@
             </el-icon>
             <span>用户管理</span>
           </el-menu-item>
-          <el-menu-item index="/layout/product-management">
+          <el-menu-item index="/layout/product-management" v-if="userInfo.role === 'role_admin' || userInfo.role === 'role_manager' || userInfo.role === 'role_stock'">
             <el-icon>
               <template #default>
                 <ShoppingCart />
@@ -52,7 +52,7 @@
           </el-menu-item>
         </el-sub-menu>
 
-        <el-sub-menu index="6">
+        <el-sub-menu index="6" v-if="userInfo.role === 'role_stock' || userInfo.role === 'role_admin'">
           <template #title>
             <el-icon>
               <template #default>
@@ -93,17 +93,9 @@
             </el-icon>
             <span>库存预警</span>
           </el-menu-item>
-<!--          <el-menu-item index="/layout/stock-check">-->
-<!--            <el-icon>-->
-<!--              <template #default>-->
-<!--                <Document />-->
-<!--              </template>-->
-<!--            </el-icon>-->
-<!--            <span>库存盘点</span>-->
-<!--          </el-menu-item>-->
         </el-sub-menu>
 
-        <el-sub-menu index="2">
+        <el-sub-menu index="2" v-if="userInfo.role === 'role_admin' || userInfo.role === 'role_manager' || userInfo.role === 'role_sale' || userInfo.role === 'role_finance'">
           <template #title>
             <el-icon>
               <template #default>
@@ -130,7 +122,7 @@
           </el-menu-item>
         </el-sub-menu>
 
-        <el-sub-menu index="3">
+        <el-sub-menu index="3" v-if="userInfo.role === 'role_admin' || userInfo.role === 'role_manager' || userInfo.role === 'role_hr'">
           <template #title>
             <el-icon>
               <template #default>
@@ -184,7 +176,7 @@
           </el-menu-item>
         </el-sub-menu>
 
-        <el-sub-menu index="5">
+        <el-sub-menu index="5" v-if="userInfo.role === 'role_admin'">
           <template #title>
             <el-icon>
               <template #default>
@@ -592,6 +584,7 @@ const userInfo = reactive({
   username: '',
   nickname: '',
   avatar: '',
+  role: ''  // 添加角色字段
 })
 
 // 计算头像完整URL
@@ -628,7 +621,8 @@ const getUserInfo = async () => {
       const data = response.data.data
       Object.assign(userInfo, {
         ...data,
-        avatar: data.avatar || ''
+        avatar: data.avatar || '',
+        role: data.role || ''  // 保存角色信息
       })
       username.value = data.nickname || data.username
     } else {

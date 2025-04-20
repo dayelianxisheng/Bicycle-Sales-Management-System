@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -35,15 +36,54 @@ public class OrderController {
             @RequestParam(required = false) String startDate,
             @RequestParam(required = false) String endDate) {
         
-        IPage<Order> pageResult = orderService.getOrderPage(page, size, orderNo, 
-                                                          customerName, status, 
-                                                          startDate, endDate);
-        
-        Map<String, Object> data = new HashMap<>();
-        data.put("list", pageResult.getRecords());
-        data.put("total", pageResult.getTotal());
-        
-        return Result.success(data);
+        try {
+            logger.info("分页查询参数: page={}, size={}, orderNo={}, customerName={}, status={}, startDate={}, endDate={}",
+                       page, size, orderNo, customerName, status, startDate, endDate);
+            
+            // 参数验证
+            if (page < 1) {
+                page = 1;
+            }
+            if (size < 1 || size > 100) {
+                size = 10;
+            }
+            
+            // 日期格式验证
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            String formattedStartDate = null;
+            String formattedEndDate = null;
+            
+            if (startDate != null && !startDate.isEmpty()) {
+                LocalDate.parse(startDate, formatter);
+                formattedStartDate = startDate;
+            }
+            if (endDate != null && !endDate.isEmpty()) {
+                LocalDate.parse(endDate, formatter);
+                formattedEndDate = endDate;
+            }
+            
+            // 调用服务层获取分页数据
+            IPage<Order> pageResult = orderService.getOrderPage(page, size, orderNo, 
+                                                              customerName, status, 
+                                                              formattedStartDate, formattedEndDate);
+            
+            // 记录查询结果
+            logger.info("查询结果: 总记录数={}, 当前页={}, 每页大小={}, 总页数={}, 本页记录数={}",
+                       pageResult.getTotal(), pageResult.getCurrent(), pageResult.getSize(),
+                       pageResult.getPages(), pageResult.getRecords().size());
+            
+            Map<String, Object> data = new HashMap<>();
+            data.put("list", pageResult.getRecords());
+            data.put("total", pageResult.getTotal());
+            data.put("pages", pageResult.getPages());
+            data.put("current", pageResult.getCurrent());
+            data.put("size", pageResult.getSize());
+            
+            return Result.success(data);
+        } catch (Exception e) {
+            logger.error("获取订单列表失败", e);
+            return Result.error("获取订单列表失败：" + e.getMessage());
+        }
     }
 
     @GetMapping("/{id}")

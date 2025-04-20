@@ -258,20 +258,25 @@ export default {
       })).filter(item => item.value > 0)
 
       charts.orderStatus.setOption({
-        title: { text: '订单状态分布' },
+        title: { 
+          text: '订单状态分布',
+          left: 'center'
+        },
         tooltip: { 
           trigger: 'item',
           formatter: '{b}: {c} 单 ({d}%)'
         },
         legend: { 
-          orient: 'vertical', 
-          left: 'left',
-          padding: 5
+          orient: 'horizontal', 
+          bottom: 'bottom',
+          type: 'scroll',
+          padding: [0, 20]
         },
         series: [{
           name: '订单状态',
           type: 'pie',
-          radius: '50%',
+          radius: ['0%', '60%'],
+          center: ['50%', '45%'],
           data: statusData,
           emphasis: {
             itemStyle: {
@@ -279,6 +284,10 @@ export default {
               shadowOffsetX: 0,
               shadowColor: 'rgba(0, 0, 0, 0.5)'
             }
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}单\n{d}%'
           }
         }]
       }, true)
@@ -291,21 +300,26 @@ export default {
       })).filter(item => item.value > 0 && item.name !== '未支付')
 
       charts.paymentMethod.setOption({
-        title: { text: '支付方式分布' },
+        title: { 
+          text: '支付方式分布',
+          left: 'center'
+        },
         tooltip: { 
           trigger: 'item',
           formatter: '{b}: {c} 单 ({d}%)'
         },
         legend: { 
-          orient: 'vertical', 
-          left: 'left',
-          padding: 5
+          orient: 'horizontal', 
+          bottom: 'bottom',
+          type: 'scroll',
+          padding: [0, 20]
         },
         series: [{
           name: '支付方式',
           type: 'pie',
-          radius: ['40%', '70%'],
-          avoidLabelOverlap: false,
+          radius: ['30%', '60%'],
+          center: ['50%', '45%'],
+          avoidLabelOverlap: true,
           itemStyle: {
             borderRadius: 10,
             borderColor: '#fff',
@@ -313,10 +327,17 @@ export default {
           },
           label: {
             show: true,
-            position: 'outside'
+            position: 'outside',
+            formatter: '{b}\n{c}单\n{d}%',
+            alignTo: 'edge',
+            minMargin: 5,
+            edgeDistance: 10,
+            lineHeight: 15
           },
           labelLine: {
-            show: true
+            length: 15,
+            length2: 0,
+            maxSurfaceAngle: 80
           },
           data: paymentData
         }]

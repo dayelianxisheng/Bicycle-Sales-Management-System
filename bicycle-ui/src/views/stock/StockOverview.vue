@@ -48,6 +48,18 @@
           </template>
         </el-table-column>
       </el-table>
+      <!-- 添加分页组件 -->
+      <div class="pagination-container">
+        <el-pagination
+          v-model:current-page="currentPage"
+          v-model:page-size="pageSize"
+          :page-sizes="[10, 20, 50, 100]"
+          :total="total"
+          layout="total, sizes, prev, pager, next, jumper"
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+        />
+      </div>
     </el-card>
 
     <!-- 入库对话框 -->
@@ -83,6 +95,11 @@ import {
   TrendCharts
 } from '@element-plus/icons-vue'
 import axios from 'axios'
+
+// 分页相关
+const currentPage = ref(1)
+const pageSize = ref(10)
+const total = ref(0)
 
 // 库存统计数据
 const stockStats = ref([
@@ -126,17 +143,31 @@ const fetchWarningProducts = async () => {
   try {
     const response = await axios.get('/api/stock/warning/page', {
       params: {
-        page: 1,
-        size: 10
+        page: currentPage.value,
+        size: pageSize.value
       }
     })
     if (response.data.code === 200) {
-      warningProducts.value = response.data.data.records
+      const data = response.data.data
+      warningProducts.value = data.records
+      total.value = data.total
     }
   } catch (error) {
     console.error('获取预警商品列表失败:', error)
     ElMessage.error('获取预警商品列表失败')
   }
+}
+
+// 处理分页大小变化
+const handleSizeChange = (val) => {
+  pageSize.value = val
+  fetchWarningProducts()
+}
+
+// 处理页码变化
+const handleCurrentChange = (val) => {
+  currentPage.value = val
+  fetchWarningProducts()
 }
 
 // 刷新数据
@@ -256,5 +287,11 @@ onMounted(() => {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 </style> 
